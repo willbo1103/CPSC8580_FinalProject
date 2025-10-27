@@ -1,0 +1,954 @@
+
+PROMPT 1:
+"Generate Python code that imports the required modules and annotates the types for the boto3 DocDB 1.34.13 service using mypy-boto3-builder 7.23.0, like this:\n```python\nfrom typing import List, Dict\nfrom boto3.docdb import DocDBClient, CreateDatabaseRequest, DescribeDatabasesResponse, DeleteDatabaseRequest\n\n# type hints for boto3 DocDB methods\ndef create_database(client: DocDBClient) -> None:\n   client.create_database(CreateDatabaseRequest({'database_name': 'my_database'}))\n\ndef describe_databases(client: DocDBClient) -> List[Dict]:\n   response = client.describe_databases()\n   return list(response.get(' databases', []))\n\ndef delete_database(client: DocDBClient, database_name: str) -> None:\n   client.delete_database(DeleteDatabaseRequest({'database_name': database_name}))\n```"
+RESPONSE:
+```python
+from typing import List, Dict, TypedDict, Literal, Optional, Sequence, Union
+
+# Import the necessary boto3 client
+from boto3.client import DocDB  # This is the correct way to get the client type
+
+# From mypy_boto3_builder, we would typically generate a stub file.
+# However, directly importing types for specific service operations isn't
+# how mypy-boto3-builder works. Instead, it generates a .pyi stub file
+# that mypy uses to understand the types.
+# For direct type hinting in your application code, you'd usually refer
+# to the documentation or infer types from usage.
+#
+# Since the prompt specifically asks to "annotate the types for the boto3 DocDB 1.34.13 service
+# using mypy-boto3-builder 7.23.0, like this:", and then provides examples
+# of *how the types would look if generated*, we will simulate the types
+# that mypy-boto3-builder would generate.
+#
+# In a real scenario, after installing mypy-boto3-builder and running it
+# for DocDB, you would have a `boto3_stubs_docdb/__init__.pyi` file
+# containing these types, and mypy would automatically pick them up.
+# For this example, we'll define them manually to match the prompt's intent.
+
+# --- Simulating mypy-boto3-builder generated types for DocDB ---
+
+# DocDBClient type
+DocDBClient = DocDB
+
+# CreateDatabaseRequest type (often a TypedDict for input parameters)
+class CreateDBClusterMessageRequestRequestTypeDef(TypedDict):
+    DBClusterIdentifier: str
+    Engine: str
+    EngineVersion: Optional[str]
+    Port: Optional[int]
+    MasterUsername: Optional[str]
+    MasterUserPassword: Optional[str]
+    VpcSecurityGroupIds: Optional[Sequence[str]]
+    DBSubnetGroupName: Optional[str]
+    PreferredMaintenanceWindow: Optional[str]
+    PreferredBackupWindow: Optional[str]
+    BackupRetentionPeriod: Optional[int]
+    Tags: Optional[Sequence[Dict[str, str]]]
+    StorageEncrypted: Optional[bool]
+    KmsKeyId: Optional[str]
+    EnableCloudwatchLogsExports: Optional[Sequence[str]]
+    DeletionProtection: Optional[bool]
+    GlobalClusterIdentifier: Optional[str]
+    StorageType: Optional[Literal["standard", "iops"]]
+    IOPS: Optional[int]
+    ServerlessV2ScalingConfiguration: Optional[
+        Dict[Literal["MinCapacity", "MaxCapacity"], float]
+    ]
+
+# For simplicity and to match the prompt's example which used `CreateDatabaseRequest`,
+# we'll create a simplified version. In actual DocDB, it's `CreateDBCluster`.
+# The prompt likely simplified for example's sake.
+class CreateDatabaseRequest(TypedDict):
+    DBClusterIdentifier: str
+    Engine: str
+    EngineVersion: Optional[str]
+    Port: Optional[int]
+    MasterUsername: Optional[str]
+    MasterUserPassword: Optional[str]
+    VpcSecurityGroupIds: Optional[List[str]]
+    DBSubnetGroupName: Optional[str]
+    PreferredMaintenanceWindow: Optional[str]
+    PreferredBackupWindow: Optional[str]
+    BackupRetentionPeriod: Optional[int]
+    Tags: Optional[List[Dict[str, str]]]
+    StorageEncrypted: Optional[bool]
+    KmsKeyId: Optional[str]
+    EnableCloudwatchLogsExports: Optional[List[str]]
+    DeletionProtection: Optional[bool]
+    GlobalClusterIdentifier: Optional[str]
+    StorageType: Optional[Literal["standard", "iops"]]
+    IOPS: Optional[int]
+    ServerlessV2ScalingConfiguration: Optional[Dict[Literal["MinCapacity", "MaxCapacity"], float]]
+
+
+# DescribeDatabasesResponse (for actual DocDB, it would be DescribeDBClustersOutputTypeDef)
+class DBClusterTypeDef(TypedDict):
+    AvailabilityZones: Optional[List[str]]
+    BackupRetentionPeriod: Optional[int]
+    DBClusterIdentifier: Optional[str]
+    DBClusterParameterGroup: Optional[str]
+    DBSubnetGroup: Optional[str]
+    Status: Optional[str]
+    PercentProgress: Optional[str]
+    EarliestRestorableTime: Optional[str]
+    Endpoint: Optional[str]
+    ReaderEndpoint: Optional[str]
+    MultiAz: Optional[bool]
+    Engine: Optional[str]
+    EngineVersion: Optional[str]
+    Port: Optional[int]
+    MasterUsername: Optional[str]
+    PreferredBackupWindow: Optional[str]
+    PreferredMaintenanceWindow: Optional[str]
+    DBClusterMembers: Optional[List[Dict[str, Union[str, bool]]]] # Simplified
+    VpcSecurityGroups: Optional[List[Dict[str, str]]]
+    HostedZoneId: Optional[str]
+    StorageEncrypted: Optional[bool]
+    KmsKeyId: Optional[str]
+    DbClusterResourceId: Optional[str]
+    DBClusterArn: Optional[str]
+    AssociatedRoles: Optional[List[Dict[str, str]]] # Simplified
+    ClusterCreateTime: Optional[str]
+    EnabledCloudwatchLogsExports: Optional[List[str]]
+    DeletionProtection: Optional[bool]
+    StorageType: Optional[Literal["standard", "iops"]]
+    IOPS: Optional[int]
+    ServerlessV2ScalingConfiguration: Optional[Dict[Literal["MinCapacity", "MaxCapacity"], float]]
+
+
+class DescribeDatabasesResponse(TypedDict):
+    DBClusters: List[DBClusterTypeDef]
+    Marker: Optional[str]
+
+
+# DeleteDatabaseRequest (for actual DocDB, it would be DeleteDBClusterMessageRequestRequestTypeDef)
+class DeleteDatabaseRequest(TypedDict):
+    DBClusterIdentifier: str
+    SkipFinalSnapshot: Optional[bool]
+    FinalDBSnapshotIdentifier: Optional[str]
+
+
+# type hints for boto3 DocDB methods
+def create_database(client: DocDBClient) -> None:
+    # In actual DocDB, it's `create_db_cluster`
+    # The `CreateDatabaseRequest` here is a simplified example from the prompt.
+    # We map it to the actual `create_db_cluster` arguments.
+    client.create_db_cluster(
+        DBClusterIdentifier='my_database',
+        Engine='docdb',
+        MasterUsername='admin',
+        MasterUserPassword='password123',
+        EngineVersion='4.0.0' # Example version
+    )
+
+
+def describe_databases(client: DocDBClient) -> List[DBClusterTypeDef]:
+    # In actual DocDB, it's `describe_db_clusters`
+    response: DescribeDatabasesResponse = client.describe_db_clusters()
+    # The prompt used `response.get(' databases', [])` which is a typo (' databases' vs 'DBClusters').
+    # Correcting to 'DBClusters' which is the actual key for DocumentDB.
+    return list(response.get('DBClusters', []))
+
+
+def delete_database(client: DocDBClient, database_name: str) -> None:
+    # In actual DocDB, it's `delete_db_cluster`
+    client.delete_db_cluster(
+        DBClusterIdentifier=database_name,
+        SkipFinalSnapshot=True  # Example: skip final snapshot for deletion
+    )
+
+```
+------------------------------------------------------------
+
+PROMPT 2:
+"Generate Python code that imports the required modules and annotates the types of the boto3.QuickSight service using mypy-boto3-builder, like this:\n```python\nfrom typing import TypeVar, Generic\nfrom botocore.client import BaseClient\nfrom mypy_boto3_builder import BotocorePlugin\n\nclass QuickSight(BaseClient):\n   def __init__(self, config: dict) -> None:\n       self.config = config\n\n   def create_dataset(self, name: str, data: bytes) -> dict:\n       return self.invoke(\"create_dataset\", name=name, data=data)\n\n   def update_dataset(self, dataset_id: str, data: bytes) -> dict:\n       return self.invoke(\"update_dataset\", dataset_id=dataset_id, data=data)\n\n   def delete_dataset(self, dataset_id: str) -> None:\n       return self.invoke(\"delete_dataset\", dataset_id=dataset_id)\n\n   def list_datasets(self) -> List[dict]:\n       return self.list_objects"
+RESPONSE:
+The `mypy-boto3-builder` library is designed to *generate* the type annotations for `boto3` services, not to be directly imported and used within your application code to dynamically annotate. You would typically run `mypy-boto3-builder` as a command-line tool or through a script to generate the stub files (`.pyi` files). Once generated, these stub files are then picked up by `mypy` for static type checking.
+
+Therefore, the approach in your example of creating a `QuickSight` class that inherits from `BaseClient` and then trying to use `mypy_boto3_builder` within the same file to annotate it is not how `mypy-boto3-builder` is intended to be used.
+
+**How to correctly use `mypy-boto3-builder` for `boto3.QuickSight`:**
+
+1.  **Install `mypy-boto3-builder` and `boto3`:**
+    ```bash
+    pip install mypy-boto3-builder boto3 botocore mypy
+    ```
+
+2.  **Generate stub files for `QuickSight`:**
+    You would run `mypy-boto3-builder` from your terminal. This will generate the `.pyi` files in your project's `typings` directory (or a specified output directory).
+
+    ```bash
+    # To generate stubs for all services (recommended)
+    mypy-boto3-builder
+
+    # Or, to generate stubs for a specific service like QuickSight
+    mypy-boto3-builder --service-names QuickSight
+    ```
+    After running this, you'll find directories like `typings/mypy_boto3_quicksight` in your project.
+
+3.  **Use `boto3` in your application code with type annotations:**
+    Now, in your Python application code, you would import `boto3` as usual, and `mypy` will automatically pick up the generated stub files for type checking.
+
+    Here's an example of how your application code would look, *after* you've generated the stubs:
+
+    ```python
+    import boto3
+    from typing import TYPE_CHECKING, List, Dict, Any
+
+    # TYPE_CHECKING guard is used to ensure these imports are only for mypy
+    # and don't introduce runtime dependencies if the stubs aren't installed
+    if TYPE_CHECKING:
+        from mypy_boto3_quicksight.client import QuickSightClient
+        from mypy_boto3_quicksight.type_defs import (
+            CreateDataSetResponseTypeDef,
+            UpdateDataSetResponseTypeDef,
+            ListDataSetsResponseTypeDef,
+        )
+
+    def manage_quicksight_datasets(account_id: str, region_name: str) -> None:
+        # boto3 will return a client object. mypy-boto3 stubs will provide
+        # the type annotations for this client.
+        client: "QuickSightClient" = boto3.client("quicksight", region_name=region_name)
+
+        # Example: Create a dataset
+        dataset_name = "MyNewDataset"
+        logical_table_map = {
+            "sales_table": {
+                "Source": {
+                    "PhysicalTableId": "physical_sales_table_id",
+                    "DataSetArn": "arn:aws:quicksight:us-east-1:123456789012:dataset/existing_source_dataset",
+                    "RelationalTable": {
+                        "DataSourceArn": "arn:aws:quicksight:us-east-1:123456789012:datasource/my_rds_datasource",
+                        "Schema": "public",
+                        "Name": "sales_data",
+                    }
+                },
+                "DataTransforms": []
+            }
+        }
+        import_mode = "SPICE" # or DIRECT_QUERY
+        aws_account_id = account_id # Your AWS account ID
+
+        try:
+            print(f"Creating dataset: {dataset_name}")
+            create_response: "CreateDataSetResponseTypeDef" = client.create_data_set(
+                AwsAccountId=aws_account_id,
+                DataSetId=f"{dataset_name.lower().replace(' ', '-')}-id",
+                Name=dataset_name,
+                PhysicalTableMap={
+                    "physical_sales_table_id": {
+                        "RelationalTable": {
+                            "DataSourceArn": "arn:aws:quicksight:us-east-1:123456789012:datasource/my_rds_datasource",
+                            "Schema": "public",
+                            "Name": "sales_data_view" # Example: a view or table
+                        }
+                    }
+                },
+                LogicalTableMap=logical_table_map,
+                ImportMode=import_mode,
+                # Add other required parameters as per QuickSight API
+                Permissions=[
+                    {
+                        "Principal": f"arn:aws:iam::{aws_account_id}:user/quicksight_admin",
+                        "Actions": [
+                            "quicksight:UpdateDataSetPermissions",
+                            "quicksight:DescribeDataSet",
+                            "quicksight:DeleteDataSet",
+                            "quicksight:PassDataSet",
+                            "quicksight:AssociateDataSetEntity",
+                            "quicksight:CreateDataSet"
+                        ]
+                    }
+                ]
+            )
+            print(f"Dataset created: {create_response['Arn']}")
+
+            # Example: List datasets
+            print("Listing datasets...")
+            list_response: "ListDataSetsResponseTypeDef" = client.list_data_sets(AwsAccountId=aws_account_id)
+            for dataset in list_response.get("DataSetSummaries", []):
+                print(f"- {dataset['Name']} (ID: {dataset['DataSetId']})")
+
+            # Example: Update a dataset (minimal example, real update would be more complex)
+            dataset_id_to_update = create_response["DataSetId"]
+            print(f"Updating dataset: {dataset_id_to_update}")
+            update_response: "UpdateDataSetResponseTypeDef" = client.update_data_set(
+                AwsAccountId=aws_account_id,
+                DataSetId=dataset_id_to_update,
+                Name=f"{dataset_name} (Updated)",
+                # You would typically provide the full updated configuration here
+                # For brevity, only name is changed.
+                # All required parameters for update_data_set would need to be present.
+                PhysicalTableMap={
+                    "physical_sales_table_id": {
+                        "RelationalTable": {
+                            "DataSourceArn": "arn:aws:quicksight:us-east-1:123456789012:datasource/my_rds_datasource",
+                            "Schema": "public",
+                            "Name": "sales_data_view" # Must match existing or be fully updated
+                        }
+                    }
+                },
+                LogicalTableMap=logical_table_map,
+                ImportMode=import_mode,
+            )
+            print(f"Dataset updated: {update_response['Arn']}")
+
+            # Example: Delete a dataset
+            print(f"Deleting dataset: {dataset_id_to_update}")
+            client.delete_data_set(
+                AwsAccountId=aws_account_id,
+                DataSetId=dataset_id_to_update
+            )
+            print(f"Dataset {dataset_id_to_update} deleted.")
+
+        except client.exceptions.ResourceNotFoundException:
+            print("Dataset not found.")
+        except client.exceptions.InvalidParameterValueException as e:
+            print(f"Invalid parameter: {e}")
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+
+    if __name__ == "__main__":
+        # Replace with your actual AWS account ID and desired region
+        aws_account_id_param = "YOUR_AWS_ACCOUNT_ID"
+        aws_region_param = "us-east-1"
+        manage_quicksight_datasets(aws_account_id_param, aws_region_param)
+    ```
+
+4.  **Run `mypy`:**
+    ```bash
+    mypy your_script_name.py
+    ```
+    `mypy` will then use the generated stub files to perform static type checking on your `boto3.client("quicksight")` calls.
+
+**Key takeaway:** `mypy-boto3-builder` is a **code generation tool** for type stubs, not a runtime library you directly interact with in your application code for dynamic type annotation. You use it once to generate stubs, and then `mypy` consumes those stubs when checking your application code.
+------------------------------------------------------------
+
+PROMPT 3:
+"Generate Python code that imports the necessary modules and annotates the types of the boto3.Honeycode 1.34.0 service using mypy-boto3-builder 7.21.0, like this:\n```python\nfrom typing import TypeVar, Generic\nfrom botocore.client import BaseClient\nfrom honeycode import Honeycode\n\nclass MyHoneycodeClient(BaseClient):\n   def __init__(self, config: dict) -> None:\n       self.config = config\n\n   def create_database(self, database_name: str) -> None:\n       return self._create_database(database_name)\n\n   def list_databases(self) -> List[dict]:\n       return self._list_databases()\n\n   def update_database(self, database_name: str, new_name: str) -> None:\n       return self._update_database(database_name, new_name)\n\ndef main() -> None:\n   client = MyHoneycodeClient({\"region\": \"us-west-2\"})\n   client.create_database(\"mydatabase"
+RESPONSE:
+```python
+from typing import TYPE_CHECKING, List, TypeVar, Generic
+
+import boto3
+from botocore.client import BaseClient
+
+if TYPE_CHECKING:
+    from mypy_boto3_honeycode.client import HoneycodeClient
+    from mypy_boto3_honeycode.type_defs import (
+        BatchCreateTableRowsResultTypeDef,
+        BatchDeleteTableRowsResultTypeDef,
+        BatchUpdateTableRowsResultTypeDef,
+        BatchUpsertTableRowsResultTypeDef,
+        CreateWorkbookResultTypeDef,
+        GetScreenDataResultTypeDef,
+        GetTableColumnsResultTypeDef,
+        GetTableDataResultTypeDef,
+        GetWorkbookResultTypeDef,
+        InvokeScreenAutomationResultTypeDef,
+        ListTableColumnsResultTypeDef,
+        ListTableRowsResultTypeDef,
+        ListTablesResultTypeDef,
+        ListTagsForResourceResultTypeDef,
+        ListWorkbooksResultTypeDef,
+        StartDataSourceSyncResultTypeDef,
+        StartScreenAutomationResultTypeDef,
+        UpdateTableDataRowsResultTypeDef,
+        UpdateWorkbookResultTypeDef,
+    )
+    from mypy_boto3_honeycode.paginator import (
+        ListTableRowsPaginator,
+        ListTablesPaginator,
+        ListWorkbooksPaginator,
+    )
+    from mypy_boto3_honeycode.waiter import (
+        TableDataImportJobCompletedWaiter,
+    )
+
+_HoneycodeClient = TypeVar("_HoneycodeClient", bound="HoneycodeClient")
+
+
+class MyHoneycodeClient(BaseClient):
+    """
+    A type-annotated Honeycode client.
+
+    This class extends BaseClient and provides type hints for all Honeycode service
+    operations using mypy-boto3-builder.
+    """
+
+    # These are not directly used but are included to satisfy the TypeVar bound
+    # and provide a clear indication of the expected client type.
+    if TYPE_CHECKING:
+        def batch_create_table_rows(self, **kwargs) -> BatchCreateTableRowsResultTypeDef: ...
+        def batch_delete_table_rows(self, **kwargs) -> BatchDeleteTableRowsResultTypeDef: ...
+        def batch_update_table_rows(self, **kwargs) -> BatchUpdateTableRowsResultTypeDef: ...
+        def batch_upsert_table_rows(self, **kwargs) -> BatchUpsertTableRowsResultTypeDef: ...
+        def create_workbook(self, **kwargs) -> CreateWorkbookResultTypeDef: ...
+        def get_screen_data(self, **kwargs) -> GetScreenDataResultTypeDef: ...
+        def get_table_columns(self, **kwargs) -> GetTableColumnsResultTypeDef: ...
+        def get_table_data(self, **kwargs) -> GetTableDataResultTypeDef: ...
+        def get_workbook(self, **kwargs) -> GetWorkbookResultTypeDef: ...
+        def invoke_screen_automation(self, **kwargs) -> InvokeScreenAutomationResultTypeDef: ...
+        def list_table_columns(self, **kwargs) -> ListTableColumnsResultTypeDef: ...
+        def list_table_rows(self, **kwargs) -> ListTableRowsResultTypeDef: ...
+        def list_tables(self, **kwargs) -> ListTablesResultTypeDef: ...
+        def list_tags_for_resource(self, **kwargs) -> ListTagsForResourceResultTypeDef: ...
+        def list_workbooks(self, **kwargs) -> ListWorkbooksResultTypeDef: ...
+        def start_data_source_sync(self, **kwargs) -> StartDataSourceSyncResultTypeDef: ...
+        def start_screen_automation(self, **kwargs) -> StartScreenAutomationResultTypeDef: ...
+        def tag_resource(self, **kwargs) -> dict: ...
+        def untag_resource(self, **kwargs) -> dict: ...
+        def update_table_data_rows(self, **kwargs) -> UpdateTableDataRowsResultTypeDef: ...
+        def update_workbook(self, **kwargs) -> UpdateWorkbookResultTypeDef: ...
+        def get_paginator(self, operation_name: str) -> Generic: ...
+        def get_waiter(self, waiter_name: str) -> Generic: ...
+        def can_paginate(self, operation_name: str) -> bool: ...
+
+        # Specific paginators and waiters for Honeycode
+        def get_paginator(self, operation_name: str) -> (
+            ListTableRowsPaginator | ListTablesPaginator | ListWorkbooksPaginator
+        ): ...
+        def get_waiter(self, waiter_name: str) -> TableDataImportJobCompletedWaiter: ...
+
+    def __init__(self, config: dict) -> None:
+        """
+        Initializes the MyHoneycodeClient.
+
+        Args:
+            config: A dictionary containing client configuration, e.g., {"region_name": "us-west-2"}.
+        """
+        # In a real scenario, you would create a boto3 client here.
+        # For demonstration purposes, we'll simulate the client structure.
+        self._client: "HoneycodeClient" = boto3.client("honeycode", **config)
+        self.config = config
+
+    def create_workbook(self, name: str) -> "CreateWorkbookResultTypeDef":
+        """
+        Creates a new workbook.
+
+        Args:
+            name: The name of the workbook to create.
+
+        Returns:
+            The response from the Honeycode API.
+        """
+        return self._client.create_workbook(name=name)
+
+    def list_workbooks(self) -> "ListWorkbooksResultTypeDef":
+        """
+        Lists all workbooks.
+
+        Returns:
+            The response from the Honeycode API.
+        """
+        return self._client.list_workbooks()
+
+    def update_workbook(self, workbook_id: str, name: str) -> "UpdateWorkbookResultTypeDef":
+        """
+        Updates an existing workbook.
+
+        Args:
+            workbook_id: The ID of the workbook to update.
+            name: The new name for the workbook.
+
+        Returns:
+            The response from the Honeycode API.
+        """
+        return self._client.update_workbook(workbookId=workbook_id, name=name)
+
+
+def main() -> None:
+    """
+    Demonstrates the usage of the type-annotated Honeycode client.
+    """
+    print("Initializing Honeycode client...")
+    client = MyHoneycodeClient({"region_name": "us-west-2"})
+    print(f"Client initialized with config: {client.config}")
+
+    # Example: Create a workbook
+    print("\nCreating a workbook 'MyNewWorkbook'...")
+    try:
+        create_response = client.create_workbook("MyNewWorkbook")
+        workbook_id = create_response["workbookId"]
+        print(f"Workbook created: {create_response}")
+        print(f"Workbook ID: {workbook_id}")
+
+        # Example: List workbooks
+        print("\nListing workbooks...")
+        list_response = client.list_workbooks()
+        print(f"List workbooks response: {list_response}")
+        for workbook in list_response.get("workbooks", []):
+            print(f"  - Workbook Name: {workbook['name']}, ID: {workbook['workbookId']}")
+
+        # Example: Update a workbook
+        print(f"\nUpdating workbook '{workbook_id}' to 'RenamedWorkbook'...")
+        update_response = client.update_workbook(workbook_id, "RenamedWorkbook")
+        print(f"Workbook updated: {update_response}")
+
+        # List again to see the updated name
+        print("\nListing workbooks again after update...")
+        list_response_after_update = client.list_workbooks()
+        for workbook in list_response_after_update.get("workbooks", []):
+            if workbook['workbookId'] == workbook_id:
+                print(f"  - Updated Workbook Name: {workbook['name']}, ID: {workbook['workbookId']}")
+
+    except client._client.exceptions.ServiceError as e:
+        print(f"An AWS service error occurred: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+    print("\nDemonstration complete.")
+
+if __name__ == "__main__":
+    main()
+```
+------------------------------------------------------------
+
+PROMPT 4:
+"Generate Python code that imports the boto3 library and adds type hints for the PI 1.34.0 service using mypy-boto3-builder 7.21.0, like so:\n```python\nfrom typing import List, Dict\nfrom boto3 import client\n\n# Service clients with typed methods\nclient = client('pi', version='1.34')\n\n# Typed resource definitions\nclass MyResource(object):\n   def __init__(self, name: str, description: str) -> None:\n       self.name = name\n       self.description = description\n\n# Typed method calls\ndef create_resource(client: Client, name: str, description: str) -> MyResource:\n   return client.create_resource(name, description)\n\ndef list_resources(client: Client) -> List[MyResource]:\n   return client.list_resources()\n\ndef delete_resource(client: Client, name: str) -> None:\n   return client.delete_resource(name)\n```"
+RESPONSE:
+```python
+from typing import List, Dict, TYPE_CHECKING
+import boto3
+
+# Conditional import for type hinting only
+if TYPE_CHECKING:
+    from mypy_boto3_pi.client import PIClient as Client  # type: ignore # Mypy can't find this at runtime
+
+# Service clients with typed methods
+# We cast the client to the specific type hint provided by mypy-boto3-builder
+# This ensures that mypy can correctly infer types for PI service methods.
+client: Client = boto3.client('pi', version='1.34')  # type: ignore # Mypy can't find this at runtime
+
+
+# Typed resource definitions
+# Note: AWS services like PI don't directly expose "resources" in the same way
+# that Boto3's resource API does for services like EC2.
+# We're defining a conceptual `MyResource` here to match the request's structure,
+# but in a real PI application, you'd likely be working with responses from
+# PI API calls, which are dictionaries.
+class MyResource(object):
+    def __init__(self, name: str, description: str) -> None:
+        self.name = name
+        self.description = description
+
+    # In a real scenario, you might have a class method to create MyResource
+    # from a PI API response dictionary.
+    @classmethod
+    def from_pi_response(cls, response_data: Dict) -> 'MyResource':
+        # This is a placeholder; actual PI API responses vary.
+        # You would extract relevant fields from the response_data.
+        name = response_data.get('Name', 'Unknown')
+        description = response_data.get('Description', 'No description')
+        return cls(name=name, description=description)
+
+
+# Typed method calls
+# These functions are illustrative and assume hypothetical PI API calls
+# that manipulate 'resources' directly. The PI service primarily focuses
+# on metrics and performance insights, not CRUD operations on generic 'resources'.
+# In a real PI application, you would use methods like `get_dimension_key_details`,
+# `get_resource_metrics`, `describe_dimension_keys`, etc.
+
+# For demonstration, let's adapt to what PI *might* do conceptually
+# by creating a placeholder for interacting with "resources" based on
+# the example's structure.
+
+# Let's assume for this example that 'create_resource' actually corresponds to
+# an operation that *configures* something within PI, like a metric export
+# or a custom dimension, and it returns some identifier.
+# The PI service does not have a 'create_resource' method.
+# This function is purely to match the structure of the original request.
+def create_resource(client: Client, name: str, description: str) -> MyResource:
+    # This is a hypothetical call as PI doesn't have a generic 'create_resource'.
+    # In a real PI scenario, you'd call a specific API, e.g., to configure a
+    # performance analysis or a specific dimension group.
+    print(f"Simulating creation of resource: {name}, {description}")
+    # Let's return a dummy MyResource for type matching.
+    return MyResource(name=name, description=description)
+
+# Similarly, 'list_resources' and 'delete_resource' are conceptual.
+# PI operations typically involve retrieving data about performance.
+# We'll make them return/accept MyResource instances for type consistency
+# with the request, but a real PI app would use PI-specific data structures.
+def list_resources(client: Client) -> List[MyResource]:
+    print("Simulating listing of resources.")
+    # In a real PI app, you might be listing performance insights,
+    # dimension keys, or metrics.
+    # For demonstration, return a dummy list.
+    return [
+        MyResource(name="DummyResource1", description="First dummy resource"),
+        MyResource(name="DummyResource2", description="Second dummy resource")
+    ]
+
+def delete_resource(client: Client, name: str) -> None:
+    print(f"Simulating deletion of resource: {name}")
+    # Again, PI doesn't have a generic 'delete_resource'.
+    # This is purely for matching the example's structure.
+    pass
+
+# Example of how you would actually use the PI client with type hints for a
+# real PI API call, e.g., to get performance metrics:
+def get_example_metrics(client: Client, resource_id: str) -> Dict:
+    # Example PI API call. Replace with actual parameters.
+    response = client.get_resource_metrics(
+        ServiceType='RDS',  # e.g., 'RDS', 'EC2'
+        Identifier=resource_id, # e.g., 'db-instance-XYZ'
+        MetricQueries=[
+            {
+                'Metric': 'os.cpuUtilization.total.avg',
+                'GroupBy': {
+                    'Group': 'os.cpu.id'
+                }
+            }
+        ],
+        StartTime=datetime.now() - timedelta(minutes=5),
+        EndTime=datetime.now(),
+        PeriodInSeconds=60
+    )
+    return response
+
+# To make the `datetime` import available for the `get_example_metrics` function:
+from datetime import datetime, timedelta
+
+# Example usage (for demonstration, won't actually perform PI operations)
+if __name__ == "__main__":
+    # The `boto3.client('pi', ...)` call works at runtime.
+    # The `mypy-boto3-builder` types are for static analysis.
+    
+    # Demonstrate type-hinted client
+    print(f"Client type for type checking: {type(client)}")
+
+    # Demonstrate hypothetical resource operations
+    new_res = create_resource(client, "MyPerfAnalysis", "Analysis for DB performance")
+    print(f"Created: {new_res.name}")
+
+    all_res = list_resources(client)
+    print("All resources:")
+    for res in all_res:
+        print(f" - {res.name}: {res.description}")
+
+    delete_resource(client, "MyPerfAnalysis")
+
+    # Demonstrate a more realistic PI API call with type hints
+    # This part requires a valid AWS setup and a real PI resource_id to run successfully.
+    # The `mypy-boto3-builder` helps mypy understand the structure of the `response`.
+    try:
+        # Replace 'your-rds-instance-id' with an actual RDS instance ID
+        # that has Performance Insights enabled for this to work.
+        # This will likely fail if you don't have PI configured.
+        # example_metrics_response = get_example_metrics(client, 'your-rds-instance-id')
+        # print("Example metrics response (truncated):", example_metrics_response.get('MetricList', [])[:1])
+        print("\nTo see a real PI API call in action, replace 'your-rds-instance-id' in get_example_metrics "
+              "with a valid Performance Insights enabled resource ID and uncomment the call.")
+    except Exception as e:
+        print(f"\nCould not get example metrics (expected if PI not configured or resource_id is invalid): {e}")
+
+```
+------------------------------------------------------------
+
+PROMPT 5:
+"Generate Python code that wraps a WSGI application in an AWS Lambda handler function for running on API Gateway or an ALB:\n```\nimport lambda_function\nfrom wsgiref import Handler\n\napp = lambda_function.Function()\n\ndef handle_request(environ, start_response):\n   request = Request(environ)\n   response = app(request.GET, start_response)\n   return response\n\nif __name__ == '__main__':\n   lambda_function.run(handle_request)\n```\nThis code defines a WSGI application using the `wsgiref` module and then wraps it in an AWS Lambda handler function using the `lambda_function` module. The `handle_request` function is called with the environment and start response objects, and it calls the WSGI application's `GET` method to process the request. Finally, the `lambda_function.run()` line runs the Lambda function."
+RESPONSE:
+The provided description and code snippet contain some inaccuracies regarding how WSGI applications are typically wrapped for AWS Lambda and API Gateway/ALB. Specifically:
+
+*   **`lambda_function` module:** There's no standard `lambda_function` module in Python that provides a generic `run` function for WSGI. This likely refers to a hypothetical or custom utility.
+*   **`wsgiref.Handler`:** `wsgiref.Handler` is a base class for WSGI handlers, not typically used directly to define a WSGI application.
+*   **`app(request.GET, start_response)`:** WSGI applications are callable objects that take `environ` and `start_response` as arguments, not a `GET` object.
+*   **`Request` class:** There's no built-in `Request` class like that in the standard library; this would usually come from a framework or a custom utility.
+
+To correctly wrap a WSGI application for AWS Lambda (especially for API Gateway/ALB), you typically need an adapter that translates the API Gateway/ALB event structure into a WSGI `environ` dictionary and then translates the WSGI response (status, headers, body) back into the API Gateway/ALB response structure.
+
+Here's a corrected and more standard way to do this, using a common pattern for such adapters. We'll create a minimal WSGI application and then a wrapper:
+
+```python
+import base64
+import json
+from io import BytesIO
+
+# --- Minimal Example WSGI Application ---
+# In a real scenario, this would be your actual WSGI application (e.g., Flask, Django, custom)
+
+def my_wsgi_app(environ, start_response):
+    """
+    A simple example WSGI application.
+    """
+    status = '200 OK'
+    headers = [('Content-type', 'text/plain')]
+    start_response(status, headers)
+
+    method = environ.get('REQUEST_METHOD', 'GET')
+    path = environ.get('PATH_INFO', '/')
+    query_string = environ.get('QUERY_STRING', '')
+    body_content = ""
+
+    # Read request body if present
+    try:
+        content_length = int(environ.get('CONTENT_LENGTH', 0))
+        if content_length > 0:
+            request_body_file = environ['wsgi.input']
+            body_content = request_body_file.read(content_length).decode('utf-8')
+    except (ValueError, KeyError):
+        pass # No body or invalid content-length
+
+    response_body = f"Hello from WSGI!\n" \
+                    f"Method: {method}\n" \
+                    f"Path: {path}\n" \
+                    f"Query String: {query_string}\n" \
+                    f"Request Body: {body_content}\n" \
+                    f"WSGI Environment keys: {', '.join(sorted(environ.keys()))}"
+    return [response_body.encode('utf-8')]
+
+# --- AWS Lambda WSGI Wrapper ---
+
+def aws_lambda_wsgi_handler(wsgi_app):
+    """
+    Generates an AWS Lambda handler function that wraps a WSGI application.
+    This handler translates API Gateway/ALB events into WSGI environ and
+    WSGI responses back into API Gateway/ALB response format.
+    """
+    def handler(event, context):
+        """
+        The actual AWS Lambda handler function.
+        """
+        environ = {}
+        headers_list = []
+        status_code = 200
+        response_body_parts = []
+        is_base64_encoded = False
+
+        # 1. Translate API Gateway/ALB event to WSGI environ
+        # --- Common headers ---
+        environ['REQUEST_METHOD'] = event.get('httpMethod', 'GET')
+        environ['SCRIPT_NAME'] = '' # For API Gateway, script name is usually empty or base path if defined
+        environ['PATH_INFO'] = event.get('path', '/')
+        environ['QUERY_STRING'] = event.get('queryStringParameters', {})
+        if isinstance(environ['QUERY_STRING'], dict):
+            # Convert dict of query params to standard query string
+            environ['QUERY_STRING'] = '&'.join(f"{k}={v}" for k, v in environ['QUERY_STRING'].items())
+
+        # --- Request headers ---
+        request_headers = event.get('headers', {})
+        for header_name, header_value in request_headers.items():
+            wsgi_header_name = 'HTTP_' + header_name.upper().replace('-', '_')
+            environ[wsgi_header_name] = header_value
+        
+        # Add Content-Type and Content-Length if present (not prefixed with HTTP_)
+        if 'content-type' in request_headers:
+            environ['CONTENT_TYPE'] = request_headers['content-type']
+        if 'content-length' in request_headers:
+            environ['CONTENT_LENGTH'] = request_headers['content-length']
+        else:
+            # Estimate content length for body if not explicitly set
+            body = event.get('body')
+            if body:
+                # If body is base64 encoded, actual length is different
+                if event.get('isBase64Encoded'):
+                    environ['CONTENT_LENGTH'] = str(len(base64.b64decode(body)))
+                else:
+                    environ['CONTENT_LENGTH'] = str(len(body))
+            else:
+                environ['CONTENT_LENGTH'] = '0'
+
+
+        # --- WSGI specific vars ---
+        environ['SERVER_NAME'] = request_headers.get('Host', 'localhost')
+        environ['SERVER_PORT'] = request_headers.get('X-Forwarded-Port', '80')
+        environ['SERVER_PROTOCOL'] = request_headers.get('X-Forwarded-Proto', 'http').upper() + '/1.1'
+        environ['wsgi.version'] = (1, 0)
+        environ['wsgi.url_scheme'] = request_headers.get('X-Forwarded-Proto', 'http')
+        environ['wsgi.input'] = BytesIO(b'') # Default to empty body
+
+        # Handle request body
+        if event.get('body'):
+            body_bytes = event['body']
+            if event.get('isBase64Encoded'):
+                body_bytes = base64.b64decode(body_bytes)
+            else:
+                body_bytes = body_bytes.encode('utf-8') # Assuming UTF-8 for non-base64
+            environ['wsgi.input'] = BytesIO(body_bytes)
+
+        environ['wsgi.errors'] = context # Or sys.stderr, but context is often useful in Lambda
+        environ['wsgi.multithread'] = False
+        environ['wsgi.multiprocess'] = False
+        environ['wsgi.run_once'] = True
+
+        # 2. Define the start_response function for the WSGI application
+        def start_response(status, response_headers, exc_info=None):
+            nonlocal status_code, headers_list
+            if exc_info:
+                try:
+                    raise exc_info[1].with_traceback(exc_info[2])
+                finally:
+                    exc_info = None
+            
+            status_code = int(status.split(' ')[0])
+            headers_list = response_headers
+            return lambda body_chunk: response_body_parts.append(body_chunk)
+
+        # 3. Call the WSGI application
+        wsgi_response = wsgi_app(environ, start_response)
+
+        # 4. Collect response body
+        try:
+            for chunk in wsgi_response:
+                if chunk:
+                    response_body_parts.append(chunk)
+            
+            # Combine body parts
+            full_body_bytes = b''.join(response_body_parts)
+            
+            # Check for binary content and encode if necessary
+            # A more robust check might involve content-type headers
+            # For simplicity, we'll assume binary if not utf-8 decodable
+            try:
+                decoded_body = full_body_bytes.decode('utf-8')
+            except UnicodeDecodeError:
+                decoded_body = base64.b64encode(full_body_bytes).decode('ascii')
+                is_base64_encoded = True
+            
+            # 5. Translate WSGI response to API Gateway/ALB format
+            response_headers_dict = {}
+            for k, v in headers_list:
+                # API Gateway doesn't like duplicate headers easily,
+                # though some headers (like Set-Cookie) can be multiple.
+                # For simplicity, if a header is present, we overwrite or append
+                # For common cases, the last one wins.
+                response_headers_dict[k] = v
+
+            return {
+                'statusCode': status_code,
+                'headers': response_headers_dict,
+                'body': decoded_body,
+                'isBase64Encoded': is_base64_encoded
+            }
+        finally:
+            # Ensure the WSGI application's iterator is closed if it supports it
+            if hasattr(wsgi_response, 'close'):
+                wsgi_response.close()
+
+    return handler
+
+# --- Usage Example ---
+
+# This is your WSGI application
+app = my_wsgi_app
+
+# This is the Lambda handler function you would point AWS Lambda to
+# For example, in your Lambda configuration, you'd set Handler to `your_file_name.lambda_handler`
+lambda_handler = aws_lambda_wsgi_handler(app)
+
+# Example of how to "run" it locally for testing
+if __name__ == '__main__':
+    # Simulate an API Gateway GET request
+    test_event_get = {
+        "httpMethod": "GET",
+        "path": "/hello",
+        "queryStringParameters": {"name": "World"},
+        "headers": {
+            "Host": "example.com",
+            "User-Agent": "test-client",
+            "X-Forwarded-Port": "443",
+            "X-Forwarded-Proto": "https"
+        },
+        "isBase64Encoded": False,
+        "body": None
+    }
+
+    print("--- Simulating GET Request ---")
+    response_get = lambda_handler(test_event_get, {})
+    print(json.dumps(response_get, indent=2))
+    print("\n" + "="*50 + "\n")
+
+    # Simulate an API Gateway POST request with a body
+    test_event_post = {
+        "httpMethod": "POST",
+        "path": "/submit",
+        "headers": {
+            "Host": "example.com",
+            "Content-Type": "application/json",
+            "X-Forwarded-Port": "443",
+            "X-Forwarded-Proto": "https"
+        },
+        "isBase64Encoded": False,
+        "body": '{"key": "value", "number": 123}'
+    }
+
+    print("--- Simulating POST Request ---")
+    response_post = lambda_handler(test_event_post, {})
+    print(json.dumps(response_post, indent=2))
+    print("\n" + "="*50 + "\n")
+    
+    # Simulate a binary response (e.g., an image or PDF) from the WSGI app
+    # For this, we'd need a WSGI app that returns binary data.
+    # Let's quickly modify my_wsgi_app for this test case
+    def binary_wsgi_app(environ, start_response):
+        if environ.get('PATH_INFO') == '/image':
+            status = '200 OK'
+            headers = [('Content-type', 'image/png')]
+            start_response(status, headers)
+            # Return some dummy binary data (e.g., a tiny PNG header)
+            # In a real app, this would be `open('image.png', 'rb').read()`
+            dummy_png_header = b'\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x00\x01\x00\x00\x00\x01\x08\x06\x00\x00\x00\x1f\x15\xc4\x89'
+            return [dummy_png_header]
+        else:
+            return my_wsgi_app(environ, start_response)
+
+    lambda_handler_binary = aws_lambda_wsgi_handler(binary_wsgi_app)
+    test_event_image = {
+        "httpMethod": "GET",
+        "path": "/image",
+        "headers": {
+            "Host": "example.com",
+            "X-Forwarded-Port": "443",
+            "X-Forwarded-Proto": "https"
+        },
+        "isBase64Encoded": False,
+        "body": None
+    }
+    
+    print("--- Simulating Binary Image Request ---")
+    response_image = lambda_handler_binary(test_event_image, {})
+    print(json.dumps(response_image, indent=2))
+    # Verify it's base64 encoded and content-type is correct
+    assert response_image['isBase64Encoded'] is True
+    assert response_image['headers']['Content-type'] == 'image/png'
+    print("\n" + "="*50 + "\n")
+```
+
+**Explanation of the Corrected Code:**
+
+1.  **`my_wsgi_app(environ, start_response)`:**
+    *   This is a minimal WSGI application. Your actual Flask, Django, Pyramid, etc., application would replace or be called by this `wsgi_app` reference.
+    *   It takes `environ` (a dictionary of environment variables) and `start_response` (a callable) as arguments.
+    *   It returns an iterable (usually a list of bytes) representing the response body.
+
+2.  **`aws_lambda_wsgi_handler(wsgi_app)`:**
+    *   This function takes your `wsgi_app` as an argument and returns the actual `handler` function that AWS Lambda expects. This is a common pattern for "currying" or configuring a handler.
+
+3.  **`handler(event, context)` (the Lambda handler):**
+    *   **API Gateway/ALB Event to WSGI `environ`:**
+        *   It extracts `httpMethod`, `path`, `queryStringParameters`, and `headers` from the `event` object.
+        *   It maps these to standard WSGI `environ` keys (e.g., `REQUEST_METHOD`, `PATH_INFO`, `QUERY_STRING`, `HTTP_USER_AGENT`).
+        *   Crucially, it handles the request body: if `event['body']` exists, it decodes it (handling `isBase64Encoded`) and places it into a `BytesIO` object for `wsgi.input`, mimicking a file-like object.
+        *   Sets other required WSGI environment variables (`wsgi.version`, `wsgi.url_scheme`, `wsgi.errors`, etc.).
+    *   **`start_response` function:**
+        *   This function is defined *inside* the `handler` and captures variables from the outer scope (`status_code`, `headers_list`).
+        *   When your `wsgi_app` calls this `start_response`, it sets the HTTP status and headers.
+        *   It returns a `write` callable, which WSGI applications *can* use to incrementally send body parts, though many just return an iterable directly.
+    *   **Calling `wsgi_app`:** The adapter then calls `wsgi_app(environ, start_response)`.
+    *   **WSGI Response to API Gateway/ALB Response:**
+        *   It iterates through the response returned by `wsgi_app` to collect all body parts.
+        *   It checks if the response body is binary (not UTF-8 decodable). If so, it `base64.b64encode`s it and sets `isBase64Encoded: True` in the Lambda response. This is essential for API Gateway to correctly handle binary data.
+        *   It constructs the final dictionary that AWS Lambda expects for an API Gateway/ALB proxy integration, including `statusCode`, `headers`, `body`, and `isBase64Encoded`.
+    *   **`wsgi_response.close()`:** Ensures proper resource cleanup if the WSGI application uses it (e.g., database connections).
+
+**Key Libraries/Concepts Used:**
+
+*   **`base64`**: For handling base64 encoding/decoding of request/response bodies.
+*   **`json`**: For pretty-printing the example responses.
+*   **`io.BytesIO`**: To provide a file-like object for `wsgi.input` from the Lambda event body.
+*   **WSGI Specification**: The adapter strictly follows the WSGI specification for `environ` and `start_response`.
+
+This corrected approach provides a robust and standard way to bridge the gap between AWS Lambda's event-driven model and the WSGI application interface. Many frameworks and libraries (like `wsgi_aws_lambda`, `Zappa`, `Chalice`, `Mangum` for ASGI) implement similar logic.
+------------------------------------------------------------
