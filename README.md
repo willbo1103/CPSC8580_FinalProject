@@ -11,6 +11,7 @@ CPSC8580_FinalProject/
 │    └── algo.py                                # Has the algorithm that chooses given prompts for us
 ├── apiCode/                                    # Code that calls a given LLM (incomplete)
 │    ├── apiDS.py                               # Code that calls the DeepSeek LLM (incomplete)
-│    └── apiGPT.py                              # Code that calls the GPT LLMS (incomplete)
+│    ├── apiGPT.py                              # Code that calls the GPT LLMS (incomplete)
+│    └── apiGEM.py                              # code that calls the Gemini LLM
 ├── prompts.txt                                 # placeholder, for now
 └── README.md         
