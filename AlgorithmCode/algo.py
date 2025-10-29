@@ -65,7 +65,6 @@ target_pattern = re.compile('|'.join(escaped_phrases), flags=re.IGNORECASE)
 
 
 def score_line(line: str) -> float:
-    """Assigns a numeric score to a single line of JSON text."""
     stripped = line.strip()
     if not stripped:
         return 0.0
@@ -93,7 +92,6 @@ def score_line(line: str) -> float:
 
 
 def rank_json_lines(filename="LLM_LY.json", top_n=500, output_file="pythonprompts.txt"):
-    """Reads input JSON lines, scores them, and writes top results to a file in Samples/."""
     samples_dir = "Samples"
     os.makedirs(samples_dir, exist_ok=True)
 
