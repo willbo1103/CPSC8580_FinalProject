@@ -1,24 +1,15 @@
 import re
 
 def extract_packages(input_file: str, output_file: str):
-    inside_code = True
     packages = set()
 
     with open(input_file, "r", encoding="utf-8") as infile:
         for line in infile:
             line = line.strip()
             if not line or line.startswith("#"):
-                inside_code = False
                 continue
-            # skip the lines that state the prompt number
-            if re.match(r"Prompt\s*\d+", line, re.IGNORECASE):
-                inside_code = False
-                continue
+
             else:
-                inside_code = True
-
-
-            if inside_code:
                 # match "from" and "import" statements
                 match = re.match(r"^(?:from|import)\s+([a-zA-Z0-9_\.]+)", line)
                 if match:
@@ -30,9 +21,8 @@ def extract_packages(input_file: str, output_file: str):
         for pkg in sorted(packages):
             outfile.write(pkg + "\n")
 
-    print(f" Found {len(packages)} unique packages. Written to '{output_file}'.")
+    print(f" Found {len(packages)} unique packages. Written to '{output_file}'.")
 
 
 # call the function (create second file if needed)
-extract_packages("../Responses/gpt5PYresponses.txt", "gpt5PYpackages.txt")
-
+extract_packages("../Responses/gpt4PYresponses.txt", "gpt4PYpackages.txt")
