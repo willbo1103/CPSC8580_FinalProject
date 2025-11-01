@@ -23,7 +23,7 @@ def main():
     with open(OUTPUT_FILE, "a", encoding="utf-8") as out:
         for i, prompt in enumerate(prompts, start=1):
             try:
-                print(f"¡ Sending prompt {i}/{len(prompts)}...")
+                print(f"Sending prompt {i}/{len(prompts)}...")
 
                 response = client.responses.create(
                     model=MODEL,
