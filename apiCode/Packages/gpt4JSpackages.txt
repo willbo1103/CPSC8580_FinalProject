@@ -1,4 +1,3 @@
-Packages found (243 total):
 ${dep}
 ${mod.path}
 @angular-devkit/core
