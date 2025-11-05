@@ -1,4 +1,3 @@
-Packages found (318 total):
 ${d}
 ${m.path}
 ${name}

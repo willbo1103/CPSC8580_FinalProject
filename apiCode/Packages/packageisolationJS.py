@@ -30,7 +30,6 @@ def extract_js_packages(input_file, output_file):
     # writes results to output file
     with open(output_file, 'w', encoding='utf-8') as f:
         if packages:
-            f.write(f"Packages found ({package_count} total):\n")
             for p in sorted(packages):
                 f.write(f"{p}\n")
         else:
