@@ -4,4 +4,3 @@ google-api-extensions
 iana-language-tag
 jest-xml
 vite-plugin-svg-to-react
-worker_threads
