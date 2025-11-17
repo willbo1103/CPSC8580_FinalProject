@@ -1,11 +1,7 @@
-${moduleName}
 @angular-devkit/core
 @angular-devkit/schematics
 @angular/core
 @apollo/client
-@apollo/client/link/context
-@apollo/client/link/error
-@apollo/client/react
 @aws-sdk/client-apigateway
 @aws-sdk/client-cloudwatch-logs
 @aws-sdk/client-dynamodb
@@ -29,7 +25,7 @@ ${moduleName}
 @iarna/toml
 @istanbul/lexer
 @koa/router
-@material-ui/core/Button
+@material-ui/core
 @mui/material
 @npmcli/shared
 @octokit/auth-app
@@ -51,8 +47,7 @@ _
 acorn
 acorn-ts
 acorn-walk
-ag-grid-community/styles/ag-grid.css
-ag-grid-community/styles/ag-theme-alpine.css
+ag-grid-community
 ag-grid-react
 ajv
 ajv-formats
@@ -78,7 +73,6 @@ cookie
 cookie-parser
 core-js
 core-js-pure
-core-js-pure/features
 cors
 crypto
 crypto-js
@@ -103,9 +97,7 @@ express-graphql
 faker
 fastify
 ffi-napi
-firebase/app
-firebase/database
-firebase/firestore
+firebase
 fs
 fs-extra
 github-token-generator
@@ -113,7 +105,6 @@ google-auth-library
 graphql
 graphql-tag
 graphql-tools
-graphql/language
 html-minifier-terser
 htmlparser2
 http
@@ -157,7 +148,7 @@ npm
 npm-lifecycle
 os
 path
-path-to-core-module/core
+path-to-core-module
 pg
 prettier
 protobufjs
@@ -203,11 +194,10 @@ validator
 vite-plugin-svg-to-react
 vm
 vscode-languageserver
-vscode-languageserver/node
 watch-glob
 web3
+webpack
 webpack-subresource-integrity
-webpack/lib/ModuleFilenameHelpers
 winston
 worker_pool
 worker_threads
