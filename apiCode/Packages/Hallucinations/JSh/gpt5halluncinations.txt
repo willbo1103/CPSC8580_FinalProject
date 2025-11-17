@@ -1,8 +1,4 @@
-@contoso/my-service
-@istanbul/lexer
-@npmcli/shared
 iana-language-tag
 jest-xml
-my-alias
 ts-doc
 vite-plugin-svg-to-react
