@@ -1,17 +1,6 @@
-@iso/array-filter
-@iso/array-map
-@iso/array-reduce
-@iso/array-utils
-@istanbul/lexer
 @npmcli/shared
-ARG
 iana-language-tag
-icu-trie
 jest-xml
-my-alias
 opentelemetry-proto
-react-hooks-ts-lib
-resolved
-sfdx-client
 ts-doc
 vite-plugin-svg-to-react
