@@ -8,8 +8,8 @@ from google.genai import types
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
 client = genai.Client()
 
-# Choose model
-MODEL = "gemini-2.5-flash" # flash is fast, pro has more thinking
+# Choose model, either gemini-2.5-pro or gemini-2.5-flash
+MODEL = "gemini-2.5-pro" # flash is fast, pro has more thinking
 
 # Input file (prompts) and output file (responses)
 INPUT_FILE = "Prompts/pythonprompts.txt" # either pythonprompts or JSprompts
@@ -33,9 +33,9 @@ def main():
                 response = client.models.generate_content(
                     model=MODEL, 
                     contents=prompt,
-                    config=types.GenerateContentConfig(
-                        thinking_config=types.ThinkingConfig(thinking_budget=0) # Disables thinking
-                    ),
+                    # config=types.GenerateContentConfig(
+                    #     thinking_config=types.ThinkingConfig(thinking_budget=0) # Disables thinking
+                    # ),
                 )
 
                 reply = response.text.strip()
@@ -44,9 +44,10 @@ def main():
                 out.write(f"\nPROMPT {i}:\n{prompt}\nRESPONSE:\n{reply}\n{'-'*60}\n")
 
                 print(f" Got response for prompt {i}")
+                print(response.usage_metadata)
 
                 # to prevent API flooding
-                time.sleep(5)
+                time.sleep(1.5)
 
             except Exception as e:
                 print(f"L Error for prompt {i}: {e}")
