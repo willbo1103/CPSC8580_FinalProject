@@ -1,10 +1,7 @@
 @istanbul/lexer
 @npmcli/shared
-_
 iana-language-tag
-icu-trie
 jest-xml
 optional-package
 sfdx-client
-worker_pool
 worker_threads

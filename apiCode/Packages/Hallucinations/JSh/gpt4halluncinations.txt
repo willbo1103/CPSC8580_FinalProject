@@ -1,7 +1,6 @@
 @dnd-kit/internal-utils
 @istanbul/lexer
 @npmcli/shared
-_
 https:
 iana-language-tag
 icu-trie

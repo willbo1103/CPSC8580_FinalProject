@@ -8,17 +8,10 @@
 @utility-monorepo/array-utils
 @utils
 @utils/helpers
-_
 iana-language-tag
 icu-trie
 jest-xml
 my-alias
-node:assert
-node:fs
-node:module
-node:path
 node:test
-node:url
 ts-doc
 vite-plugin-svg-to-react
-worker_pool

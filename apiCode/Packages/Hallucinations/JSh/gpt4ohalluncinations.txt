@@ -1,7 +1,6 @@
 @aws-sdk/client-apigateway
 @istanbul/lexer
 @npmcli/shared
-_
 acorn-ts
 iana-language-tag
 icu-trie

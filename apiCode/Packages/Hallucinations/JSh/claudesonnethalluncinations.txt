@@ -5,13 +5,10 @@
 @prettier/plugin-babel
 @services/auth
 @utils/helpers
-_
 iana-language-tag
 icu-trie
 jest-xml
 my-alias
-node:path
-node:util
 sfdx-node
 vite-plugin-svg-to-react
 worker_pool

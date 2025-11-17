@@ -5,8 +5,6 @@
 @istanbul/lexer
 @npmcli/shared
 ARG
-_
-https:
 iana-language-tag
 icu-trie
 jest-xml
@@ -17,4 +15,3 @@ resolved
 sfdx-client
 ts-doc
 vite-plugin-svg-to-react
-worker_pool

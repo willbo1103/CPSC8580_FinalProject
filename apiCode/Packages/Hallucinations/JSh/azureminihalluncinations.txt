@@ -3,14 +3,11 @@
 @ltdjms/toml
 @npmcli/shared
 @your-org/my-api-client
-_
 estree
 iana-language-tag
-icu-trie
 jest-xml
 my-alias
 sfdx-client
 somewhere
 vite-plugin-svg-to-react
-worker_pool
 worker_threads
