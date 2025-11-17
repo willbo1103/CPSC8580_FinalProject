@@ -22,11 +22,9 @@
 @config/database
 @elastic/elasticsearch
 @graphql-tools/schema
-@istanbul/lexer
 @koa/router
 @microsoft/tsdoc
 @models/User
-@npmcli/shared
 @nx/devkit
 @octokit/auth-app
 @opentelemetry/exporter-metrics-otlp-http
@@ -50,7 +48,6 @@
 @typescript-eslint/utils
 @utils/helpers
 @vitejs/plugin-react
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -112,7 +109,6 @@ htmlparser2
 http
 https
 iana-language-tag
-icu-trie
 insert-module-globals
 inspector
 istanbul
@@ -213,6 +209,5 @@ web3
 webpack
 webpack-subresource-integrity
 winston
-worker_pool
 worker_threads
 zlib

@@ -29,7 +29,6 @@
 @graphql-tools/mock
 @graphql-tools/utils
 @iarna/toml
-@istanbul/lexer
 @jest/globals
 @microsoft/tsdoc
 @mui/material
@@ -46,7 +45,6 @@
 @rollup/plugin-typescript
 @svgr/core
 @typescript-eslint/typescript-estree
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -113,9 +111,7 @@ html-webpack-plugin
 htmlparser2
 http
 https
-https:
 iana-language-tag
-icu-trie
 idb-keyval
 inquirer
 inspector

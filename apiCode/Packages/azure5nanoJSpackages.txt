@@ -43,8 +43,6 @@
 @swc/core
 @typescript-eslint/eslint-plugin
 @typescript-eslint/parser
-ARG
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -102,7 +100,6 @@ html-minifier-terser
 htmlparser
 http
 https
-https:
 iana-language-tag
 icu-trie
 inspector
@@ -157,7 +154,6 @@ regenerator-runtime
 regexp-tree
 regjsparser
 rehype-parse
-resolved
 rollup-plugin-typescript
 sfdx-client
 sharp
@@ -192,7 +188,6 @@ web3
 webpack
 webpack-subresource-integrity
 winston
-worker_pool
 workerpool
 x
 xmlhttprequest

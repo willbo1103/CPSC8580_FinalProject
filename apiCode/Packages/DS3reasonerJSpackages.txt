@@ -44,7 +44,6 @@
 @microsoft/tsdoc
 @monorepo/utils
 @mui/material
-@npmcli/shared
 @nx/devkit
 @opentelemetry/api
 @opentelemetry/exporter-logs-otlp-http
@@ -66,8 +65,6 @@
 @typescript-eslint/utils
 @typescript/eslint-plugin
 @utils
-Lodash
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -238,7 +235,6 @@ watch-glob
 web3
 webpack
 winston
-worker_pool
 worker_threads
 xmlhttprequest
 yaml

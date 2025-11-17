@@ -19,11 +19,9 @@
 @faker-js/faker
 @graphql-tools/mock
 @graphql-tools/schema
-@istanbul/lexer
 @jest/globals
 @koa/router
 @microsoft/tsdoc
-@npmcli/shared
 @nx/devkit
 @opentelemetry/api
 @opentelemetry/exporter-metrics-otlp-http
@@ -40,7 +38,6 @@
 @rollup/plugin-terser
 @salesforce/core
 @smithy/protocol-http
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -110,7 +107,6 @@ htmlparser2
 http
 https
 iana-language-tag
-icu-trie
 inquirer
 inspector
 istanbul-lib-coverage
@@ -203,7 +199,6 @@ webpack
 webpack-sources
 winston
 winston-transport
-worker_pool
 worker_threads
 xml2js
 xmlbuilder2

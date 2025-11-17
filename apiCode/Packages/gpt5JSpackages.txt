@@ -32,19 +32,16 @@
 @babel/template
 @babel/traverse
 @babel/types
-@contoso/my-service
 @elastic/elasticsearch
 @eslint-community/eslint-utils
 @google-cloud/firestore
 @graphql-tools/mock
 @graphql-tools/schema
-@istanbul/lexer
 @jridgewell/remapping
 @koa/router
 @microsoft/tsdoc
 @mui/icons-material
 @mui/material
-@npmcli/shared
 @nx/devkit
 @octokit/core
 @opentelemetry/api
@@ -71,7 +68,6 @@
 @typescript-eslint/parser
 @typescript-eslint/typescript-estree
 @vitejs/plugin-react
-_
 acorn
 acorn-typescript
 acorn-walk
@@ -131,9 +127,7 @@ html-webpack-plugin
 htmlparser2
 http
 https
-https:
 iana-language-tag
-icu-trie
 insert-module-globals
 inspector
 invariant
@@ -262,7 +256,6 @@ watch-glob
 web3
 webpack
 winston
-worker_pool
 workerpool
 x
 xhr2

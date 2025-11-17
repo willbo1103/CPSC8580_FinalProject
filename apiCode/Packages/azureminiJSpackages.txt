@@ -4,7 +4,7 @@
 @apollo/client
 @apollo/react-hooks
 @aws-crypto/sha256-browser
-@aws-sdk/ credential-provider-ini
+@aws-sdk/credential-provider-ini
 @aws-sdk/client-dynamodb
 @aws-sdk/client-iam
 @aws-sdk/client-lambda
@@ -38,8 +38,6 @@
 @rollup/plugin-commonjs
 @rollup/plugin-node-resolve
 @testing-library/react
-@your-org/my-api-client
-_
 acorn
 acorn-typescript
 ajv
@@ -102,7 +100,6 @@ http
 http-proxy
 https
 iana-language-tag
-icu-trie
 inquirer
 ioredis
 istanbul
@@ -163,7 +160,6 @@ sharp
 simple-git
 socket.io
 some-module
-somewhere
 spectacular
 stream
 styled-components
@@ -190,6 +186,5 @@ web3
 webpack
 webpack-sources
 winston
-worker_pool
 worker_threads
 zlib

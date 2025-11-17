@@ -23,11 +23,9 @@
 @graphql-tools/mock
 @graphql-tools/schema
 @iarna/toml
-@istanbul/lexer
 @koa/router
 @material-ui/core
 @mui/material
-@npmcli/shared
 @octokit/auth-app
 @opentelemetry/api
 @opentelemetry/exporter-trace-otlp-http
@@ -43,7 +41,6 @@
 @rollup/plugin-node-resolve
 @salesforce/command
 @typescript-eslint/typescript-estree
-_
 acorn
 acorn-ts
 acorn-walk

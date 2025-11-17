@@ -71,7 +71,6 @@
 @utils
 @utils/helpers
 JSONStream
-_
 acorn
 acorn-typescript
 ajv
@@ -246,7 +245,6 @@ web3
 webpack
 webpack-sources
 winston
-worker_pool
 workerpool
 xml2js
 yargs
