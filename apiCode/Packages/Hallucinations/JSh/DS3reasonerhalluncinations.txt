@@ -1,16 +1,7 @@
-@dnd-kit/internal-utils
-@istanbul/lexer
-@monorepo/utils
-@npmcli/shared
-@pkgr/shared-core
 @typescript/eslint-plugin
-@utils
-Lodash
 estree
 google-api-extensions
 iana-language-tag
-icu-trie
 jest-xml
 vite-plugin-svg-to-react
 worker_threads
-your-ast-util-module
