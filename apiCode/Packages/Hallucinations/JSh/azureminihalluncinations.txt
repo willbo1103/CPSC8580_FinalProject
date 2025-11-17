@@ -1,13 +1,8 @@
-@aws-sdk/ credential-provider-ini
 @istanbul/lexer
 @ltdjms/toml
 @npmcli/shared
-@your-org/my-api-client
 estree
 iana-language-tag
 jest-xml
-my-alias
 sfdx-client
-somewhere
 vite-plugin-svg-to-react
-worker_threads
