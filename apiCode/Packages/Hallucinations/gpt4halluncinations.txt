@@ -1,0 +1,17 @@
+@dnd-kit/internal-utils
+@istanbul/lexer
+@npmcli/shared
+_
+https:
+iana-language-tag
+icu-trie
+jest-xml
+localforage-node
+moduleA
+moduleB
+my-alias
+sfdx-client
+vite-plugin-svg-to-react
+worker_pool
+your-library
+{{importName}}
