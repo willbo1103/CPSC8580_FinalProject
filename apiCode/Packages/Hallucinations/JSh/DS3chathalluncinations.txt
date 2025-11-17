@@ -1,17 +1,5 @@
-@components/Button
-@components/MyComponent
-@istanbul/lexer
-@lib/utilities
-@my-directory/some-module
-@npmcli/shared
 @salesforce/sfdx-client
-@utility-monorepo/array-utils
-@utils
-@utils/helpers
 iana-language-tag
-icu-trie
 jest-xml
-my-alias
-node:test
 ts-doc
 vite-plugin-svg-to-react
