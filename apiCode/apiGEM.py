@@ -1,9 +1,8 @@
 # pip install -q -U google-genai
-# before running please run 'export GEMINI_API_KEY="$YOURAPIKEY"'
+# before running please run 'export GEMINI_API_KEY=<YOUR_API_KEY>'
 
 import time
 from google import genai
-from google.genai import types
 
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
 client = genai.Client()
@@ -14,6 +13,7 @@ MODEL = "gemini-2.5-pro" # flash is fast, pro has more thinking
 # Input file (prompts) and output file (responses)
 INPUT_FILE = "Prompts/pythonprompts.txt" # either pythonprompts or JSprompts
 OUTPUT_FILE = f"Responses/{MODEL}PYresponses.txt" # either PYresponses or JSresponses
+ERROR_FILE = f"Responses/{MODEL}PYerror.txt"
 
 def main():
     # read prompts from file (either pythonprompts or JSprompts)
@@ -38,22 +38,26 @@ def main():
                     # ),
                 )
 
+                print(f" Got response for prompt {i}")
+                # print(response.usage_metadata)
+
                 reply = response.text.strip()
 
                 # log prompt + response
                 out.write(f"\nPROMPT {i}:\n{prompt}\nRESPONSE:\n{reply}\n{'-'*60}\n")
 
-                print(f" Got response for prompt {i}")
-                print(response.usage_metadata)
-
                 # to prevent API flooding
                 time.sleep(1.5)
-
             except Exception as e:
                 print(f"L Error for prompt {i}: {e}")
+                # write prompt number to error file for handling later
+                with open(ERROR_FILE, "a", encoding="utf-8") as stderr:
+                    stderr.write(f"{i}\n")
                 out.write(f"\nPROMPT {i} ERROR:\n{prompt}\nError: {e}\n{'-'*60}\n")
+                time.sleep(1.5)
 
     print(f"\n Finished processing all prompts. Responses saved to {OUTPUT_FILE}")
+    client.close()
 
 if __name__ == "__main__":
     main()
