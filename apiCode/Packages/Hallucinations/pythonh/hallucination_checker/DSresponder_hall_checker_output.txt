@@ -1,0 +1,238 @@
+
+--- FAILURE: chat__poa ---
+ERROR: Could not find a version that satisfies the requirement chat__poa (from versions: none)
+ERROR: No matching distribution found for chat__poa
+
+--- FAILURE: cocoa ---
+ERROR: Could not find a version that satisfies the requirement cocoa (from versions: none)
+ERROR: No matching distribution found for cocoa
+
+--- FAILURE: coreaudiokit ---
+ERROR: Could not find a version that satisfies the requirement coreaudiokit (from versions: none)
+ERROR: No matching distribution found for coreaudiokit
+
+--- FAILURE: coremotion ---
+ERROR: Could not find a version that satisfies the requirement coremotion (from versions: none)
+ERROR: No matching distribution found for coremotion
+
+--- FAILURE: datadetection ---
+ERROR: Could not find a version that satisfies the requirement datadetection (from versions: none)
+ERROR: No matching distribution found for datadetection
+
+--- FAILURE: opengl ---
+ERROR: Could not find a version that satisfies the requirement opengl (from versions: none)
+ERROR: No matching distribution found for opengl
+
+--- FAILURE: portableserver ---
+ERROR: Could not find a version that satisfies the requirement portableserver (from versions: none)
+ERROR: No matching distribution found for portableserver
+
+--- FAILURE: pyobjctools ---
+ERROR: Could not find a version that satisfies the requirement pyobjctools (from versions: none)
+ERROR: No matching distribution found for pyobjctools
+
+--- FAILURE: _mylib ---
+ERROR: Invalid requirement: '_mylib': Expected package name at the start of dependency specifier
+    _mylib
+    ^
+
+--- FAILURE: aliyunsdkvpc ---
+ERROR: Could not find a version that satisfies the requirement aliyunsdkvpc (from versions: none)
+ERROR: No matching distribution found for aliyunsdkvpc
+
+--- FAILURE: ansible_changelog ---
+ERROR: Could not find a version that satisfies the requirement ansible_changelog (from versions: none)
+ERROR: No matching distribution found for ansible_changelog
+
+--- FAILURE: aws_cdk ---
+ERROR: Could not find a version that satisfies the requirement aws_cdk (from versions: none)
+ERROR: No matching distribution found for aws_cdk
+
+--- FAILURE: braket ---
+ERROR: Could not find a version that satisfies the requirement braket (from versions: none)
+ERROR: No matching distribution found for braket
+
+--- FAILURE: brotli_wrapper ---
+ERROR: Could not find a version that satisfies the requirement brotli_wrapper (from versions: none)
+ERROR: No matching distribution found for brotli_wrapper
+
+--- FAILURE: cprofile ---
+ERROR: Could not find a version that satisfies the requirement cprofile (from versions: none)
+ERROR: No matching distribution found for cprofile
+
+--- FAILURE: chem_ml_module ---
+ERROR: Could not find a version that satisfies the requirement chem_ml_module (from versions: none)
+ERROR: No matching distribution found for chem_ml_module
+
+--- FAILURE: colcon ---
+ERROR: Could not find a version that satisfies the requirement colcon (from versions: none)
+ERROR: No matching distribution found for colcon
+
+--- FAILURE: concurrent ---
+ERROR: Could not find a version that satisfies the requirement concurrent (from versions: none)
+ERROR: No matching distribution found for concurrent
+
+--- FAILURE: core_module ---
+ERROR: Could not find a version that satisfies the requirement core_module (from versions: none)
+ERROR: No matching distribution found for core_module
+
+--- FAILURE: data_processor ---
+ERROR: Could not find a version that satisfies the requirement data_processor (from versions: none)
+ERROR: No matching distribution found for data_processor
+
+--- FAILURE: datadog_checks ---
+ERROR: Could not find a version that satisfies the requirement datadog_checks (from versions: none)
+ERROR: No matching distribution found for datadog_checks
+
+--- FAILURE: devpi_utils ---
+ERROR: Could not find a version that satisfies the requirement devpi_utils (from versions: none)
+ERROR: No matching distribution found for devpi_utils
+
+--- FAILURE: django_objects_to_fixed_format ---
+ERROR: Could not find a version that satisfies the requirement django_objects_to_fixed_format (from versions: none)
+ERROR: No matching distribution found for django_objects_to_fixed_format
+
+--- FAILURE: firebase_config ---
+ERROR: Could not find a version that satisfies the requirement firebase_config (from versions: none)
+ERROR: No matching distribution found for firebase_config
+
+--- FAILURE: isl ---
+ERROR: Could not find a version that satisfies the requirement isl (from versions: none)
+ERROR: No matching distribution found for isl
+
+--- FAILURE: metal_fx_bindings ---
+ERROR: Could not find a version that satisfies the requirement metal_fx_bindings (from versions: none)
+ERROR: No matching distribution found for metal_fx_bindings
+
+--- FAILURE: migrations_manager ---
+ERROR: Could not find a version that satisfies the requirement migrations_manager (from versions: none)
+ERROR: No matching distribution found for migrations_manager
+
+--- FAILURE: my_notebook ---
+ERROR: Could not find a version that satisfies the requirement my_notebook (from versions: none)
+ERROR: No matching distribution found for my_notebook
+
+--- FAILURE: mylib_build ---
+ERROR: Could not find a version that satisfies the requirement mylib_build (from versions: none)
+ERROR: No matching distribution found for mylib_build
+
+--- FAILURE: mypy_boto3_acmpca ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_acmpca (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_acmpca
+
+--- FAILURE: mypy_boto3_database_migration_service ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_database_migration_service (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_database_migration_service
+
+--- FAILURE: mypy_boto3_elasticinference ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_elasticinference (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_elasticinference
+
+--- FAILURE: mypy_boto3_iot_events_data ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_iot_events_data (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_iot_events_data
+
+--- FAILURE: mypy_boto3_media_store_data ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_media_store_data (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_media_store_data
+
+--- FAILURE: mypy_boto3_serverlessapplicationrepository ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_serverlessapplicationrepository (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_serverlessapplicationrepository
+
+--- FAILURE: mypy_boto3_ssoadmin ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_ssoadmin (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_ssoadmin
+
+--- FAILURE: mypy_boto3_wafregional ---
+ERROR: Could not find a version that satisfies the requirement mypy_boto3_wafregional (from versions: none)
+ERROR: No matching distribution found for mypy_boto3_wafregional
+
+--- FAILURE: notebook_data_lib ---
+ERROR: Could not find a version that satisfies the requirement notebook_data_lib (from versions: none)
+ERROR: No matching distribution found for notebook_data_lib
+
+--- FAILURE: objc ---
+ERROR: Could not find a version that satisfies the requirement objc (from versions: none)
+ERROR: No matching distribution found for objc
+
+--- FAILURE: ocient ---
+ERROR: Could not find a version that satisfies the requirement ocient (from versions: none)
+ERROR: No matching distribution found for ocient
+
+--- FAILURE: openpyxl_template ---
+ERROR: Could not find a version that satisfies the requirement openpyxl_template (from versions: none)
+ERROR: No matching distribution found for openpyxl_template
+
+--- FAILURE: opentelemetry ---
+ERROR: Could not find a version that satisfies the requirement opentelemetry (from versions: none)
+ERROR: No matching distribution found for opentelemetry
+
+--- FAILURE: pagination_app ---
+ERROR: Could not find a version that satisfies the requirement pagination_app (from versions: none)
+ERROR: No matching distribution found for pagination_app
+
+--- FAILURE: phase_wrapper ---
+ERROR: Could not find a version that satisfies the requirement phase_wrapper (from versions: none)
+ERROR: No matching distribution found for phase_wrapper
+
+--- FAILURE: pstats ---
+ERROR: Could not find a version that satisfies the requirement pstats (from versions: none)
+ERROR: No matching distribution found for pstats
+
+--- FAILURE: rest_framework ---
+ERROR: Could not find a version that satisfies the requirement rest_framework (from versions: none)
+ERROR: No matching distribution found for rest_framework
+
+--- FAILURE: rust_lint ---
+ERROR: Could not find a version that satisfies the requirement rust_lint (from versions: none)
+ERROR: No matching distribution found for rust_lint
+
+--- FAILURE: scalable_web_app_stack ---
+ERROR: Could not find a version that satisfies the requirement scalable_web_app_stack (from versions: none)
+ERROR: No matching distribution found for scalable_web_app_stack
+
+--- FAILURE: sqlqueryengine ---
+ERROR: Could not find a version that satisfies the requirement sqlqueryengine (from versions: none)
+ERROR: No matching distribution found for sqlqueryengine
+
+--- FAILURE: stardog ---
+ERROR: Could not find a version that satisfies the requirement stardog (from versions: none)
+ERROR: No matching distribution found for stardog
+
+--- FAILURE: tencentcloud ---
+ERROR: Could not find a version that satisfies the requirement tencentcloud (from versions: none)
+ERROR: No matching distribution found for tencentcloud
+
+--- FAILURE: type_annotations ---
+ERROR: Could not find a version that satisfies the requirement type_annotations (from versions: none)
+ERROR: No matching distribution found for type_annotations
+
+--- FAILURE: xml ---
+ERROR: Could not find a version that satisfies the requirement xml (from versions: none)
+ERROR: No matching distribution found for xml
+
+--- FAILURE: your_etl_module ---
+ERROR: Could not find a version that satisfies the requirement your_etl_module (from versions: none)
+ERROR: No matching distribution found for your_etl_module
+
+--- FAILURE: your_main_file ---
+ERROR: Could not find a version that satisfies the requirement your_main_file (from versions: none)
+ERROR: No matching distribution found for your_main_file
+
+--- FAILURE: yrs ---
+ERROR: Could not find a version that satisfies the requirement yrs (from versions: none)
+ERROR: No matching distribution found for yrs
+
+--- FAILURE: zeo_client ---
+ERROR: Could not find a version that satisfies the requirement zeo_client (from versions: none)
+ERROR: No matching distribution found for zeo_client
+
+--- FAILURE: zeo_server ---
+ERROR: Could not find a version that satisfies the requirement zeo_server (from versions: none)
+ERROR: No matching distribution found for zeo_server
+
+--- FAILURE: {package_name} ---
+ERROR: Invalid requirement: '{package_name}': Expected package name at the start of dependency specifier
+    {package_name}
+    ^
