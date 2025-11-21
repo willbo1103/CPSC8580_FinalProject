@@ -1,4 +1,4 @@
-avfoundation
+vfoundation
 cocoa
 coreaudiokit
 cosnaming
@@ -9,7 +9,6 @@ _pytest
 aliyunsdkecs
 aliyunsdkvpc
 aws_cdk
-cprofile
 concurrent
 crum
 datadog_checks
