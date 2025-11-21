@@ -15,14 +15,12 @@ braket
 brotli_wrapper
 cprofile
 colcon
-concurrent
 datadog_checks
 datadog_lambda_construct
 dataworld
 django_objects_to_fixed_format
 execjs
 hanaclient
-interactive_data_library
 kinetica
 limat
 my_construct
@@ -43,9 +41,7 @@ ocient
 openpyxl_template
 opentelemetry
 prophecy
-pstats
 rest_framework
-safety_kit
 sqlqueryengine
 tablelogger
 tencentcloud

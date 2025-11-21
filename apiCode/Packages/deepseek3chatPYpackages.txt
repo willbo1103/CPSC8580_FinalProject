@@ -228,8 +228,6 @@ myapp
 mypy_boto3
 mypy_boto3_access_analyzer
 mypy_boto3_acm
-mypy_boto3_acmpca
-mypy_boto3_application_discovery
 mypy_boto3_autoscaling
 mypy_boto3_batch
 mypy_boto3_braket
@@ -294,7 +292,6 @@ mypy_boto3_service_quotas
 mypy_boto3_signer
 mypy_boto3_sms_voice
 mypy_boto3_snowball
-mypy_boto3_ssoadmin
 mypy_boto3_synthetics
 mypy_boto3_translate
 mypy_boto3_waf
@@ -493,4 +490,3 @@ your_pubsub_module
 zlib
 zope
 {module_name}
-{{

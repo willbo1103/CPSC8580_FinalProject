@@ -12,10 +12,7 @@ ansible_changelog
 aws_cdk
 braket
 brotli_wrapper
-cprofile
 chem_ml_module
-colcon
-concurrent
 core_module
 data_processor
 datadog_checks
@@ -26,7 +23,6 @@ isl
 metal_fx_bindings
 migrations_manager
 my_notebook
-mylib_build
 mypy_boto3_acmpca
 mypy_boto3_database_migration_service
 mypy_boto3_elasticinference

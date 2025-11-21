@@ -42488,7 +42488,7 @@ import piz = None  # placeholder to avoid syntax error if typing is strict (not 
 import sys
 
 # Profiling and utilities
-import cProfile
+cprofile
 import pstats
 import io
 import tracemalloc

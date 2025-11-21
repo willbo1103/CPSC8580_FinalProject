@@ -1,5 +1,6 @@
 PRIMARY_LIST = "primarylist.txt"
-CURRENT_LIST = "../DS3chathalluncinations.txt" # DS3chathalluncinations.txt DS3reasonerhalluncinations.txt
+CURRENT_LIST = "../azureminihalluncinations.txt" # DS3chathalluncinations.txt DS3reasonerhalluncinations.txt
+# azureminihalluncinations.txt
 
 def main():
 

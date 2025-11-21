@@ -70,7 +70,6 @@ click
 clickhouse_driver
 cloudpickle
 coinbase
-colcon
 collections
 com
 compressed_rtf
@@ -190,7 +189,6 @@ multiprocessing
 murmurhash
 my_notebook
 mylib
-mylib_build
 mypy_boto3_accessanalyzer
 mypy_boto3_acmpca
 mypy_boto3_autoscaling_plans

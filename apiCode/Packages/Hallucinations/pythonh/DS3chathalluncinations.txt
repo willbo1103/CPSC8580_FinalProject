@@ -16,10 +16,8 @@ asyncq
 aws_cdk
 braket
 brotli_wrapper
-cprofile
 clickhouse_client
 colcon
-concurrent
 core_audiokit_wrapper
 datadog_checks
 dbt_clickhouse_adapter
@@ -41,21 +39,17 @@ mutation_tester
 my_dagster_project
 my_notebook
 mypy_boto3_access_analyzer
-mypy_boto3_acmpca
-mypy_boto3_application_discovery
 mypy_boto3_elasticinference
 mypy_boto3_iot_events_data
 mypy_boto3_marketplace_metering
 mypy_boto3_media_store_data
 mypy_boto3_serverlessapplicationrepository
-mypy_boto3_ssoadmin
 objc
 ocient
 openjpeg
 opentelemetry
 osakit_wrapper
 prophecy
-pstats
 pythoncom
 request
 rest_framework
@@ -73,4 +67,3 @@ your_middleware_file
 your_models
 your_pubsub_module
 {module_name}
-{{

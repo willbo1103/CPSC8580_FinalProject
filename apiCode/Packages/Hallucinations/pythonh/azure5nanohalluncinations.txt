@@ -7,15 +7,12 @@ asgi
 asyncq
 aws_cdk
 azure_data_services
-cprofile
-concurrent
 datadog_checks
 datadog_instrumentation_construct
 django_objects_to_fixed_format
 elasticinference
 elastictranscoder
 erl_tree
-from
 graphql_tag
 hanaclient
 honeycode
@@ -30,7 +27,6 @@ my_generated_module
 mypy_boto3_acmpca
 mypy_boto3_cloudwatch_logs
 mypy_boto3_elastic_beanstalk
-mypy_boto3_identity_store
 mypy_boto3_iot_events_data
 notifypy
 objc
@@ -38,14 +34,11 @@ ocient
 odoo_migration_lib
 openjpeg
 opentelemetry
-piz
 prophecy
-pstats
 pydanny
 pyspark_wrapper
 rest_framework
 rust_lint
-safetykit_bindings
 sample_production_types
 sqlqueryengine
 tablelogger
@@ -53,6 +46,5 @@ tencentcloud
 type_annotations
 unohelper
 wadl
-xml
 yoga_data_layer
 yrs
