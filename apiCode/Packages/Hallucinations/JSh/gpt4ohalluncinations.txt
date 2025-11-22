@@ -1,4 +1,3 @@
-@aws-sdk/client-apigateway
 acorn-ts
 iana-language-tag
 icu-trie
