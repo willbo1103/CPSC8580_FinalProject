@@ -1,5 +1,4 @@
 @acorn-features/ts
-@dnd-kit/internal-utils
 @istanbul/lexer
 google-api-extension
 iana-language-tag
