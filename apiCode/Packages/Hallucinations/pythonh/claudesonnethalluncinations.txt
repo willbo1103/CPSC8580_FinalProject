@@ -20,5 +20,4 @@ tablelogger
 tencentcloud
 wadl
 win32com
-xml
 yrs
