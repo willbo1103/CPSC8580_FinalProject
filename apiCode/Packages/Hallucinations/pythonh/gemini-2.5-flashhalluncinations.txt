@@ -1,7 +1,5 @@
 avfoundation
-cocoa
 extensionkit
-opengl
 _pytest
 always
 asyncq
@@ -39,7 +37,6 @@ mypy_boto3_locationservice
 mypy_boto3_resourcetaggingapi
 notebook_data_recorder
 notifypy
-objc
 ocient
 openapi_spec_builder
 opentelemetry

@@ -1,15 +1,10 @@
 avfoundation
 adsupport
-cocoa
-coreaudiokit
-coremotion
 coseventchanneladmin
 coseventcomm
 coseventcomm__poa
 cosnaming
 demo__poa
-discrecording
-discrecordingui
 extensionkit
 mynotebook
 opengl
@@ -32,7 +27,6 @@ mypy_boto3_cloudwatch_logs
 mypy_boto3_cost_explorer
 mypy_boto3_database_migration_service
 notifypy
-objc
 opentelemetry
 pagination_made_easy
 prophecy

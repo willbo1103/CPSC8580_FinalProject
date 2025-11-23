@@ -1,12 +1,7 @@
 avfoundation
 adsupport
-coreaudiokit
-coremotion
-discrecording
-discrecordingui
 metalfx
 osakit
-opengl
 openssl
 _point_math_cffi
 aliyunsdkecs

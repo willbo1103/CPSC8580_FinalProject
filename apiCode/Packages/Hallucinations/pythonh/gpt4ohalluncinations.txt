@@ -1,6 +1,4 @@
-coremotion
 osakit
-opengl
 openssl
 pyobjctools
 aliyunsdkslb
@@ -25,7 +23,6 @@ mypy_boto3_elasticinference
 mypy_boto3_medialibrary
 mypy_boto3_rdsdataservice
 mypy_boto3_ssoadmin
-objc
 openjpeg
 opentelemetry
 prophecy

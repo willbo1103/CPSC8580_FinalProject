@@ -1,8 +1,5 @@
-cocoa
 mynotebook
 osakit
-opengl
-pyobjctools
 aliyunsdkvpc
 asgi
 asyncq
@@ -28,7 +25,6 @@ mypy_boto3_elasticinference
 mypy_boto3_iot_events_data
 mypy_boto3_marketplace_metering
 mypy_boto3_resourcegroups
-objc
 ocient
 odoo_migration_utils
 opentelemetry
