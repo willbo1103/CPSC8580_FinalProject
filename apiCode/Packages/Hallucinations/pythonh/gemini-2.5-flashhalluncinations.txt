@@ -8,11 +8,9 @@ asyncq
 aws_cdk
 bio_framework
 brotli_wrapper
-cprofile
 chem_ml_utils
 citext
 cognito_srp
-concurrent
 custom_serializer
 datadog_auto_instrumentation_stack
 datadog_checks
@@ -55,7 +53,6 @@ os;
 pagination_made_easy
 pmml
 protocol_constants
-pstats
 pydanny
 pyml_mjml
 rest_framework
@@ -73,6 +70,5 @@ unohelper
 wadl
 win32com
 wsgi_lambda
-xml
 yrs
 {{

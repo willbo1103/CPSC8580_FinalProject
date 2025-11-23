@@ -19,9 +19,7 @@ aliyunsdkvpc
 asgi
 aws_cdk
 brotli_wrapper
-cprofile
 colcon
-concurrent
 datadog_checks
 django_objects_to_fixed_format
 hanaclient
@@ -40,7 +38,6 @@ objc
 opentelemetry
 pagination_made_easy
 prophecy
-pstats
 request
 rest_framework
 rust_lint
@@ -50,4 +47,3 @@ stardog
 tablelogger
 tencentcloud
 type_annotations
-xml

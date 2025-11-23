@@ -9,9 +9,7 @@ aws_cdk
 azure_data_services
 bookkeeper_client
 brotli_wrapper
-cprofile
 colcon
-concurrent
 datadog_checks
 django_objects_to_fixed_format
 erl_tree
@@ -31,7 +29,6 @@ objc
 openjpeg
 opentelemetry
 prophecy
-pstats
 rest_framework
 safetykit
 sqlqueryengine

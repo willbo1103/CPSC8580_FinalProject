@@ -16,11 +16,8 @@ api
 asyncq
 autodoc_project
 aws_cdk
-cprofile
 cdk_api_gateway_ddb
 cdk_global_aurora
-cgi
-concurrent
 content_provider_framework
 custom_protocol
 databricks_dialect
@@ -54,7 +51,6 @@ osakit_wrapper
 pinot_utils
 point_math_wrapper
 prophecy
-pstats
 pubsub_manager
 pure_pagination
 pybrotli
@@ -70,6 +66,5 @@ typings
 user_analyzer
 whip_lash
 xblockutils
-xml
 yourapp
 yrs_py

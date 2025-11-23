@@ -9,11 +9,9 @@ asyncq
 aws_cdk
 azure_data_services
 brotli_wrapper
-cprofile
 chem_ml_utils
 coinbase_advanced_trade
 colcon
-concurrent
 contentprovider
 datadog_checks
 django_objects_to_fixed_format
@@ -51,5 +49,4 @@ tencentcloud
 though
 type_annotations
 wadl
-xml
 yrs
