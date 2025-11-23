@@ -1,4 +1,4 @@
-vfoundation
+avfoundation
 cocoa
 coreaudiokit
 cosnaming
@@ -20,11 +20,9 @@ mypy_boto3_opensearchservice
 mypy_boto3_smsvoice
 objc
 opentelemetry
-pstats
 pybookkeeper
 rest_framework
 stardog
 tencentcloud
 win32com
 xblockutils
-xml
