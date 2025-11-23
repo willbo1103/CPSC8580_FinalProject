@@ -1,6 +1,4 @@
-opengl
 openssl
-pyobjctools
 aliyunsdkvpc
 aws_cdk
 datadog_checks
@@ -10,7 +8,6 @@ my_notebook
 mypy_boto3_kinesis_video
 mypy_boto3_marketplace_metering
 notifypy
-objc
 opentelemetry
 rest_framework
 sample_module

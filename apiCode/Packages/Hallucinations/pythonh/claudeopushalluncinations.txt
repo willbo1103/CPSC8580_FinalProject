@@ -1,9 +1,6 @@
 avfoundation
-cocoa
-coreaudiokit
 cosnaming
 dataservice__poa
-opengl
 openssl
 _pytest
 aliyunsdkecs
@@ -18,7 +15,6 @@ msgraph
 my_notebook
 mypy_boto3_opensearchservice
 mypy_boto3_smsvoice
-objc
 opentelemetry
 pybookkeeper
 rest_framework

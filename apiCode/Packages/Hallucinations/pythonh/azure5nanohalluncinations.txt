@@ -1,5 +1,4 @@
 adsupport
-coremotion
 osakit
 opengl
 apispec_pydantic
@@ -29,7 +28,6 @@ mypy_boto3_cloudwatch_logs
 mypy_boto3_elastic_beanstalk
 mypy_boto3_iot_events_data
 notifypy
-objc
 ocient
 odoo_migration_lib
 openjpeg

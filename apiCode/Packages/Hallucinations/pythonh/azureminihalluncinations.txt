@@ -1,9 +1,4 @@
-cocoa
-coreaudiokit
-coremotion
 datadetection
-discrecordingui
-opengl
 openjpeg
 pyobjctools
 aliyunsdkvpc
