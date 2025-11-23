@@ -1,9 +1,10 @@
+# get list of pypi packages (mostly working except those with multiple names)
 # run list of pypi packages through VirusTotal API
 import os
 import sys
 import requests
 import json
-from packaging.version import parse as parse_version
+# from packaging.version import parse as parse_version
 
 
 import random
@@ -24,19 +25,34 @@ def get_package_url(package_name : str):
         if response.status_code == 200:
             data = response.json()
 
+            # dump for reading
+            # with open(f"local/dumps/{package_name}.json", 'w') as f:
+            #     json.dump(data, f, indent=4)
+
             # Extract the URL for the latest version of the package
-            releases = data.get('releases', {})
-            if releases:
-                # Sort versions using `packaging.version.parse` to handle pre-release versions
-                latest_version = sorted(releases.keys(), key=parse_version, reverse=True)[0]
-                package_url = releases[latest_version][0].get('url')
-                return package_url
+            urls = data.get('urls', {})
+            link = urls[0]["url"]
+            if link is None:
+                print(f"Error: No url found for package '{package_name}'.")
+                return "No url"
             else:
-                print(f"Error: No releases found for package '{package_name}'.")
-                return None
+                return link 
+            # releases = data.get('releases', {})
+            # if releases:
+            #     # Sort versions using `packaging.version.parse` to handle pre-release versions
+            #     latest_version = sorted(releases.keys(), key=parse_version, reverse=True)[0]
+            #     package_url = releases[latest_version][0].get('url')
+            #     return package_url
+            # else:
+            #     print(f"Error: No releases found for package '{package_name}'.")
+            #     return "No file"
         else:
             print(f"Error: Failed to fetch data for '{package_name}', status code {response.status_code}.")
-            return response.status_code
+            return f"HTTP ERROR {response.status_code}"
+    except IndexError as e:
+        # it appears that everything the brings up this exception has no releases
+        print(f"Error: '{package_name}' appears to have no urls")
+        return "No url"
     except Exception as e:
         print(f"Error: An exception occurred while fetching data for '{package_name}': {e}")
         return None
@@ -94,20 +110,23 @@ def main():
         results = {}
 
 
-    # scan for viruses
+    # scan for package links
+    # this returns a "good enough" list, but errors have to be manually fixed
     try:
         for package in unique_packages:
             # only scan if it's not in the results or stdlib
-            if package not in results.keys() and package not in sys.stdlib_module_names:
-                print(f"Scanning {package}...")
-                # results[package] = scan(package)
-                results[package] = get_package_url(package)
-            elif package not in results.keys() and package in sys.stdlib_module_names:
-                print(f"Package {package} in stdlib")
+            if package in sys.stdlib_module_names:
+                if package not in results.keys():
+                    print(f"Package {package} in stdlib")
                 results[package] = "stdlib"
-            # elif package in results.keys():
-            #     # fix errors
-            #     results[package]
+            elif package not in results.keys():
+                print(f"Searching for {package}...")
+                results[package] = get_package_url(package)
+            # elif package in results.keys() and results[package] is None:
+            elif package in results.keys() and (results[package] is None or not results[package].startswith("https://")):
+                # print(f"Searching again for {package}...")
+                results[package] = get_package_url(package)
+                # print(f"{package}")
 
     except KeyboardInterrupt:
         # allow user to terminate whenever
