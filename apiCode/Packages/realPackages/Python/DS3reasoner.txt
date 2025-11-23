@@ -45,6 +45,7 @@ boto3_stubs
 botocore
 bs4
 bz2
+cprofile
 cassandra
 catboost
 cdktf
@@ -57,6 +58,7 @@ coinbase
 collections
 com
 compressed_rtf
+concurrent
 configparser
 constructs
 contextlib
@@ -252,6 +254,7 @@ plyer
 polars
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 pubsub
@@ -362,6 +365,7 @@ whois
 wsgiref
 xblock
 xgboost
+xml
 yaml
 ydata_profiling
 your_app

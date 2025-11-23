@@ -46,6 +46,7 @@ boto3_stubs
 botocore
 bs4
 but
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -56,6 +57,7 @@ codecs
 coinbase
 colcon_core
 collections
+concurrent
 configparser
 constructs
 contextlib
@@ -262,6 +264,7 @@ polars
 pprint
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 py2exe
@@ -371,6 +374,7 @@ workflow
 wsgiref
 xblock
 xblock_utils
+xml
 yaml
 ydata_profiling
 your_module

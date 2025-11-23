@@ -48,6 +48,7 @@ branca
 bs4
 builtins
 bz2
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -59,6 +60,7 @@ coinbase
 collections
 com
 compressed_rtf
+concurrent
 configparser
 constructs
 contextlib
@@ -308,6 +310,7 @@ plotly
 polars
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 py2exe
@@ -422,6 +425,7 @@ werkzeug
 whois
 wsgiref
 xblock
+xml
 y_py
 yaml
 ydata_profiling

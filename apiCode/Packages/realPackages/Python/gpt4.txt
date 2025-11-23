@@ -35,6 +35,7 @@ bookkeeper
 boto3
 botocore
 bs4
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -45,6 +46,7 @@ coinbase
 collections
 collider
 com
+concurrent
 constructs
 contextlib
 copy
@@ -341,6 +343,7 @@ whois
 workflow
 wsgiref
 xblock
+xml
 yaml
 ydata_profiling
 yoga

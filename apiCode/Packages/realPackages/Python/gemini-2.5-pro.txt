@@ -52,10 +52,12 @@ boto3
 boto3_stubs
 botocore
 bs4
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
 cffi
+cgi
 chemlib
 click
 clickhouse_connect
@@ -63,6 +65,7 @@ codecs
 coinbase
 colcon_core
 collections
+concurrent
 config
 constructs
 contextlib
@@ -282,6 +285,7 @@ prisma
 products
 prometheus_client
 providers
+pstats
 psutil
 psycopg2
 pubsub
@@ -399,6 +403,7 @@ workflow
 wsgiref
 xblock
 xblock_utils
+xml
 xmlrpc
 yaml
 ydata_profiling

@@ -41,6 +41,7 @@ black
 boto3
 botocore
 bs4
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -53,6 +54,7 @@ colcon_core
 colcon_metadata
 collections
 com
+concurrent
 configparser
 constructs
 contextlib
@@ -308,6 +310,7 @@ polars
 pprint
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 pyvim
@@ -427,6 +430,7 @@ werkzeug
 whois
 wsgiref
 xblock
+xml
 xmlrpc
 y_py
 yaml

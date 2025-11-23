@@ -38,6 +38,7 @@ boto3
 botocore
 brotli
 bs4
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -47,6 +48,7 @@ clickhouse_driver
 coinbase
 collections
 com
+concurrent
 constructs
 csv
 ctypes
@@ -182,6 +184,7 @@ plyer
 prettytable
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 pyamf

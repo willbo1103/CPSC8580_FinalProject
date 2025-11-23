@@ -43,6 +43,7 @@ botocore
 brotli
 bs4
 bz2
+cprofile
 cassandra
 cdktf
 cdktf_cdktf_provider_datadog
@@ -56,6 +57,7 @@ colcon_metadata
 collections
 com
 compressed_rtf
+concurrent
 configparser
 constructs
 contextlib
@@ -278,6 +280,7 @@ plyer
 polars
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 py
@@ -392,6 +395,7 @@ winshell
 wsgiref
 xblock
 xlrd
+xml
 yaml
 zipfile
 zope

@@ -47,6 +47,7 @@ brotli
 bs4
 builtins
 bz2
+cprofile
 cassandra
 catboost
 cdktf
@@ -58,6 +59,7 @@ coinbase
 collections
 com
 compressed_rtf
+concurrent
 configparser
 constructs
 contextlib
@@ -289,6 +291,7 @@ polars
 prisma
 prometheus_client
 prophet
+pstats
 psutil
 psycopg2
 pwd
@@ -412,6 +415,7 @@ workflow
 wsgiref
 xblock
 xgboost
+xml
 y_py
 yaml
 yfinance

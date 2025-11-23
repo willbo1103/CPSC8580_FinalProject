@@ -37,6 +37,7 @@ boto3
 boto3_type_annotations
 botocore
 bs4
+cprofile
 cbpro
 cdktf
 cdktf_cdktf_provider_datadog
@@ -50,6 +51,7 @@ colcon_metadata
 collections
 collider
 com
+concurrent
 configparser
 constructs
 contextlib
@@ -202,6 +204,7 @@ plotly
 polars
 prisma
 prometheus_client
+pstats
 psutil
 psycopg2
 pwd
@@ -300,6 +303,7 @@ workflow
 wsgiref
 xblock
 xgboost
+xml
 xmlrpc
 yaml
 your_app
