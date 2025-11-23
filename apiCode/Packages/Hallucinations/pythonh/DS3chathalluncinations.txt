@@ -18,7 +18,6 @@ mypy_boto3_marketplace_metering
 mypy_boto3_media_store_data
 mypy_boto3_serverlessapplicationrepository
 ocient
-osakit_wrapper
 prophecy
 pythoncom
 sqlqueryengine
