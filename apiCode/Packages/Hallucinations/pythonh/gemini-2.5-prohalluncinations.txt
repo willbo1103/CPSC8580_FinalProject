@@ -25,7 +25,6 @@ datadog_checks
 datadog_instrumentation
 devpi_common_utils
 django_objects_to_fixed_format
-encodings
 erl_tree
 function_to_test
 gflags
@@ -40,8 +39,6 @@ my_cdk_lambda_project
 my_lambda_stack
 my_notebook_to_import
 mypy_boto3_acmpca
-mypy_boto3_application_discovery
-mypy_boto3_cost_explorer
 mypy_boto3_lex_runtime_service
 mypy_boto3_marketplace_metering
 objc
