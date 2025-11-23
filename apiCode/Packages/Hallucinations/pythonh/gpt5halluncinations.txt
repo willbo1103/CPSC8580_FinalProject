@@ -12,7 +12,6 @@ discrecording
 discrecordingui
 extensionkit
 mynotebook
-osakit
 opengl
 aliyunsdkecs
 aliyunsdkvpc
@@ -32,7 +31,6 @@ mypy_boto3_application_discovery
 mypy_boto3_cloudwatch_logs
 mypy_boto3_cost_explorer
 mypy_boto3_database_migration_service
-mypy_boto3_marketplace_metering
 notifypy
 objc
 opentelemetry

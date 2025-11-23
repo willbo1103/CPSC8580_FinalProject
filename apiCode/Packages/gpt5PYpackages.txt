@@ -23,7 +23,6 @@ IPython
 Metal
 MyNotebook
 MySQLdb
-OSAKit
 OpenGL
 PIL
 PyPDF2
