@@ -38,7 +38,6 @@ openpyxl_template
 opentelemetry
 pagination_app
 phase_wrapper
-pstats
 rest_framework
 rust_lint
 scalable_web_app_stack
@@ -46,7 +45,6 @@ sqlqueryengine
 stardog
 tencentcloud
 type_annotations
-xml
 your_etl_module
 your_main_file
 yrs
