@@ -61,7 +61,6 @@ tablelogger
 tencentcloud
 wadl
 win32com
-xml
 yoga_data_layer
 your_middleware_file
 your_models
