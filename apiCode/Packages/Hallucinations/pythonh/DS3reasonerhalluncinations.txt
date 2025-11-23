@@ -1,8 +1,4 @@
 chat__poa
-cocoa
-coreaudiokit
-coremotion
-datadetection
 opengl
 portableserver
 pyobjctools
@@ -32,7 +28,6 @@ mypy_boto3_serverlessapplicationrepository
 mypy_boto3_ssoadmin
 mypy_boto3_wafregional
 notebook_data_lib
-objc
 ocient
 openpyxl_template
 opentelemetry

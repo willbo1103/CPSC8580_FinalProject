@@ -1,12 +1,9 @@
-cocoa
 coreaudiokit
-coremotion
 cosnaming
 discrecording
 discrecordingui
 extensionkit
 opengl
-pyobjctools
 safetykit
 scriptingbridge
 _math_lib
@@ -44,7 +41,6 @@ mypy_boto3_iot_events_data
 mypy_boto3_marketplace_metering
 mypy_boto3_media_store_data
 mypy_boto3_serverlessapplicationrepository
-objc
 ocient
 openjpeg
 opentelemetry
