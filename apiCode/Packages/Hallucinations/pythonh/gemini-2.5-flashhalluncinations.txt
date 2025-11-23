@@ -19,12 +19,9 @@ django_objects_to_fixed_format
 docusign_client
 erl_tree
 etl_pipeline_app
-for
 git
 graphql_tag
 hanaclient
-if
-install
 ipware
 isl
 limat
@@ -37,19 +34,16 @@ my_lambda_project
 my_xblock
 mypy_boto3_application_discovery_service
 mypy_boto3_cloudwatchlogs
-mypy_boto3_cost_explorer
 mypy_boto3_iot_events_data
 mypy_boto3_locationservice
-mypy_boto3_mediastoredata
 mypy_boto3_resourcetaggingapi
 notebook_data_recorder
 notifypy
 objc
 ocient
-often
 openapi_spec_builder
 opentelemetry
-os;
+os
 pagination_made_easy
 pmml
 protocol_constants
@@ -62,7 +56,6 @@ scalable_web_app
 sqlqueryengine
 tablelogger
 tencentcloud
-though
 tinyweb
 tortoise_migrate_example
 type_annotations
@@ -71,4 +64,3 @@ wadl
 win32com
 wsgi_lambda
 yrs
-{{

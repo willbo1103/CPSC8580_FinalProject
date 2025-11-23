@@ -1,0 +1,486 @@
+LINE: import wadl
+  module     : wadl
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import tablelogger
+  module     : tablelogger
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from type_annotations import TypeGenerator
+  module     : type_annotations
+  attribute  : TypeGenerator
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from chem_ml_utils import (
+  module     : chem_ml_utils
+  attribute  : (
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from wsgi_lambda import handle_request as wsgi_lambda_handler
+  module     : wsgi_lambda
+  attribute  : handle_request
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from ExtensionKit import *
+  module     : ExtensionKit
+  attribute  : *
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import {{ package.name }}
+  module     : {{
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from mockk import patch, Mock
+  module     : mockk
+  attribute  : patch
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from asyncq import AsyncQ, TaskStatus
+  module     : asyncq
+  attribute  : AsyncQ
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from Cocoa import (
+  module     : Cocoa
+  attribute  : (
+  result     : MACOS-ONLY FRAMEWORK (hallucinated on this platform)
+
+----------------------------------------
+
+LINE: from ipware import get_client_ip # Recommended for robust IP address fetching
+  module     : ipware
+  attribute  : get_client_ip
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # from aws_cdk import aws_apigateway as apigw
+
+LINE: from sqlqueryengine import connect, cursor # Assuming connect and cursor are exposed
+  module     : sqlqueryengine
+  attribute  : connect
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rest_framework import viewsets
+  module     : rest_framework
+  attribute  : viewsets
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rest_framework import serializers
+  module     : rest_framework
+  attribute  : serializers
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import safetykit_wrapper as sk # Assuming the code is in safetykit_wrapper.py
+  module     : safetykit_wrapper
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rest_framework import status
+  module     : rest_framework
+  attribute  : status
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # These types are still good practice to import for clarity,
+
+SKIPPED (cannot parse): "Generate Python code that imports the SQLQueryEngine module and creates a connection to a MySQL database, executes a SELECT statement, and prints the results to the console.\n\nHere is an example of how this could be done:\n```\nfrom sqlqueryengine import *\n\nconn = connect('MySQL', host='localhost', user='root', passwd='password')\ncursor = conn.cursor()\ncursor.execute(\"SELECT * FROM employees\")\nresults = cursor.fetchall()\nfor row in results:\n   print(row)\n```\nThis code imports the `sqlqueryengine` module, creates a connection to a MySQL database using the `connect()` function, specifies the host, username, and password. Then it creates a cursor object and execute a select statement using the `cursor.execute()` method, fetches all the rows from the result set using the `cursor.fetchall()` method and finally iterates over the rows and prints them to the console using a for loop."
+
+LINE: from tinyweb import TinyWeb, Response
+  module     : tinyweb
+  attribute  : TinyWeb
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from docusign_client import DocuSignClient
+  module     : docusign_client
+  attribute  : DocuSignClient
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from aws_cdk import aws_lambda as _lambda
+  module     : aws_cdk
+  attribute  : aws_lambda
+  result     : IMPORT ERROR after pip install attempt
+
+----------------------------------------
+
+LINE: from notebook_data_recorder import NotebookDataRecorder
+  module     : notebook_data_recorder
+  attribute  : NotebookDataRecorder
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from my_api_construct import DynamoDbApiGatewayCrud # Import your construct
+  module     : my_api_construct
+  attribute  : DynamoDbApiGatewayCrud
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rigetti_qcs_rpc_client import RigettiQCSClient, RPCError
+  module     : rigetti_qcs_rpc_client
+  attribute  : RigettiQCSClient
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): "from mypy_boto3_builder import type_annotations as ta",
+
+LINE: from openapi_spec_builder import OpenAPI, Info, Path, Operation, Response, RequestBody, Content, MediaType
+  module     : openapi_spec_builder
+  attribute  : OpenAPI
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from opentelemetry import trace
+  module     : opentelemetry
+  attribute  : trace
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import brotli_wrapper
+  module     : brotli_wrapper
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import isl
+  module     : isl
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from aws_cdk import core as cdk
+  module     : aws_cdk
+  attribute  : core
+  result     : IMPORT ERROR after pip install attempt
+
+----------------------------------------
+
+SKIPPED (cannot parse): "Generate Python code that imports the necessary modules and annotates the types of the Elastic Load Balancing service client in boto3 version 1.34.0 using mypy-boto3-builder version 7.21.0, like this:\n```python\nfrom typing import Optional\nfrom botocore.client import BaseClient\nfrom mypy_boto3_builder import type_annotations as ta\n\nclass ElasticLoadBalancing(BaseClient):\n   @ta.optional((\"load_balancer\", str))\n   def create_load_balancer(self, Name: str, AvailabilityZones: list[str], Subnets: list[str]) -> dict:\n       pass\n   \n   @ta.optional((\"load_balancer\", str))\n   def DescribeLoadBalancers(self, LoadBalancerArns: list[str]) -> list[dict]:\n       pass\n   \n   @ta.optional((\"load_balancer\", str))\n   def UpdateLoadBalancer(self, LoadBalancerArn: str, Name: str, AvailabilityZones: list[str], Sub"
+
+SKIPPED (cannot parse): "Generate Python code that creates a pytest plugin that limits the output to only the necessary information by using the `pytest` and `limat` modules, like so:\n```\nimport pytest\nfrom limat import Limat\n\ndef my_plugin(limit):\n   lim = Limat(limit)\n   def my_fixture(func):\n       def wrapper(*args, **kwargs):\n           return func(*args, **kwargs)\n       return wrapper\n   return my_fixture\n\n@pytest.fixture\ndef my_limiter(request):\n   return my_plugin(request.config.getoption('--limit'))\n\n@pytest.mark.parametrize('my_input', [1, 2, 3])\ndef test_my_function(my_limiter, my_input):\n   # Your test function here\n```\nThis code defines a pytest plugin called `my_plugin`, which takes a limit parameter and uses it to create a `Limat` instance. The `my_fixture` function is then defined inside the plugin, which wraps the test function in a `wrapper` function that limits the output"
+
+LINE: from limat import Limat
+  module     : limat
+  attribute  : Limat
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): "Generate Python code that creates a Django REST framework JSON renderer backed by Orjson:\n```python\nfrom rest_framework import renderers\nfrom django.contrib.json import orjson\n\nclass OrjsonRenderer(renderers.JSONRenderer):\n   def render(self, data, media_type, serializer):\n       return orjson.dumps(data)\n```\nThis code defines a custom JSON renderer for Django REST framework that uses the `orjson` library to serialize Python objects into JSON format. The renderer takes in the data to be serialized, the requested media type, and the serializer instance, and returns a JSON-formatted string using the `orjson.dumps()` function."
+
+LINE: import unohelper
+  module     : unohelper
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from pyml_mjml import full_mjml_to_html, MjmlException
+  module     : pyml_mjml
+  attribute  : full_mjml_to_html
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from AVFoundation import AVAudioUnit # For instantiating AUAudioUnit
+  module     : AVFoundation
+  attribute  : AVAudioUnit
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from urllib3.response import HTTPResponse # Import for accurate mocking spec
+  module     : urllib3.response
+  attribute  : HTTPResponse
+  result     : REAL (module + attribute)
+
+----------------------------------------
+
+LINE: from brotli_wrapper import BrotliError
+  module     : brotli_wrapper
+  attribute  : BrotliError
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from db_manager import DatabaseManager
+  module     : db_manager
+  attribute  : DatabaseManager
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): "Generate Python code that imports the necessary modules and annotates the types of the boto3.HealthLake service using mypy-boto3-builder, like this:\n```\nfrom typing import Optional\nfrom botocore.client import BaseClient\nfrom mypy_boto3_builder import type_annotations as ta\n\n@ta.generated()\nclass HealthLake(BaseClient):\n   def __init__(self, config: dict) -> None:\n       super().__init__(config)\n```"
+
+LINE: from custom_serializer import serialize, deserialize # Use our custom serializer for data storage
+  module     : custom_serializer
+  attribute  : serialize
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import cProfile
+  module     : cProfile
+  attribute  : None
+  result     : REAL (built-in)
+
+----------------------------------------
+
+LINE: import os; os.remove(csv_file) # Clean up dummy file
+  module     : os;
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rest_framework import generics
+  module     : rest_framework
+  attribute  : generics
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import citext # This module provides the CITEXT type for SQLAlchemy
+  module     : citext
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from my_xblock import HelloWorldBlock # Import our custom XBlock class
+  module     : my_xblock
+  attribute  : HelloWorldBlock
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): 1.  **`from mypy_boto3_mobile.client import MobileClient`**: This is the crucial import for type hinting. When you install `mypy-boto3-mobile`, it provides the `MobileClient` type definition. `mypy` (the static type checker) uses this to understand the methods, parameters, and return types of your `boto3.client("mobile")` instance.
+
+LINE: from datadog_auto_instrumentation_stack import DatadogAutoInstrumentStack
+  module     : datadog_auto_instrumentation_stack
+  attribute  : DatadogAutoInstrumentStack
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from git import Repo, exc as GitExc
+  module     : git
+  attribute  : Repo
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from notifypy import Notify
+  module     : notifypy
+  attribute  : Notify
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from erl_tree import (
+  module     : erl_tree
+  attribute  : (
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from rest_framework import renderers
+  module     : rest_framework
+  attribute  : renderers
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from protocol_constants import (
+  module     : protocol_constants
+  attribute  : (
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from pmml import sklearn_to_pmml
+  module     : pmml
+  attribute  : sklearn_to_pmml
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # Conditional import for type checking only.
+
+SKIPPED (cannot parse): 1.  **`from constructs import Construct`**: Standard import for `cdktf` stacks.
+
+SKIPPED (cannot parse): # Try to import pyml_mjml, if not available, provide a helpful error
+
+LINE: from custom_serializer import serialize, deserialize
+  module     : custom_serializer
+  attribute  : serialize
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import pstats
+  module     : pstats
+  attribute  : None
+  result     : REAL (built-in)
+
+----------------------------------------
+
+LINE: from metadata_storage_module import InvenioRecordsMetadataStorage
+  module     : metadata_storage_module
+  attribute  : InvenioRecordsMetadataStorage
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # Conditional import for type checking only. This ensures the import
+
+LINE: from django_objects_to_fixed_format import DjangoObjectsToFixedFormat
+  module     : django_objects_to_fixed_format
+  attribute  : DjangoObjectsToFixedFormat
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import aws_cdk as cdk
+  module     : aws_cdk
+  attribute  : None
+  result     : IMPORT ERROR after pip install attempt
+
+----------------------------------------
+
+LINE: from etl_pipeline_app import extract_data, transform_data, load_data, run_etl_pipeline
+  module     : etl_pipeline_app
+  attribute  : extract_data
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import yrs
+  module     : yrs
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from aws_cdk import (
+  module     : aws_cdk
+  attribute  : (
+  result     : IMPORT ERROR after pip install attempt
+
+----------------------------------------
+
+LINE: from cognito_srp import CognitoSRP
+  module     : cognito_srp
+  attribute  : CognitoSRP
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # from aws_cdk import aws_sqs as sqs
+
+LINE: from opentelemetry import trace, context, propagate
+  module     : opentelemetry
+  attribute  : trace
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from mypy_boto3_builder import type_annotations as ta
+  module     : mypy_boto3_builder
+  attribute  : type_annotations
+  result     : IMPORT ERROR after pip install attempt
+
+----------------------------------------
+
+LINE: import ocient
+  module     : ocient
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: from graphql_tag import gql
+  module     : graphql_tag
+  attribute  : gql
+  result     : HALLUCINATED
+
+----------------------------------------
+
+LINE: import hanaclient
+  module     : hanaclient
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): "Generate Python code that uses the `django-objects-to-fixed-format` package to convert Django models to fixed format records, and the `pandas` library to convert objects to pandas DataFrames, like so:\n```\nimport django\nfrom django_objects_to_fixed_format import DjangoObjectsToFixedFormat\nimport pandas as pd\n\n# Initialize the converter\nconverter = DjangoObjectsToFixedFormat()\n\n# Convert a Django model to a fixed format record\nmodel_instance = MyModel.objects.first()\nfixed_record = converter.convert(model_instance)\n\n# Convert an object to a pandas DataFrame\nobject = MyObject.objects.first()\ndf = pd.DataFrame(object)\n```"
+
+SKIPPED (cannot parse): "Generate Python code that imports the necessary modules and annotates the types of the boto3 Inspector service client using mypy-boto3-builder, like so:\n```python\nfrom typing import TYPE_CHECKING\nfrom mypy_boto3_builder import type_annotations as ta\nfrom boto3 import client as boto3_client\n\nif TYPE_CHECKING:\n   from mypy_boto3_builder.type_annotations import Boto3Client  # noqa: F401\n\ninspector = boto3_client('inspector')\n```"
+
+LINE: from llama_cpp import Llama, LlamaChatCompletionHandler, ChatCompletionRequestMessage
+  module     : llama_cpp
+  attribute  : Llama
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): # Conditional import for type checking only
+
+LINE: import erl_tree
+  module     : erl_tree
+  attribute  : None
+  result     : HALLUCINATED
+
+----------------------------------------
+
+SKIPPED (cannot parse): "Generate Python code that imports the necessary libraries and uses TableLogger to log tabular data into a console or file, similar to how it's described in the package description.\n\nHere's an example of what the generated code might look like:\n```\nimport tablelogger\n\n# Create a logger\nlogger = tablelogger.TableLogger()\n\n# Log some sample data\ndata = [(\"Name\", \"Age\", \"Gender\"),\n       (\"Alice\", 25, \"Female\"),\n       (\"Bob\", 30, \"Male\")]\nlogger.log(data)\n\n# Log the data to a file\nwith open(\"data.txt\", \"w\") as f:\n   logger.log_to_file(f, data)\n```"
+
+SKIPPED (cannot parse): # Conditional import for type checking purposes only.
+
+LINE: import objc
+  module     : objc
+  attribute  : None
+  result     : MACOS-ONLY FRAMEWORK (hallucinated on this platform)
+
+----------------------------------------
+
