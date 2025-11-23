@@ -23,7 +23,6 @@ mpl_toolkits
 my_lambda
 my_psycopg2_typing
 my_wsgi_app
-mypy_boto3_cloudwatchlogs
 mypy_boto3_cost_explorer
 mypy_boto3_elasticinference
 mypy_boto3_iot_events_data
@@ -46,7 +45,6 @@ sqlqueryengine
 stardog
 tablelogger
 tencentcloud
-though
 type_annotations
 wadl
 yrs

@@ -185,7 +185,6 @@ mypy_boto3_builder
 mypy_boto3_cloudformation
 mypy_boto3_cloudhsm
 mypy_boto3_cloudsearch
-mypy_boto3_cloudwatchlogs
 mypy_boto3_codecommit
 mypy_boto3_codestar
 mypy_boto3_codestar_notifications
@@ -360,7 +359,6 @@ tabulate
 tencentcloud
 teradatasql
 terminaltables
-though
 threading
 tiledb
 time
