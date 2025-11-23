@@ -11,7 +11,7 @@ import random
 random.seed()
 
 DIRECTORY = "./Python"
-URL_FILE = "local/urls.json" # stores results as json
+URL_FILE = "local/PYurls.json" # stores results as json
 
 def get_package_url(package_name : str):
     """
