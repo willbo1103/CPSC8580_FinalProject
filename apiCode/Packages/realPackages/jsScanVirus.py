@@ -1,8 +1,11 @@
 # get list of pypi packages (mostly working except those with multiple names)
 # run list of pypi packages through VirusTotal API
+# virustotal uses the sha256 or sha1 of the file uploaded as its identifier
 
 # before running run 'export VIRUSTOTAL_API_KEY=<My-API-Key>'
 # you will probably need to change the RESULTS_FILE location or do 'mkdir local'
+
+# IF YOU DO_PACKAGE_LOOKUP after DO_VIRUS_SCAN, IT MAY OVERWRITE SCAN RESULTS
 
 import os
 import sys
@@ -13,8 +16,8 @@ import time
 import vt # pip install vt-py
 from typing import Dict, Optional
 
-DO_PACKAGE_LOOKUP = True
-DO_VIRUS_SCAN = False
+DO_PACKAGE_LOOKUP = False
+DO_VIRUS_SCAN = True
 
 DIRECTORY = "./JS"
 RESULTS_FILE = "JSurls.json" # stores package urls and scan results as json
@@ -242,10 +245,13 @@ def main():
                     results[package] = get_package_url(package)
                     pass
                 # used for making manual corrections during development
-                elif package in results.keys() and results[package]["url"] == "HTTP ERROR 404":
-                    # print(f"Searching again for {package}...")
-                    # results[package] = get_package_url(package)
-                    pass
+                # elif package in results.keys() and results[package]["url"] != "HTTP ERROR 404":
+                #     print(f"Searching again for {package}...")
+                #     results[package] = get_package_url(package)
+                #     pass
+                if results[package]["error"] == "HTTP ERROR 404" and package.startswith("node:"):
+                    results[package]["error"] = "node.js"
+
 
         except KeyboardInterrupt:
             # allow user to terminate whenever
