@@ -2,21 +2,23 @@
 # run list of pypi packages through VirusTotal API
 
 # before running run 'export VIRUSTOTAL_API_KEY=<My-API-Key>'
-# you will probably need to change the RESULTS_FILE location
+# you will probably need to change the RESULTS_FILE location or do 'mkdir local'
 
 import os
 import sys
 import requests
 import json
+import hashlib
+import time
 import vt # pip install vt-py
 from typing import Dict, Optional
-# from packaging.version import parse as parse_version
 
-DO_PACKAGE_LOOKUP = True
-DO_VIRUS_SCAN = False
+DO_PACKAGE_LOOKUP = False
+DO_VIRUS_SCAN = True
 
 DIRECTORY = "./Python"
 RESULTS_FILE = "local/PYurls.json" # stores package urls and scan results as json
+DOWNLOAD_FOLDER = "local"
 
 # before running, do 'export VIRUSTOTAL_API_KEY=<My-API-Key>' in terminal
 if DO_VIRUS_SCAN:
@@ -24,8 +26,6 @@ if DO_VIRUS_SCAN:
     if apikey is None:
         print("Error: API key 'VIRUSTOTAL_API_KEY' does not exist")
         exit()
-    client = vt.Client(apikey)
-
 
 # find package download url and sha256 hash for it
 # look for source if it exists, and return top url if it doesn't
@@ -80,7 +80,7 @@ def get_package_url(package_name : str):
             #     return "No file"
         else:
             print(f"Error: Failed to fetch data for '{package_name}', status code {response.status_code}.")
-            retval["error"] = f"HTTP error {response.status_code}"
+            retval["error"] = f"HTTP ERROR {response.status_code}"
             return retval
     # except IndexError as e:
     #     # it appears that everything the brings up this exception has no releases
@@ -93,14 +93,120 @@ def get_package_url(package_name : str):
         return retval
 
 
+def download_file(download_url : str, sha256 : str, local_filepath : str):   
+    # download file and create sha256 hash
+    hasher = hashlib.sha256()
+    try:
+        with requests.get(download_url, stream=True) as r:
+            r.raise_for_status()
+
+            with open(local_filepath, 'wb') as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+                        hasher.update(chunk)
+        # check hash
+        if sha256 == hasher.hexdigest():
+            print("Done")
+        else:
+            print("Error: Hashes don't match")
+            raise ValueError("Hashes of files do not match")
+
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred during download: {e}")
+        if os.path.exists(local_filepath):
+            os.remove(local_filepath)
+        return None
+    except Exception as e:
+        print(f"An error occurred during download: {e}")
+        return None
+
+
+# downloads file from PyPI, then uploads to virustotal for scanning
+# returns dict with relevant virustotal scan results
+def vt_download_and_scan_file(download_url : str, sha256 : str):
+    # download_url = "https://files.pythonhosted.org/packages/87/45/89d90a0c6d5cb5cffb5d8591741f27a8ef406f631e41d1273121e54c64ff/chemlib-2.2.4.tar.gz"
+    filename = download_url.split('/').pop()
+    local_filepath = os.path.join(DOWNLOAD_FOLDER, filename)
+    hasher = hashlib.sha256()
+
+    # use file if it's on disk
+    if os.path.exists(local_filepath):
+        with open(local_filepath, 'rb') as f:
+            chunk = 0
+            while chunk != b'':
+                chunk = f.read(65536) 
+                hasher.update(chunk)
+    
+    # download if not on disk
+    if not os.path.exists(local_filepath) or sha256 != hasher.hexdigest():
+        print(f"Downloading {filename}... ", end="")
+        download_file(download_url, sha256, local_filepath)
+        
+    # unsure if this is needed
+    if os.path.getsize(local_filepath) >= 32*1024*1024: # 32 MB
+        os.remove(local_filepath)
+        return {"error": "FileTooBig"}
+
+    # upload to virustotal
+    print(f"Uploading file for analysis...")
+    try:
+        with vt.Client(apikey) as client: # type: ignore
+            with open(local_filepath, 'rb') as f:
+                analysis = client.scan_file(f, wait_for_completion=True)
+                
+            vtdict = analysis.to_dict()
+            vtdict = vtdict.get("attributes", {})
+            retval = {}
+            retval["size"] = os.path.getsize(local_filepath)
+            retval["name"] = filename
+            retval["error"] = vtdict.get("bundle_info", {}).get("error", None)
+            retval["last_analysis_stats"] = vtdict.get("stats", None)
+            # with open('local/vtanalysis.json', 'w') as f:
+            #     json.dump(analysis.to_dict(), f, indent=4)
+            if os.path.exists(local_filepath):
+                os.remove(local_filepath)
+            return retval
+
+    except vt.APIError as e:
+        # https://docs.virustotal.com/reference/errors
+        if os.path.exists(local_filepath):
+                os.remove(local_filepath)
+        return {"error": e.code}
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+    if os.path.exists(local_filepath):
+            os.remove(local_filepath)
+
+
 # scan file and return dict with fields
 # virus: True, False
-# response: api response
+# returns dict with relevant virustotal scan results
 def get_vt_report(hash : str):
-    file = client.get_object(f"/files/{hash}")
-    dict = file.to_dict()
-    del dict["vt_report"]["attributes"]["last_analysis_results"]
-    return dict
+    try:
+        with vt.Client(apikey) as client: # type: ignore
+            file = client.get_object(f"/files/{hash}")
+    except vt.APIError as e:
+        # https://docs.virustotal.com/reference/errors
+        raise e
+            
+    vtdict = file.to_dict()     
+    del vtdict["attributes"]["last_analysis_results"]
+    vtdict = vtdict["attributes"]
+
+    # with open("local/nbformat_vt.json", 'r') as f:
+    #     vtdict = json.load(f)
+    #     vtdict = vtdict["attributes"]
+    
+    retval = {}
+    retval["last_submission_date"] = vtdict.get("last_submission_date", None)
+    retval["last_modification_date"] = vtdict.get("last_modification_date", None)
+    retval["size"] = vtdict.get("size", None)
+    retval["name"] = vtdict.get("meaningful_name", None)
+    retval["error"] = vtdict.get("bundle_info", {}).get("error", None)
+    retval["total_votes"] = vtdict.get("total_votes")
+    retval["last_analysis_statsst"] = vtdict.get("last_analysis_stats")
+    return retval
 
 
 def main():
@@ -182,36 +288,53 @@ def main():
     else:
         print("Skipping package lookup")
 
+    # vt_download_and_scan_file("https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz", "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316")
 
     if not DO_VIRUS_SCAN: 
         print("Skipping Virus Scan")
-        client.close()
         exit()
     else:
         print("Doing Virus Scan")
+
+    # response = get_vt_report(results["nbformat"]["sha256"])
+    # with open("local/nbformat_vt.json", 'w') as f:
+    #     json.dump(response, f, indent=4)
+    # client.close()
+    # exit()
     
     # run scan for everything in results
     try:
         for key, entry in results.items():
             try:
-                if "vt_report" not in entry.keys():
+                lastscan = entry.get("virustotal", None)
+                if lastscan is None or lastscan.get("error", None) in ["NotFoundError", "QuotaExceededError"]:
                     if entry["sha256"] is not None:
                         # if link has a sha256, it was found
                         print(f"Getting file report for {key}")
-                        entry["vt_report"] = get_vt_report(entry["sha256"])
+                        entry["virustotal"] = get_vt_report(entry["sha256"])
                         results.update({key:entry})
+                        time.sleep(1)
                         pass
                     else:
                         # write nothing but note we scanned this item
-                        print(f"Skipping {key}")
-                        entry["vt_report"] = None
-                        results.update({key:entry})
+                        print(f"Skipping analyzing {key}")
+                        # entry["vt_report"] = None
+                        # results.update({key:entry})
                         pass
-                elif entry["vt_report"] is None:
-                    pass
                     
             except KeyboardInterrupt:
-                raise KeyboardInterrupt
+                raise
+            except vt.APIError as e:
+                time.sleep(1)
+                if e.code == "NotFoundError":
+                    entry["virustotal"] = vt_download_and_scan_file(entry["url"], entry["sha256"])
+                    results.update({key:entry})
+                    # stop process if get error in list
+                    if len(entry["virustotal"]) < 2 or entry["virustotal"].get("error", "") in ["FileTooBig"]:
+                    # if entry["virustotal"].get("error", "") in [None, "FileTooBig"]:
+                        raise
+                else:
+                    raise
             except Exception as e:
                 print(f"An Exception occured while scanning {key}: {e}")
     
@@ -242,7 +365,6 @@ def main():
     # response = requests.get(url, headers=headers)
     # print(response.text)
 
-    client.close()
     # print(models)
     # print(all_packages)
 
