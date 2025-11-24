@@ -181,7 +181,6 @@ def get_vt_report(hash : str):
     retval["size"] = vtdict.get("size", None)
     retval["name"] = vtdict.get("meaningful_name", None)
     retval["error"] = vtdict.get("bundle_info", {}).get("error", None)
-    retval["total_votes"] = vtdict.get("total_votes")
     retval["last_analysis_statsst"] = vtdict.get("last_analysis_stats")
     return retval
 
