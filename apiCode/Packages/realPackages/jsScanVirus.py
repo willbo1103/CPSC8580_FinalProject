@@ -1,9 +1,10 @@
-# get list of pypi packages (mostly working except those with multiple names)
-# run list of pypi packages through VirusTotal API
+# get list of npm packages
+# run list of npm packages through VirusTotal API
 # virustotal uses the sha256 or sha1 of the file uploaded as its identifier
 
 # before running run 'export VIRUSTOTAL_API_KEY=<My-API-Key>'
 # you will probably need to change the RESULTS_FILE location or do 'mkdir local'
+# you will probably need to run 'pip install vt-py' for virustotal
 
 # IF YOU DO_PACKAGE_LOOKUP after DO_VIRUS_SCAN, IT MAY OVERWRITE SCAN RESULTS
 
