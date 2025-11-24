@@ -22,7 +22,6 @@ mypy_boto3_iot_events_data
 ocient
 prophecy
 pydanny
-rest_framework
 rust_lint
 sqlqueryengine
 tablelogger
