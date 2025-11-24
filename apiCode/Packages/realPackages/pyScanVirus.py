@@ -17,7 +17,7 @@ DO_PACKAGE_LOOKUP = False
 DO_VIRUS_SCAN = True
 
 DIRECTORY = "./Python"
-RESULTS_FILE = "local/PYurls.json" # stores package urls and scan results as json
+RESULTS_FILE = "PYurls.json" # stores package urls and scan results as json
 DOWNLOAD_FOLDER = "local"
 
 # before running, do 'export VIRUSTOTAL_API_KEY=<My-API-Key>' in terminal
