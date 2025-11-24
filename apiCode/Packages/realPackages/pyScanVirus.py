@@ -330,9 +330,9 @@ def main():
                     entry["virustotal"] = vt_download_and_scan_file(entry["url"], entry["sha256"])
                     results.update({key:entry})
                     # stop process if get error in list
-                    if len(entry["virustotal"]) < 2 or entry["virustotal"].get("error", "") in ["FileTooBig"]:
+                    # if len(entry["virustotal"]) < 2 or entry["virustotal"].get("error", "") in ["FileTooBig"]:
                     # if entry["virustotal"].get("error", "") in [None, "FileTooBig"]:
-                        raise
+                        # raise
                 else:
                     raise
             except Exception as e:
