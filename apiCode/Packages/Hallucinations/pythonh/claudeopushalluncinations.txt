@@ -1,3 +1,4 @@
+avfoundation
 cosnaming
 dataservice__poa
 aliyunsdkecs
