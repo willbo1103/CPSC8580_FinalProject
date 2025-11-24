@@ -1,4 +1,3 @@
-osakit
 apispec_pydantic
 asgi
 asyncq
