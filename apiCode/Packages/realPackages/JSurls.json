@@ -1,0 +1,3626 @@
+{
+    "escodegen": {
+        "url": "https://registry.npmjs.org/escodegen/-/escodegen-2.1.0.tgz",
+        "sha1": "ba93bbb7a43986d29d6041f99f5262da773e2e17",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-bodyparser": {
+        "url": "https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-4.4.1.tgz",
+        "sha1": "a908d848e142cc57d9eece478e932bf00dce3029",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/preset-react": {
+        "url": "https://registry.npmjs.org/@babel/preset-react/-/preset-react-7.28.5.tgz",
+        "sha1": "6fcc0400fa79698433d653092c3919bb4b0878d9",
+        "error": null,
+        "virustotal": null
+    },
+    "@angular-devkit/core": {
+        "url": "https://registry.npmjs.org/@angular-devkit/core/-/core-21.0.0.tgz",
+        "sha1": "b41ffdb9209690bbefd3ed3510db4d9f483e9034",
+        "error": null,
+        "virustotal": null
+    },
+    "react-markdown": {
+        "url": "https://registry.npmjs.org/react-markdown/-/react-markdown-10.1.0.tgz",
+        "sha1": "e22bc20faddbc07605c15284255653c0f3bad5ca",
+        "error": null,
+        "virustotal": null
+    },
+    "web-utils": {
+        "url": "https://registry.npmjs.org/web-utils/-/web-utils-1.0.0.tgz",
+        "sha1": "7b71479da80ab7edc267235955f1ea830eaca4c1",
+        "error": null,
+        "virustotal": null
+    },
+    "dns": {
+        "url": "https://registry.npmjs.org/dns/-/dns-0.2.2.tgz",
+        "sha1": "a8477ca26b835842c3125204d8cbcdd6af98c9ec",
+        "error": null,
+        "virustotal": null
+    },
+    "express-validator": {
+        "url": "https://registry.npmjs.org/express-validator/-/express-validator-7.3.1.tgz",
+        "sha1": "7884e452b2318ae9faabc8b28fd41ffa21d00d28",
+        "error": null,
+        "virustotal": null
+    },
+    "@svgr/plugin-jsx": {
+        "url": "https://registry.npmjs.org/@svgr/plugin-jsx/-/plugin-jsx-8.1.0.tgz",
+        "sha1": "96969f04a24b58b174ee4cd974c60475acbd6928",
+        "error": null,
+        "virustotal": null
+    },
+    "zlib": {
+        "url": "https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz",
+        "sha1": "6e7c972fc371c645a6afb03ab14769def114fcc0",
+        "error": null,
+        "virustotal": null
+    },
+    "react-debouncer": {
+        "url": "https://registry.npmjs.org/react-debouncer/-/react-debouncer-0.5.0.tgz",
+        "sha1": "2289a74c7fc022b5f61309ed083c662257ba061b",
+        "error": null,
+        "virustotal": null
+    },
+    "kafkajs": {
+        "url": "https://registry.npmjs.org/kafkajs/-/kafkajs-2.2.4.tgz",
+        "sha1": "59e6e16459d87fdf8b64be73970ed5aa42370a5b",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-body": {
+        "url": "https://registry.npmjs.org/koa-body/-/koa-body-7.0.0.tgz",
+        "sha1": "258438d4b30292869ae2cae58c08a4b6971d3514",
+        "error": null,
+        "virustotal": null
+    },
+    "firebase": {
+        "url": "https://registry.npmjs.org/firebase/-/firebase-12.6.0.tgz",
+        "sha1": "a14cb4bc349246b12fb14f8daf093194177d063e",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-cognito-identity": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.936.0.tgz",
+        "sha1": "14d7b3b6fb34815501bbc7ac1f70694366446c72",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/util-format-url": {
+        "url": "https://registry.npmjs.org/@aws-sdk/util-format-url/-/util-format-url-3.936.0.tgz",
+        "sha1": "66070d028d2db66729face62d75468bea4c25eee",
+        "error": null,
+        "virustotal": null
+    },
+    "@graphql-tools/graphql-tag-pluck": {
+        "url": "https://registry.npmjs.org/@graphql-tools/graphql-tag-pluck/-/graphql-tag-pluck-8.3.25.tgz",
+        "sha1": "5735cf30f6673b520ab43779ce42ed621c1fc4de",
+        "error": null,
+        "virustotal": null
+    },
+    "postcss": {
+        "url": "https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz",
+        "sha1": "2825006615a619b4f62a9e7426cc120b349a8f3c",
+        "error": null,
+        "virustotal": null
+    },
+    "@testing-library/react": {
+        "url": "https://registry.npmjs.org/@testing-library/react/-/react-16.3.0.tgz",
+        "sha1": "3a85bb9bdebf180cd76dba16454e242564d598a6",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-static": {
+        "url": "https://registry.npmjs.org/koa-static/-/koa-static-5.0.0.tgz",
+        "sha1": "5e92fc96b537ad5219f425319c95b64772776943",
+        "error": null,
+        "virustotal": null
+    },
+    "serialize-javascript": {
+        "url": "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-7.0.0.tgz",
+        "sha1": "ba912a5a5e3b2031548d2b190191f2ac3472a8c4",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-trace-node": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-trace-node/-/sdk-trace-node-2.2.0.tgz",
+        "sha1": "a2666a087d96fc31888169ad5f4cc1448b35cd8c",
+        "error": null,
+        "virustotal": null
+    },
+    "global-modules": {
+        "url": "https://registry.npmjs.org/global-modules/-/global-modules-2.0.0.tgz",
+        "sha1": "997605ad2345f27f51539bea26574421215c7780",
+        "error": null,
+        "virustotal": null
+    },
+    "math": {
+        "url": "https://registry.npmjs.org/math/-/math-0.0.3.tgz",
+        "sha1": "85b020fd54ce10b26abeabfcd7e1f4bdbc46470f",
+        "error": null,
+        "virustotal": null
+    },
+    "json2csv": {
+        "url": "https://registry.npmjs.org/json2csv/-/json2csv-6.0.0-alpha.2.tgz",
+        "sha1": "ef859e8883a5db1077d784e302a79003c13c212f",
+        "error": null,
+        "virustotal": null
+    },
+    "@tensorflow/tfjs-node": {
+        "url": "https://registry.npmjs.org/@tensorflow/tfjs-node/-/tfjs-node-4.22.0.tgz",
+        "sha1": "9883605202424e993b6c7cc4dedfd9282634567c",
+        "error": null,
+        "virustotal": null
+    },
+    "koa": {
+        "url": "https://registry.npmjs.org/koa/-/koa-3.1.1.tgz",
+        "sha1": "5550bef74f690412b1f6f2a3cbed851b80ed9809",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/credential-providers": {
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-providers/-/credential-providers-3.936.0.tgz",
+        "sha1": "16b722fed5d6901e40385c61fd4003cb3f71f356",
+        "error": null,
+        "virustotal": null
+    },
+    "typescript-json-schema": {
+        "url": "https://registry.npmjs.org/typescript-json-schema/-/typescript-json-schema-0.66.0.tgz",
+        "sha1": "ca427112b395db41f36aa67d762cd1e92696df29",
+        "error": null,
+        "virustotal": null
+    },
+    "@jest/globals": {
+        "url": "https://registry.npmjs.org/@jest/globals/-/globals-30.2.0.tgz",
+        "sha1": "2f4b696d5862664b89c4ee2e49ae24d2bb7e0988",
+        "error": null,
+        "virustotal": null
+    },
+    "https": {
+        "url": "https://registry.npmjs.org/https/-/https-1.0.0.tgz",
+        "sha1": "3c37c7ae1a8eeb966904a2ad1e975a194b7ed3a4",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/protocol-http": {
+        "url": "https://registry.npmjs.org/@aws-sdk/protocol-http/-/protocol-http-3.374.0.tgz",
+        "sha1": "e35e76096b995bbed803897a9f4587d11ca34088",
+        "error": null,
+        "virustotal": null
+    },
+    "log": {
+        "url": "https://registry.npmjs.org/log/-/log-6.3.2.tgz",
+        "sha1": "8e37a672b06161acc994e2b679726c7f3c011016",
+        "error": null,
+        "virustotal": null
+    },
+    "crypto-js": {
+        "url": "https://registry.npmjs.org/crypto-js/-/crypto-js-4.2.0.tgz",
+        "sha1": "4d931639ecdfd12ff80e8186dba6af2c2e856631",
+        "error": null,
+        "virustotal": null
+    },
+    "querystring": {
+        "url": "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz",
+        "sha1": "40d77615bb09d16902a85c3e38aa8b5ed761c2dd",
+        "error": null,
+        "virustotal": null
+    },
+    "ref-struct-napi": {
+        "url": "https://registry.npmjs.org/ref-struct-napi/-/ref-struct-napi-1.1.1.tgz",
+        "sha1": "272a870a0ccb8244bd06ac851ffafbfc33dcd951",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/helper-annotate-as-pure": {
+        "url": "https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.27.3.tgz",
+        "sha1": "f31fd86b915fc4daf1f3ac6976c59be7084ed9c5",
+        "error": null,
+        "virustotal": null
+    },
+    "json-stringify-safe": {
+        "url": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
+        "sha1": "1296a2d58fd45f19a0f6ce01d65701e2c735b6eb",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/property-provider": {
+        "url": "https://registry.npmjs.org/@aws-sdk/property-provider/-/property-provider-3.374.0.tgz",
+        "sha1": "ba302bfd9cdd4751efdb50ef60e7ee3cbd09c62a",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/core": {
+        "url": "https://registry.npmjs.org/@babel/core/-/core-7.28.5.tgz",
+        "sha1": "4c81b35e51e1b734f510c99b07dfbc7bbbb48f7e",
+        "error": null,
+        "virustotal": null
+    },
+    "google-auth-library": {
+        "url": "https://registry.npmjs.org/google-auth-library/-/google-auth-library-10.5.0.tgz",
+        "sha1": "3f0ebd47173496b91d2868f572bb8a8180c4b561",
+        "error": null,
+        "virustotal": null
+    },
+    "imagemin": {
+        "url": "https://registry.npmjs.org/imagemin/-/imagemin-9.0.1.tgz",
+        "sha1": "637214985aeb365e8f80e57b15ddeaa91e78ef8b",
+        "error": null,
+        "virustotal": null
+    },
+    "react-native-svg": {
+        "url": "https://registry.npmjs.org/react-native-svg/-/react-native-svg-15.15.0.tgz",
+        "sha1": "98538da3ca7f99a86b4b9a6336494dbdf803ab32",
+        "error": null,
+        "virustotal": null
+    },
+    "secp256k1": {
+        "url": "https://registry.npmjs.org/secp256k1/-/secp256k1-5.0.1.tgz",
+        "sha1": "dc2c86187d48ff2da756f0f7e96417ee03c414b1",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-voronoi": {
+        "url": "https://registry.npmjs.org/d3-voronoi/-/d3-voronoi-1.1.4.tgz",
+        "sha1": "dd3c78d7653d2bb359284ae478645d95944c8297",
+        "error": null,
+        "virustotal": null
+    },
+    "mod": {
+        "url": "https://registry.npmjs.org/mod/-/mod-0.0.0.tgz",
+        "sha1": "887bf96fbf49f62bffce77dec37660b43ab8310e",
+        "error": null,
+        "virustotal": null
+    },
+    "ast-utils": {
+        "url": "https://registry.npmjs.org/ast-utils/-/ast-utils-1.0.0.tgz",
+        "sha1": "42517e2d0f6f354595b061ba80d5e467500eec13",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/credential-provider-env": {
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-env/-/credential-provider-env-3.936.0.tgz",
+        "sha1": "3574fa6de7110a94342f55e78748e25c82a294c8",
+        "error": null,
+        "virustotal": null
+    },
+    "@svgr/rollup": {
+        "url": "https://registry.npmjs.org/@svgr/rollup/-/rollup-8.1.0.tgz",
+        "sha1": "2c8e09655336cda4b7843799a5d2a5860300b030",
+        "error": null,
+        "virustotal": null
+    },
+    "dgram": {
+        "url": "https://registry.npmjs.org/dgram/-/dgram-1.0.1.tgz",
+        "sha1": "37f3b200f8033a5ff759303089c81ce361b651c3",
+        "error": null,
+        "virustotal": null
+    },
+    "nanospinner": {
+        "url": "https://registry.npmjs.org/nanospinner/-/nanospinner-1.2.2.tgz",
+        "sha1": "5a38f4410b5bf7a41585964bee74d32eab3e040b",
+        "error": null,
+        "virustotal": null
+    },
+    "estree-walker": {
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz",
+        "sha1": "67c3e549ec402a487b4fc193d1953a524752340d",
+        "error": null,
+        "virustotal": null
+    },
+    "logger": {
+        "url": "https://registry.npmjs.org/logger/-/logger-0.0.1.tgz",
+        "sha1": "cb08171f8a6f6f674b8499dadf50bed4befb72c4",
+        "error": null,
+        "virustotal": null
+    },
+    "dep2": {
+        "url": "https://registry.npmjs.org/dep2/-/dep2-2.0.0.tgz",
+        "sha1": "ce394ba6e48ece26218161e7154cc2fdbe80f2ae",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-util-normalize-identifier": {
+        "url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz",
+        "sha1": "c30d77b2e832acf6526f8bf1aa47bc9c9438c16d",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/node-http-handler": {
+        "url": "https://registry.npmjs.org/@aws-sdk/node-http-handler/-/node-http-handler-3.374.0.tgz",
+        "sha1": "8cd58b4d9814713e26034c12eabc119c113a5bc4",
+        "error": null,
+        "virustotal": null
+    },
+    "jsesc": {
+        "url": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz",
+        "sha1": "74d335a234f67ed19907fdadfac7ccf9d409825d",
+        "error": null,
+        "virustotal": null
+    },
+    "@nx/devkit": {
+        "url": "https://registry.npmjs.org/@nx/devkit/-/devkit-22.1.1.tgz",
+        "sha1": "ff3e08e81ea366e23a4ea496a7ac7f80371b47bc",
+        "error": null,
+        "virustotal": null
+    },
+    "yaml": {
+        "url": "https://registry.npmjs.org/yaml/-/yaml-2.8.1.tgz",
+        "sha1": "1870aa02b631f7e8328b93f8bc574fac5d6c4d79",
+        "error": null,
+        "virustotal": null
+    },
+    "@material-ui/core": {
+        "url": "https://registry.npmjs.org/@material-ui/core/-/core-4.12.4.tgz",
+        "sha1": "4ac17488e8fcaf55eb6a7f5efb2a131e10138a73",
+        "error": null,
+        "virustotal": null
+    },
+    "ast-types": {
+        "url": "https://registry.npmjs.org/ast-types/-/ast-types-0.14.2.tgz",
+        "sha1": "600b882df8583e3cd4f2df5fa20fa83759d4bdfd",
+        "error": null,
+        "virustotal": null
+    },
+    "node:os": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "@rollup/plugin-terser": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-terser/-/plugin-terser-0.4.4.tgz",
+        "sha1": "15dffdb3f73f121aa4fbb37e7ca6be9aeea91962",
+        "error": null,
+        "virustotal": null
+    },
+    "process": {
+        "url": "https://registry.npmjs.org/process/-/process-0.11.10.tgz",
+        "sha1": "7332300e840161bda3e69a1d1d91a7d4bc16f182",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-util-character": {
+        "url": "https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz",
+        "sha1": "2f987831a40d4c510ac261e89852c4e9703ccda6",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/hash-node": {
+        "url": "https://registry.npmjs.org/@aws-sdk/hash-node/-/hash-node-3.374.0.tgz",
+        "sha1": "fad2ddb51ae7091b91ed1308836fe3385d128f9e",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/tracing": {
+        "url": "https://registry.npmjs.org/@opentelemetry/tracing/-/tracing-0.24.0.tgz",
+        "sha1": "63077fe77b2f450442cb36710ea355db76f60faa",
+        "error": null,
+        "virustotal": null
+    },
+    "acorn-typescript": {
+        "url": "https://registry.npmjs.org/acorn-typescript/-/acorn-typescript-1.4.13.tgz",
+        "sha1": "5f851c8bdda0aa716ffdd5f6ac084df8acc6f5ea",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/plugin-transform-modules-umd": {
+        "url": "https://registry.npmjs.org/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.27.1.tgz",
+        "sha1": "63f2cf4f6dc15debc12f694e44714863d34cd334",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-lib-coverage": {
+        "url": "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.2.tgz",
+        "sha1": "2d166c4b0644d43a39f04bf6c2edd1e585f31756",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-extension-gfm": {
+        "url": "https://registry.npmjs.org/micromark-extension-gfm/-/micromark-extension-gfm-3.0.0.tgz",
+        "sha1": "3e13376ab95dd7a5cfd0e29560dfe999657b3c5b",
+        "error": null,
+        "virustotal": null
+    },
+    "acorn-walk": {
+        "url": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz",
+        "sha1": "794dd169c3977edf4ba4ea47583587c5866236b7",
+        "error": null,
+        "virustotal": null
+    },
+    "remark-parse": {
+        "url": "https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz",
+        "sha1": "aa60743fcb37ebf6b069204eb4da304e40db45a1",
+        "error": null,
+        "virustotal": null
+    },
+    "cssnano": {
+        "url": "https://registry.npmjs.org/cssnano/-/cssnano-7.1.2.tgz",
+        "sha1": "a8a533a8f509d74b2d22e73d80ec1294f65fdc70",
+        "error": null,
+        "virustotal": null
+    },
+    "npm-registry-fetch": {
+        "url": "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-19.1.1.tgz",
+        "sha1": "51e96d21f409a9bc4f96af218a8603e884459024",
+        "error": null,
+        "virustotal": null
+    },
+    "ora": {
+        "url": "https://registry.npmjs.org/ora/-/ora-9.0.0.tgz",
+        "sha1": "945236f5ce78a024cf4c25df6c46ecd09ab6e685",
+        "error": null,
+        "virustotal": null
+    },
+    "ws": {
+        "url": "https://registry.npmjs.org/ws/-/ws-8.18.3.tgz",
+        "sha1": "b56b88abffde62791c639170400c93dcb0c95472",
+        "error": null,
+        "virustotal": null
+    },
+    "ffi-napi": {
+        "url": "https://registry.npmjs.org/ffi-napi/-/ffi-napi-4.0.3.tgz",
+        "sha1": "27a8d42a8ea938457154895c59761fbf1a10f441",
+        "error": null,
+        "virustotal": null
+    },
+    "stream-json": {
+        "url": "https://registry.npmjs.org/stream-json/-/stream-json-1.9.1.tgz",
+        "sha1": "e3fec03e984a503718946c170db7d74556c2a187",
+        "error": null,
+        "virustotal": null
+    },
+    "net": {
+        "url": "https://registry.npmjs.org/net/-/net-1.0.2.tgz",
+        "sha1": "d1757ec9a7fb2371d83cf4755ce3e27e10829388",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash-es": {
+        "url": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz",
+        "sha1": "43e626c46e6591b7750beb2b50117390c609e3ee",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-tools": {
+        "url": "https://registry.npmjs.org/graphql-tools/-/graphql-tools-9.0.24.tgz",
+        "sha1": "0bb3bb7d2794836689d2f333d3fbb35ed987d731",
+        "error": null,
+        "virustotal": null
+    },
+    "dep1": {
+        "url": "https://registry.npmjs.org/dep1/-/dep1-1.0.0.tgz",
+        "sha1": "af76a3bcb78c6c79e83c3d24b2ce257d97f24ab3",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/propagator-b3": {
+        "url": "https://registry.npmjs.org/@opentelemetry/propagator-b3/-/propagator-b3-2.2.0.tgz",
+        "sha1": "fc1067b5fa618d06b6104d4c5b2a3c8ff7f09d55",
+        "error": null,
+        "virustotal": null
+    },
+    "react-native-get-random-values": {
+        "url": "https://registry.npmjs.org/react-native-get-random-values/-/react-native-get-random-values-2.0.0.tgz",
+        "sha1": "21b6e40601d297a342378792a8cb9c8f853bff66",
+        "error": null,
+        "virustotal": null
+    },
+    "mongoose": {
+        "url": "https://registry.npmjs.org/mongoose/-/mongoose-9.0.0.tgz",
+        "sha1": "193bcf978a13852f708d6a29fe9764c1d37ba1b4",
+        "error": null,
+        "virustotal": null
+    },
+    "v8": {
+        "url": "https://registry.npmjs.org/v8/-/v8-0.1.0.tgz",
+        "sha1": "86b9007e730da75186ad9a0ad1e38dd3af36c2bd",
+        "error": null,
+        "virustotal": null
+    },
+    "mailparser": {
+        "url": "https://registry.npmjs.org/mailparser/-/mailparser-3.9.0.tgz",
+        "sha1": "3b71732a26aa7c3390cd39540713eed7daf0aa2c",
+        "error": null,
+        "virustotal": null
+    },
+    "@react-native-async-storage/async-storage": {
+        "url": "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-2.2.0.tgz",
+        "sha1": "a3aa565253e46286655560172f4e366e8969f5ad",
+        "error": null,
+        "virustotal": null
+    },
+    "brotli": {
+        "url": "https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz",
+        "sha1": "7365d8cc00f12cf765d2b2c898716bcf4b604d48",
+        "error": null,
+        "virustotal": null
+    },
+    "hammerjs": {
+        "url": "https://registry.npmjs.org/hammerjs/-/hammerjs-2.0.8.tgz",
+        "sha1": "04ef77862cff2bb79d30f7692095930222bf60f1",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/fetch-http-handler": {
+        "url": "https://registry.npmjs.org/@aws-sdk/fetch-http-handler/-/fetch-http-handler-3.374.0.tgz",
+        "sha1": "7bcca9f969b3db99af07a420408fd2dd0d2c2d40",
+        "error": null,
+        "virustotal": null
+    },
+    "json-logger": {
+        "url": "https://registry.npmjs.org/json-logger/-/json-logger-1.0.1.tgz",
+        "sha1": "147291bfb7b48e2b950bf390054bb72d76d815c1",
+        "error": null,
+        "virustotal": null
+    },
+    "magic-string": {
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",
+        "sha1": "56763ec09a0fa8091df27879fd94d19078c00d91",
+        "error": null,
+        "virustotal": null
+    },
+    "dep": {
+        "url": "https://registry.npmjs.org/dep/-/dep-0.18.3.tgz",
+        "sha1": "74f0d93054fa654d2defc661aa53fadc59228e04",
+        "error": null,
+        "virustotal": null
+    },
+    "scenegraph": {
+        "url": "https://registry.npmjs.org/scenegraph/-/scenegraph-0.1.0.tgz",
+        "sha1": "c8ce5961e1d7c760368520f4ac34038d67fe2b94",
+        "error": null,
+        "virustotal": null
+    },
+    "xmlbuilder2": {
+        "url": "https://registry.npmjs.org/xmlbuilder2/-/xmlbuilder2-4.0.0.tgz",
+        "sha1": "97d79ffb97254205ba15e8b0ec76ff6d9e3e8ee8",
+        "error": null,
+        "virustotal": null
+    },
+    "@graphql-tools/schema": {
+        "url": "https://registry.npmjs.org/@graphql-tools/schema/-/schema-10.0.29.tgz",
+        "sha1": "cbb0d0cdeb2c55559ace51e2ffadee39990d01c0",
+        "error": null,
+        "virustotal": null
+    },
+    "beep": {
+        "url": "https://registry.npmjs.org/beep/-/beep-0.0.0.tgz",
+        "sha1": "392100037cbb617e7efdd4ce0cefc4cf1265065b",
+        "error": null,
+        "virustotal": null
+    },
+    "apollo3-cache-persist": {
+        "url": "https://registry.npmjs.org/apollo3-cache-persist/-/apollo3-cache-persist-0.15.0.tgz",
+        "sha1": "aee23062bc811f3bc15369b850002f54195a6572",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/parser": {
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.28.5.tgz",
+        "sha1": "0b0225ee90362f030efd644e8034c99468893b08",
+        "error": null,
+        "virustotal": null
+    },
+    "piexifjs": {
+        "url": "https://registry.npmjs.org/piexifjs/-/piexifjs-1.0.6.tgz",
+        "sha1": "883811d73f447218d0d06e9ed7866d04533e59e0",
+        "error": null,
+        "virustotal": null
+    },
+    "ol": {
+        "url": "https://registry.npmjs.org/ol/-/ol-10.7.0.tgz",
+        "sha1": "6a072a602cab3a5d9b35356de8b837221d78379b",
+        "error": null,
+        "virustotal": null
+    },
+    "knex": {
+        "url": "https://registry.npmjs.org/knex/-/knex-3.1.0.tgz",
+        "sha1": "b6ddd5b5ad26a6315234a5b09ec38dc4a370bd8c",
+        "error": null,
+        "virustotal": null
+    },
+    "prismjs": {
+        "url": "https://registry.npmjs.org/prismjs/-/prismjs-1.30.0.tgz",
+        "sha1": "d9709969d9d4e16403f6f348c63553b19f0975a9",
+        "error": null,
+        "virustotal": null
+    },
+    "@koa/router": {
+        "url": "https://registry.npmjs.org/@koa/router/-/router-14.0.0.tgz",
+        "sha1": "c0b8f130d8134674607e22ed856a2772949243cf",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-reports": {
+        "url": "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.2.0.tgz",
+        "sha1": "cb4535162b5784aa623cee21a7252cf2c807ac93",
+        "error": null,
+        "virustotal": null
+    },
+    "@dnd-kit/utilities": {
+        "url": "https://registry.npmjs.org/@dnd-kit/utilities/-/utilities-3.2.2.tgz",
+        "sha1": "5a32b6af356dc5f74d61b37d6f7129a4040ced7b",
+        "error": null,
+        "virustotal": null
+    },
+    "csv-stringify": {
+        "url": "https://registry.npmjs.org/csv-stringify/-/csv-stringify-6.6.0.tgz",
+        "sha1": "d384859cfb71d0a4a73c5bcc36a4daf5440cb033",
+        "error": null,
+        "virustotal": null
+    },
+    "rehype-parse": {
+        "url": "https://registry.npmjs.org/rehype-parse/-/rehype-parse-9.0.1.tgz",
+        "sha1": "9993bda129acc64c417a9d3654a7be38b2a94c20",
+        "error": null,
+        "virustotal": null
+    },
+    "typescript-parser": {
+        "url": "https://registry.npmjs.org/typescript-parser/-/typescript-parser-2.6.1.tgz",
+        "sha1": "b5f86e3f9d35ad46a346a32068cab61bbd96f803",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/lib-dynamodb": {
+        "url": "https://registry.npmjs.org/@aws-sdk/lib-dynamodb/-/lib-dynamodb-3.936.0.tgz",
+        "sha1": "09f51a40a5272d391464685514f8cfe7f1d78ffc",
+        "error": null,
+        "virustotal": null
+    },
+    "myModule": {
+        "url": "https://registry.npmjs.org/myModule/-/myModule-0.1.4.tgz",
+        "sha1": "0fb127c754f1fdd91d6b408c0b84737176a66db9",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-ws": {
+        "url": "https://registry.npmjs.org/graphql-ws/-/graphql-ws-6.0.6.tgz",
+        "sha1": "e9c9ff85f4ddb5bbe6faa2721c0d27e6c11746d2",
+        "error": null,
+        "virustotal": null
+    },
+    "pacote": {
+        "url": "https://registry.npmjs.org/pacote/-/pacote-21.0.4.tgz",
+        "sha1": "59cd2a2b5a4c8c1b625f33991a96b136d1c05d95",
+        "error": null,
+        "virustotal": null
+    },
+    "fast-glob": {
+        "url": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz",
+        "sha1": "d06d585ce8dba90a16b0505c543c3ccfb3aeb818",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-otlp-http": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-otlp-http/-/exporter-otlp-http-0.26.0.tgz",
+        "sha1": "fbc71b0aee29d83e523d5899ff4a887f294dd1f5",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-terser": {
+        "url": "https://registry.npmjs.org/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz",
+        "sha1": "e8fbba4869981b2dc35ae7e8a502d5c6c04d324d",
+        "error": null,
+        "virustotal": null
+    },
+    "react-hooks-library": {
+        "url": "https://registry.npmjs.org/react-hooks-library/-/react-hooks-library-0.0.37.tgz",
+        "sha1": "d8e3532fea95e3c776dfce77e46193ca1396d500",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-factory-title": {
+        "url": "https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz",
+        "sha1": "237e4aa5d58a95863f01032d9ee9b090f1de6e94",
+        "error": null,
+        "virustotal": null
+    },
+    "html-minifier-terser": {
+        "url": "https://registry.npmjs.org/html-minifier-terser/-/html-minifier-terser-7.2.0.tgz",
+        "sha1": "18752e23a2f0ed4b0f550f217bb41693e975b942",
+        "error": null,
+        "virustotal": null
+    },
+    "bindings": {
+        "url": "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz",
+        "sha1": "10353c9e945334bc0511a6d90b38fbc7c9c504df",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-commonjs": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-29.0.0.tgz",
+        "sha1": "42a6cc0eeb8ae7aabfc6f9bdc28fe22d65abd15a",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-dts": {
+        "url": "https://registry.npmjs.org/rollup-plugin-dts/-/rollup-plugin-dts-6.2.3.tgz",
+        "sha1": "9dcfb18675d1d1242bfccef5cf27b5380fa09652",
+        "error": null,
+        "virustotal": null
+    },
+    "minimatch": {
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-10.1.1.tgz",
+        "sha1": "e6e61b9b0c1dcab116b5a7d1458e8b6ae9e73a55",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-node": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-node/-/sdk-node-0.208.0.tgz",
+        "sha1": "213153f7a37c32df5088965e1ba25522ee2bbc76",
+        "error": null,
+        "virustotal": null
+    },
+    "toml": {
+        "url": "https://registry.npmjs.org/toml/-/toml-3.0.0.tgz",
+        "sha1": "342160f1af1904ec9d204d03a5d61222d762c5ee",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/runtime-corejs3": {
+        "url": "https://registry.npmjs.org/@babel/runtime-corejs3/-/runtime-corejs3-7.28.4.tgz",
+        "sha1": "c25be39c7997ce2f130d70b9baecb8ed94df93fa",
+        "error": null,
+        "virustotal": null
+    },
+    "@octokit/core": {
+        "url": "https://registry.npmjs.org/@octokit/core/-/core-7.0.6.tgz",
+        "sha1": "0d58704391c6b681dec1117240ea4d2a98ac3916",
+        "error": null,
+        "virustotal": null
+    },
+    "mysql": {
+        "url": "https://registry.npmjs.org/mysql/-/mysql-2.18.1.tgz",
+        "sha1": "2254143855c5a8c73825e4522baf2ea021766717",
+        "error": null,
+        "virustotal": null
+    },
+    "node:child_process": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "taffydb": {
+        "url": "https://registry.npmjs.org/taffydb/-/taffydb-2.7.3.tgz",
+        "sha1": "2ad37169629498fca5bc84243096d3cde0ec3a34",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-views": {
+        "url": "https://registry.npmjs.org/koa-views/-/koa-views-8.1.0.tgz",
+        "sha1": "d06d88140863b0fc35094b81d89558bb0077ce47",
+        "error": null,
+        "virustotal": null
+    },
+    "http-proxy": {
+        "url": "https://registry.npmjs.org/http-proxy/-/http-proxy-1.18.1.tgz",
+        "sha1": "401541f0534884bbf95260334e72f88ee3976549",
+        "error": null,
+        "virustotal": null
+    },
+    "my-api-client": {
+        "url": "https://registry.npmjs.org/my-api-client/-/my-api-client-1.0.0.tgz",
+        "sha1": "b6bc3129da89f31963baaeb0fb4a4a329aae1a33",
+        "error": null,
+        "virustotal": null
+    },
+    "terser-webpack-plugin": {
+        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.14.tgz",
+        "sha1": "9031d48e57ab27567f02ace85c7d690db66c3e06",
+        "error": null,
+        "virustotal": null
+    },
+    "swagger-jsdoc": {
+        "url": "https://registry.npmjs.org/swagger-jsdoc/-/swagger-jsdoc-6.2.8.tgz",
+        "sha1": "6d33d9fb07ff4a7c1564379c52c08989ec7d0256",
+        "error": null,
+        "virustotal": null
+    },
+    "terser": {
+        "url": "https://registry.npmjs.org/terser/-/terser-5.44.1.tgz",
+        "sha1": "e391e92175c299b8c284ad6ded609e37303b0a9c",
+        "error": null,
+        "virustotal": null
+    },
+    "@microsoft/tsdoc": {
+        "url": "https://registry.npmjs.org/@microsoft/tsdoc/-/tsdoc-0.16.0.tgz",
+        "sha1": "2249090633e04063176863a050c8f0808d2b6d2b",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/otlp-transformer": {
+        "url": "https://registry.npmjs.org/@opentelemetry/otlp-transformer/-/otlp-transformer-0.208.0.tgz",
+        "sha1": "c59f48a569d17766d91c61807db7b04e4be490ac",
+        "error": null,
+        "virustotal": null
+    },
+    "@vitejs/plugin-react": {
+        "url": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.1.1.tgz",
+        "sha1": "fa1957e053fe90d7cc2deea5593ae382a9761595",
+        "error": null,
+        "virustotal": null
+    },
+    "acorn": {
+        "url": "https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz",
+        "sha1": "a360898bc415edaac46c8241f6383975b930b816",
+        "error": null,
+        "virustotal": null
+    },
+    "superagent": {
+        "url": "https://registry.npmjs.org/superagent/-/superagent-10.2.3.tgz",
+        "sha1": "d1e4986f2caac423c37e38077f9073ccfe73a59b",
+        "error": null,
+        "virustotal": null
+    },
+    "core-utils": {
+        "url": "https://registry.npmjs.org/core-utils/-/core-utils-0.0.4.tgz",
+        "sha1": "02382478eb706874fbba9ee271098e20ed3c1177",
+        "error": null,
+        "virustotal": null
+    },
+    "@typescript-eslint/parser": {
+        "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.48.0.tgz",
+        "sha1": "fc39ea9b1c8b2414c1f4b625277629e12a940e6b",
+        "error": null,
+        "virustotal": null
+    },
+    "aws-sdk": {
+        "url": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1692.0.tgz",
+        "sha1": "9dac5f7bfcc5ab45825cc8591b12753aa7d2902c",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/pluginutils": {
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.3.0.tgz",
+        "sha1": "57ba1b0cbda8e7a3c597a4853c807b156e21a7b4",
+        "error": null,
+        "virustotal": null
+    },
+    "bar": {
+        "url": "https://registry.npmjs.org/bar/-/bar-0.1.2.tgz",
+        "sha1": "ec36d80c5fea1111fe1e32c9db38a61053225155",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul": {
+        "url": "https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz",
+        "sha1": "65c7d73d4c4da84d4f3ac310b918fb0b8033733b",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-delaunay": {
+        "url": "https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz",
+        "sha1": "98169038733a0a5babbeda55054f795bb9e4a58b",
+        "error": null,
+        "virustotal": null
+    },
+    "xhr2": {
+        "url": "https://registry.npmjs.org/xhr2/-/xhr2-0.2.1.tgz",
+        "sha1": "4e73adc4f9cfec9cbd2157f73efdce3a5f108a93",
+        "error": null,
+        "virustotal": null
+    },
+    "apollo-boost": {
+        "url": "https://registry.npmjs.org/apollo-boost/-/apollo-boost-0.4.9.tgz",
+        "sha1": "ab3ba539c2ca944e6fd156583a1b1954b17a6791",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/resources": {
+        "url": "https://registry.npmjs.org/@opentelemetry/resources/-/resources-2.2.0.tgz",
+        "sha1": "b90a950ad98551295b76ea8a0e7efe45a179badf",
+        "error": null,
+        "virustotal": null
+    },
+    "dependency": {
+        "url": "https://registry.npmjs.org/dependency/-/dependency-0.0.1.tgz",
+        "sha1": "9ee1f5baaae9a9045bf3b22e25281505875f371a",
+        "error": null,
+        "virustotal": null
+    },
+    "react-native-url-polyfill": {
+        "url": "https://registry.npmjs.org/react-native-url-polyfill/-/react-native-url-polyfill-3.0.0.tgz",
+        "sha1": "16b809c35d45f7d4cf968967bc35ab73b7542826",
+        "error": null,
+        "virustotal": null
+    },
+    "imagemin-jpegtran": {
+        "url": "https://registry.npmjs.org/imagemin-jpegtran/-/imagemin-jpegtran-8.0.0.tgz",
+        "sha1": "16462e11d5ff3b5839d34b982ec9e42975e09d27",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/instrumentation-express": {
+        "url": "https://registry.npmjs.org/@opentelemetry/instrumentation-express/-/instrumentation-express-0.57.0.tgz",
+        "sha1": "7a2a7e90a84ad6c109f42c15acabdc7f6646a412",
+        "error": null,
+        "virustotal": null
+    },
+    "esprima": {
+        "url": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz",
+        "sha1": "13b04cdb3e6c5d19df91ab6987a8695619b0aa71",
+        "error": null,
+        "virustotal": null
+    },
+    "assert": {
+        "url": "https://registry.npmjs.org/assert/-/assert-2.1.0.tgz",
+        "sha1": "6d92a238d05dc02e7427c881fb8be81c8448b2dd",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-util-types": {
+        "url": "https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.2.tgz",
+        "sha1": "f00225f5f5a0ebc3254f96c36b6605c4b393908e",
+        "error": null,
+        "virustotal": null
+    },
+    "dotenv": {
+        "url": "https://registry.npmjs.org/dotenv/-/dotenv-17.2.3.tgz",
+        "sha1": "ad995d6997f639b11065f419a22fabf567cdb9a2",
+        "error": null,
+        "virustotal": null
+    },
+    "expo-image-picker": {
+        "url": "https://registry.npmjs.org/expo-image-picker/-/expo-image-picker-17.0.8.tgz",
+        "sha1": "c4430994de81f3e9995c9ce77cb76403213b17d7",
+        "error": null,
+        "virustotal": null
+    },
+    "@typescript-eslint/typescript-estree": {
+        "url": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.48.0.tgz",
+        "sha1": "38b340524ce34ce0e46ca541a86cf6cad8872e5b",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/generator": {
+        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.28.5.tgz",
+        "sha1": "712722d5e50f44d07bc7ac9fe84438742dd61298",
+        "error": null,
+        "virustotal": null
+    },
+    "localforage": {
+        "url": "https://registry.npmjs.org/localforage/-/localforage-1.10.0.tgz",
+        "sha1": "5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4",
+        "error": null,
+        "virustotal": null
+    },
+    "ts-json-schema-generator": {
+        "url": "https://registry.npmjs.org/ts-json-schema-generator/-/ts-json-schema-generator-2.4.0.tgz",
+        "sha1": "01b9682fc8a275b8c9b91cb60c964875a44637f1",
+        "error": null,
+        "virustotal": null
+    },
+    "through2": {
+        "url": "https://registry.npmjs.org/through2/-/through2-4.0.2.tgz",
+        "sha1": "a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764",
+        "error": null,
+        "virustotal": null
+    },
+    "@autorest/core": {
+        "url": "https://registry.npmjs.org/@autorest/core/-/core-3.10.8.tgz",
+        "sha1": "1cb5ca2ae9c49dd0e1d341d541e37aa592d00a2e",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/types": {
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.936.0.tgz",
+        "sha1": "ecd3a4bec1a1bd4df834ab21fe52a76e332dc27a",
+        "error": null,
+        "virustotal": null
+    },
+    "exif-parser": {
+        "url": "https://registry.npmjs.org/exif-parser/-/exif-parser-0.1.12.tgz",
+        "sha1": "58a9d2d72c02c1f6f02a0ef4a9166272b7760922",
+        "error": null,
+        "virustotal": null
+    },
+    "socket.io": {
+        "url": "https://registry.npmjs.org/socket.io/-/socket.io-4.8.1.tgz",
+        "sha1": "fa0eaff965cc97fdf4245e8d4794618459f7558a",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/lib-storage": {
+        "url": "https://registry.npmjs.org/@aws-sdk/lib-storage/-/lib-storage-3.937.0.tgz",
+        "sha1": "105116eb78a9a2b7e1c905c301bc40143f5821da",
+        "error": null,
+        "virustotal": null
+    },
+    "child_process": {
+        "url": "https://registry.npmjs.org/child_process/-/child_process-1.0.2.tgz",
+        "sha1": "b1f7e7fc73d25e7fd1d455adc94e143830182b5a",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash.flatten": {
+        "url": "https://registry.npmjs.org/lodash.flatten/-/lodash.flatten-4.4.0.tgz",
+        "sha1": "f31c22225a9632d2bbf8e4addbef240aa765a61f",
+        "error": null,
+        "virustotal": null
+    },
+    "circular-a": {
+        "url": "https://registry.npmjs.org/circular-a/-/circular-a-1.0.4.tgz",
+        "sha1": "f428d54e22705c379b7733036ecbc6b6492761a4",
+        "error": null,
+        "virustotal": null
+    },
+    "github-token-generator": {
+        "url": "https://registry.npmjs.org/github-token-generator/-/github-token-generator-0.2.0.tgz",
+        "sha1": "577fff6a6192b1a5e387164d6cf1769252efe351",
+        "error": null,
+        "virustotal": null
+    },
+    "readline": {
+        "url": "https://registry.npmjs.org/readline/-/readline-1.3.0.tgz",
+        "sha1": "c580d77ef2cfc8752b132498060dc9793a7ac01c",
+        "error": null,
+        "virustotal": null
+    },
+    "some-module": {
+        "url": "https://registry.npmjs.org/some-module/-/some-module-0.0.3.tgz",
+        "sha1": "15e64a83c3af566ceb48a1751208dbe8de28f817",
+        "error": null,
+        "virustotal": null
+    },
+    "csv-parse": {
+        "url": "https://registry.npmjs.org/csv-parse/-/csv-parse-6.1.0.tgz",
+        "sha1": "c642ec5b7fc57c1f477a07d179beb5ff0dfd5ed0",
+        "error": null,
+        "virustotal": null
+    },
+    "clean-css": {
+        "url": "https://registry.npmjs.org/clean-css/-/clean-css-5.3.3.tgz",
+        "sha1": "b330653cd3bd6b75009cc25c714cae7b93351ccd",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/util-dynamodb": {
+        "url": "https://registry.npmjs.org/@aws-sdk/util-dynamodb/-/util-dynamodb-3.936.0.tgz",
+        "sha1": "12663103068f6b6d973b4b6655241e1e3a1f939b",
+        "error": null,
+        "virustotal": null
+    },
+    "@nx/js": {
+        "url": "https://registry.npmjs.org/@nx/js/-/js-22.1.1.tgz",
+        "sha1": "737bb0b5744b72b05911916783e9afd40a74cac9",
+        "error": null,
+        "virustotal": null
+    },
+    "@svgr/plugin-svgo": {
+        "url": "https://registry.npmjs.org/@svgr/plugin-svgo/-/plugin-svgo-8.1.0.tgz",
+        "sha1": "b115b7b967b564f89ac58feae89b88c3decd0f00",
+        "error": null,
+        "virustotal": null
+    },
+    "connect-livereload": {
+        "url": "https://registry.npmjs.org/connect-livereload/-/connect-livereload-0.6.1.tgz",
+        "sha1": "1ac0c8bb9d9cfd5b28b629987a56a9239db9baaa",
+        "error": null,
+        "virustotal": null
+    },
+    "systeminformation": {
+        "url": "https://registry.npmjs.org/systeminformation/-/systeminformation-5.27.11.tgz",
+        "sha1": "286c8eca3947cfde0da684221ee9afb2ae313441",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/preset-env": {
+        "url": "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.28.5.tgz",
+        "sha1": "82dd159d1563f219a1ce94324b3071eb89e280b0",
+        "error": null,
+        "virustotal": null
+    },
+    "xss-clean": {
+        "url": "https://registry.npmjs.org/xss-clean/-/xss-clean-0.1.4.tgz",
+        "sha1": "592b7f59cc52d39d4b8c397787243817639fb73d",
+        "error": null,
+        "virustotal": null
+    },
+    "faker": {
+        "url": "https://registry.npmjs.org/faker/-/faker-6.6.6.tgz",
+        "sha1": "e9529da0109dca4c7c5dbfeaadbd9234af943033",
+        "error": null,
+        "virustotal": null
+    },
+    "jsonpath": {
+        "url": "https://registry.npmjs.org/jsonpath/-/jsonpath-1.1.1.tgz",
+        "sha1": "0ca1ed8fb65bb3309248cc9d5466d12d5b0b9901",
+        "error": null,
+        "virustotal": null
+    },
+    "@smithy/protocol-http": {
+        "url": "https://registry.npmjs.org/@smithy/protocol-http/-/protocol-http-5.3.5.tgz",
+        "sha1": "a8f4296dd6d190752589e39ee95298d5c65a60db",
+        "error": null,
+        "virustotal": null
+    },
+    "react-syntax-highlighter": {
+        "url": "https://registry.npmjs.org/react-syntax-highlighter/-/react-syntax-highlighter-16.1.0.tgz",
+        "sha1": "ebe0bb5ae7a3540859212cedafd767f0189c516c",
+        "error": null,
+        "virustotal": null
+    },
+    "archiver": {
+        "url": "https://registry.npmjs.org/archiver/-/archiver-7.0.1.tgz",
+        "sha1": "c9d91c350362040b8927379c7aa69c0655122f61",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-scale-chromatic": {
+        "url": "https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz",
+        "sha1": "34c39da298b23c20e02f1a4b239bd0f22e7f1314",
+        "error": null,
+        "virustotal": null
+    },
+    "mustache": {
+        "url": "https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz",
+        "sha1": "e5892324d60a12ec9c2a73359edca52972bf6f64",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash.template": {
+        "url": "https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz",
+        "sha1": "f976195cf3f347d0d5f52483569fe8031ccce8ab",
+        "error": null,
+        "virustotal": null
+    },
+    "rehype": {
+        "url": "https://registry.npmjs.org/rehype/-/rehype-13.0.2.tgz",
+        "sha1": "ab0b3ac26573d7b265a0099feffad450e4cf1952",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-apigatewayv2": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-apigatewayv2/-/client-apigatewayv2-3.936.0.tgz",
+        "sha1": "b7de5ba8473354ced774b7578522d61151f620b7",
+        "error": null,
+        "virustotal": null
+    },
+    "safe-json-stringify": {
+        "url": "https://registry.npmjs.org/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz",
+        "sha1": "356e44bc98f1f93ce45df14bcd7c01cda86e0afd",
+        "error": null,
+        "virustotal": null
+    },
+    "npm-lifecycle": {
+        "url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.5.tgz",
+        "sha1": "9882d3642b8c82c815782a12e6a1bfeed0026309",
+        "error": null,
+        "virustotal": null
+    },
+    "chokidar": {
+        "url": "https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz",
+        "sha1": "7be37a4c03c9aee1ecfe862a4a23b2c70c205d30",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-interpolate": {
+        "url": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz",
+        "sha1": "3c47aa5b32c5b3dfb56ef3fd4342078a632b400d",
+        "error": null,
+        "virustotal": null
+    },
+    "@mui/icons-material": {
+        "url": "https://registry.npmjs.org/@mui/icons-material/-/icons-material-7.3.5.tgz",
+        "sha1": "ebb94784fc49ab477f97d4cae097ec3cee32758f",
+        "error": null,
+        "virustotal": null
+    },
+    "ref-array-di": {
+        "url": "https://registry.npmjs.org/ref-array-di/-/ref-array-di-1.2.2.tgz",
+        "sha1": "ceee9d667d9c424b5a91bb813457cc916fb1f64d",
+        "error": null,
+        "virustotal": null
+    },
+    "aws-amplify": {
+        "url": "https://registry.npmjs.org/aws-amplify/-/aws-amplify-6.15.8.tgz",
+        "sha1": "5a9f1779328a8cdcff2a02a38060104a3ff3b399",
+        "error": null,
+        "virustotal": null
+    },
+    "express-handlebars": {
+        "url": "https://registry.npmjs.org/express-handlebars/-/express-handlebars-8.0.4.tgz",
+        "sha1": "1240dfce902b6fd2f9e56518cad5a5f16278f6ac",
+        "error": null,
+        "virustotal": null
+    },
+    "@microsoft/tsdoc-config": {
+        "url": "https://registry.npmjs.org/@microsoft/tsdoc-config/-/tsdoc-config-0.18.0.tgz",
+        "sha1": "02fd9924b888053ecbc3c0385a24532bf2106c98",
+        "error": null,
+        "virustotal": null
+    },
+    "calculator": {
+        "url": "https://registry.npmjs.org/calculator/-/calculator-0.1.12.tgz",
+        "sha1": "e0627746f0d540e0e1814cd4b10f9f6b6c4255d4",
+        "error": null,
+        "virustotal": null
+    },
+    "console": {
+        "url": "https://registry.npmjs.org/console/-/console-0.7.2.tgz",
+        "sha1": "f9a4331249291591b7bf9bffa8e205356f20a9f0",
+        "error": null,
+        "virustotal": null
+    },
+    "clsx": {
+        "url": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+        "sha1": "eed397c9fd8bd882bfb18deab7102049a2f32999",
+        "error": null,
+        "virustotal": null
+    },
+    "argparse": {
+        "url": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz",
+        "sha1": "246f50f3ca78a3240f6c997e8a9bd1eac49e4b38",
+        "error": null,
+        "virustotal": null
+    },
+    "vscode-json-languageservice": {
+        "url": "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-5.6.3.tgz",
+        "sha1": "6893780d94d6b3dbe8b426b826cfb763b2e270ac",
+        "error": null,
+        "virustotal": null
+    },
+    "styled-components": {
+        "url": "https://registry.npmjs.org/styled-components/-/styled-components-6.1.19.tgz",
+        "sha1": "9a41b4db79a3b7a2477daecabe8dd917235263d6",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-replace": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-replace/-/plugin-replace-6.0.3.tgz",
+        "sha1": "0f82e41d81f6586ab0f81a1b48bd7fd92fcfb9a2",
+        "error": null,
+        "virustotal": null
+    },
+    "ajv-formats": {
+        "url": "https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz",
+        "sha1": "3d5dc762bca17679c3c2ea7e90ad6b7532309578",
+        "error": null,
+        "virustotal": null
+    },
+    "twilio": {
+        "url": "https://registry.npmjs.org/twilio/-/twilio-5.10.6.tgz",
+        "sha1": "7293ac5c58b1a7c0d1e8e2c338f36f4f81ce41b4",
+        "error": null,
+        "virustotal": null
+    },
+    "@emotion/react": {
+        "url": "https://registry.npmjs.org/@emotion/react/-/react-11.14.0.tgz",
+        "sha1": "cfaae35ebc67dd9ef4ea2e9acc6cd29e157dd05d",
+        "error": null,
+        "virustotal": null
+    },
+    "hast-util-to-string": {
+        "url": "https://registry.npmjs.org/hast-util-to-string/-/hast-util-to-string-3.0.1.tgz",
+        "sha1": "a4f15e682849326dd211c97129c94b0c3e76527c",
+        "error": null,
+        "virustotal": null
+    },
+    "inquirer": {
+        "url": "https://registry.npmjs.org/inquirer/-/inquirer-13.0.1.tgz",
+        "sha1": "50223213e87c13edf88cb6ab98b823002cd6f00e",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-typescript2": {
+        "url": "https://registry.npmjs.org/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.36.0.tgz",
+        "sha1": "309564eb70d710412f5901344ca92045e180ed53",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-peer-deps-external": {
+        "url": "https://registry.npmjs.org/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.4.tgz",
+        "sha1": "8a420bbfd6dccc30aeb68c9bf57011f2f109570d",
+        "error": null,
+        "virustotal": null
+    },
+    "chalk": {
+        "url": "https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz",
+        "sha1": "b1238b6e23ea337af71c7f8a295db5af0c158aea",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/credential-provider-cognito-identity": {
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.936.0.tgz",
+        "sha1": "303c3a70033f034e94d36eb7e406fe8a1949cb9f",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/core": {
+        "url": "https://registry.npmjs.org/@opentelemetry/core/-/core-2.2.0.tgz",
+        "sha1": "2f857d7790ff160a97db3820889b5f4cade6eaee",
+        "error": null,
+        "virustotal": null
+    },
+    "cors": {
+        "url": "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz",
+        "sha1": "eac11da51592dd86b9f06f6e7ac293b3df875d29",
+        "error": null,
+        "virustotal": null
+    },
+    "@redis/json": {
+        "url": "https://registry.npmjs.org/@redis/json/-/json-5.10.0.tgz",
+        "sha1": "a550a7859c3cbae45535aad157fcaa8e6bd3e7d3",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/core-paging": {
+        "url": "https://registry.npmjs.org/@azure/core-paging/-/core-paging-1.6.2.tgz",
+        "sha1": "40d3860dc2df7f291d66350b2cfd9171526433e7",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-yoga": {
+        "url": "https://registry.npmjs.org/graphql-yoga/-/graphql-yoga-5.16.2.tgz",
+        "sha1": "efd103ee4f3f8c4648defd8644f9f2edfc0b0a2d",
+        "error": null,
+        "virustotal": null
+    },
+    "morgan": {
+        "url": "https://registry.npmjs.org/morgan/-/morgan-1.10.1.tgz",
+        "sha1": "4e02e6a4465a48e26af540191593955d17f61570",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/middleware-sdk-s3": {
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.936.0.tgz",
+        "sha1": "3b00c0824e0b3a2219050aeca6a48fcaac6afcfd",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-factory-space": {
+        "url": "https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz",
+        "sha1": "36d0212e962b2b3121f8525fc7a3c7c029f334fc",
+        "error": null,
+        "virustotal": null
+    },
+    "babel-preset-minify": {
+        "url": "https://registry.npmjs.org/babel-preset-minify/-/babel-preset-minify-0.5.2.tgz",
+        "sha1": "4d5be8b1c21d126ac403a3fd002d8b5fb7bb3c34",
+        "error": null,
+        "virustotal": null
+    },
+    "y": {
+        "url": "https://registry.npmjs.org/y/-/y-0.3.2.tgz",
+        "sha1": "bd08711d26b034d026a30599a9919a63fe43c3fa",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/types": {
+        "url": "https://registry.npmjs.org/@babel/types/-/types-7.28.5.tgz",
+        "sha1": "10fc405f60897c35f07e85493c932c7b5ca0592b",
+        "error": null,
+        "virustotal": null
+    },
+    "chai": {
+        "url": "https://registry.npmjs.org/chai/-/chai-6.2.1.tgz",
+        "sha1": "d1e64bc42433fbee6175ad5346799682060b5b6a",
+        "error": null,
+        "virustotal": null
+    },
+    "cbor-x": {
+        "url": "https://registry.npmjs.org/cbor-x/-/cbor-x-1.6.0.tgz",
+        "sha1": "89c35d2d805efc30e09a28349425cc05d57aacd7",
+        "error": null,
+        "virustotal": null
+    },
+    "ag-grid-react": {
+        "url": "https://registry.npmjs.org/ag-grid-react/-/ag-grid-react-34.3.1.tgz",
+        "sha1": "305edd43fcafe3e1fb04315d09aa92282cdbf525",
+        "error": null,
+        "virustotal": null
+    },
+    "zod": {
+        "url": "https://registry.npmjs.org/zod/-/zod-4.1.13.tgz",
+        "sha1": "93699a8afe937ba96badbb0ce8be6033c0a4b6b1",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-dynamodb": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-dynamodb/-/client-dynamodb-3.936.0.tgz",
+        "sha1": "03cbdefe7f87b13a3c4f8f581934be787790af59",
+        "error": null,
+        "virustotal": null
+    },
+    "find-up": {
+        "url": "https://registry.npmjs.org/find-up/-/find-up-8.0.0.tgz",
+        "sha1": "9e4663f9605eeb615edd7399f376a01b1de312fe",
+        "error": null,
+        "virustotal": null
+    },
+    "src": {
+        "url": "https://registry.npmjs.org/src/-/src-1.1.2.tgz",
+        "sha1": "78abdd1c08caca26cc6cf45bd580b56d93acfb7f",
+        "error": null,
+        "virustotal": null
+    },
+    "node-beep": {
+        "url": "https://registry.npmjs.org/node-beep/-/node-beep-0.0.3.tgz",
+        "sha1": "8b376c0b33fae36a3a103ea9d35cd156125f1332",
+        "error": null,
+        "virustotal": null
+    },
+    "htmlparser2": {
+        "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz",
+        "sha1": "77ad249037b66bf8cc99c6e286ef73b83aeb621d",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-metrics": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-metrics/-/sdk-metrics-2.2.0.tgz",
+        "sha1": "3824133f0d681d778aff0f52b02a87ec6750fc2d",
+        "error": null,
+        "virustotal": null
+    },
+    "html-webpack-plugin": {
+        "url": "https://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-5.6.5.tgz",
+        "sha1": "d57defb83cabbf29bf56b2d4bf10b67b650066be",
+        "error": null,
+        "virustotal": null
+    },
+    "imap-simple": {
+        "url": "https://registry.npmjs.org/imap-simple/-/imap-simple-5.1.0.tgz",
+        "sha1": "7d8936eb1c4774f21cc38c358888fbf82c2fb57a",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-subscriptions": {
+        "url": "https://registry.npmjs.org/graphql-subscriptions/-/graphql-subscriptions-3.0.0.tgz",
+        "sha1": "820c846ef271414c08f64827b5c9a192801e1b6f",
+        "error": null,
+        "virustotal": null
+    },
+    "multer": {
+        "url": "https://registry.npmjs.org/multer/-/multer-2.0.2.tgz",
+        "sha1": "08a8aa8255865388c387aaf041426b0c87bf58dd",
+        "error": null,
+        "virustotal": null
+    },
+    "typescript": {
+        "url": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+        "sha1": "5b4f59e15310ab17a216f5d6cf53ee476ede670f",
+        "error": null,
+        "virustotal": null
+    },
+    "remark": {
+        "url": "https://registry.npmjs.org/remark/-/remark-15.0.1.tgz",
+        "sha1": "ac7e7563260513b66426bc47f850e7aa5862c37c",
+        "error": null,
+        "virustotal": null
+    },
+    "main": {
+        "url": "https://registry.npmjs.org/main/-/main-1000.0.1.tgz",
+        "sha1": "a2098de0a82659e517b09fb9d2c57174e46db127",
+        "error": null,
+        "virustotal": null
+    },
+    "taffy": {
+        "url": "https://registry.npmjs.org/taffy/-/taffy-2.6.2.tgz",
+        "sha1": "e7a365503adbb4c641a666d849d001277fbb5893",
+        "error": null,
+        "virustotal": null
+    },
+    "cbor": {
+        "url": "https://registry.npmjs.org/cbor/-/cbor-10.0.11.tgz",
+        "sha1": "f60e7cc2be6c943fecec159874ae651e75661745",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-lib-source-maps": {
+        "url": "https://registry.npmjs.org/istanbul-lib-source-maps/-/istanbul-lib-source-maps-5.0.6.tgz",
+        "sha1": "acaef948df7747c8eb5fbf1265cb980f6353a441",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup": {
+        "url": "https://registry.npmjs.org/rollup/-/rollup-4.53.3.tgz",
+        "sha1": "dbc8cd8743b38710019fb8297e8d7a76e3faa406",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/middleware-stack": {
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-stack/-/middleware-stack-3.374.0.tgz",
+        "sha1": "2bdea42c9a4130c679eebae1802382dcb7cf29a1",
+        "error": null,
+        "virustotal": null
+    },
+    "body-parser": {
+        "url": "https://registry.npmjs.org/body-parser/-/body-parser-2.2.1.tgz",
+        "sha1": "6df606b0eb0a6e3f783dde91dde182c24c82438c",
+        "error": null,
+        "virustotal": null
+    },
+    "node:util": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "json-stringify": {
+        "url": "https://registry.npmjs.org/json-stringify/-/json-stringify-1.0.0.tgz",
+        "sha1": "1e53241a8099eb21fff2a2258677796de47a7153",
+        "error": null,
+        "virustotal": null
+    },
+    "formidable": {
+        "url": "https://registry.npmjs.org/formidable/-/formidable-3.5.4.tgz",
+        "sha1": "ac9a593b951e829b3298f21aa9a2243932f32ed9",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/instrumentation-http": {
+        "url": "https://registry.npmjs.org/@opentelemetry/instrumentation-http/-/instrumentation-http-0.208.0.tgz",
+        "sha1": "64fcc02bfbc80eb3bbb91cd3c7e0e24c695f2bef",
+        "error": null,
+        "virustotal": null
+    },
+    "webpack-subresource-integrity": {
+        "url": "https://registry.npmjs.org/webpack-subresource-integrity/-/webpack-subresource-integrity-5.2.0-rc.1.tgz",
+        "sha1": "96db21f64c00ad8b3174d5f7ba1ad7e6f2aa14a1",
+        "error": null,
+        "virustotal": null
+    },
+    "module-path": {
+        "url": "https://registry.npmjs.org/module-path/-/module-path-0.2.0.tgz",
+        "sha1": "afe52f137e0b3fee79cdda144178c7adb875359d",
+        "error": null,
+        "virustotal": null
+    },
+    "@angular/core": {
+        "url": "https://registry.npmjs.org/@angular/core/-/core-21.0.0.tgz",
+        "sha1": "1cc43084a602aaa9ab6121758ffff6c8b1e27457",
+        "error": null,
+        "virustotal": null
+    },
+    "browserify": {
+        "url": "https://registry.npmjs.org/browserify/-/browserify-17.0.1.tgz",
+        "sha1": "d822fa701431ca94cb405b033bb2551951e5d97d",
+        "error": null,
+        "virustotal": null
+    },
+    "remark-stringify": {
+        "url": "https://registry.npmjs.org/remark-stringify/-/remark-stringify-11.0.0.tgz",
+        "sha1": "4c5b01dd711c269df1aaae11743eb7e2e7636fd3",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-api-gateway": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-api-gateway/-/client-api-gateway-3.938.0.tgz",
+        "sha1": "f3b853b12daf221c8b59d71d9456fe7249d53096",
+        "error": null,
+        "virustotal": null
+    },
+    "concat-stream": {
+        "url": "https://registry.npmjs.org/concat-stream/-/concat-stream-2.0.0.tgz",
+        "sha1": "414cf5af790a48c60ab9be4527d56d5e41133cb1",
+        "error": null,
+        "virustotal": null
+    },
+    "vscode-languageserver": {
+        "url": "https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-9.0.1.tgz",
+        "sha1": "500aef82097eb94df90d008678b0b6b5f474015b",
+        "error": null,
+        "virustotal": null
+    },
+    "app": {
+        "url": "https://registry.npmjs.org/app/-/app-0.1.0.tgz",
+        "sha1": "793e12f51f7cce0922c23165261543786a747fea",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/helper-plugin-utils": {
+        "url": "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.27.1.tgz",
+        "sha1": "ddb2f876534ff8013e6c2b299bf4d39b3c51d44c",
+        "error": null,
+        "virustotal": null
+    },
+    "cookie": {
+        "url": "https://registry.npmjs.org/cookie/-/cookie-1.0.2.tgz",
+        "sha1": "27360701532116bd3f1f9416929d176afe1e4610",
+        "error": null,
+        "virustotal": null
+    },
+    "duplex": {
+        "url": "https://registry.npmjs.org/duplex/-/duplex-1.0.0.tgz",
+        "sha1": "6abc5c16ec17e4c578578727126700590d3a2dda",
+        "error": null,
+        "virustotal": null
+    },
+    "node-fetch": {
+        "url": "https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz",
+        "sha1": "d1e889bacdf733b4ff3b2b243eb7a12866a0b78b",
+        "error": null,
+        "virustotal": null
+    },
+    "node:http": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "@angular/platform-browser": {
+        "url": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-21.0.0.tgz",
+        "sha1": "85465cfb4c7e254803725f1bd1651f1d4bd8a1e4",
+        "error": null,
+        "virustotal": null
+    },
+    "x": {
+        "url": "https://registry.npmjs.org/x/-/x-0.1.2.tgz",
+        "sha1": "d08ea5b52ce99af133bbeaf354f246ea97e65b51",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-trace-otlp-http": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-trace-otlp-http/-/exporter-trace-otlp-http-0.208.0.tgz",
+        "sha1": "3b58caa80ab31597472902d84fbc933d35cf4d59",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/credential-provider-node": {
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.936.0.tgz",
+        "sha1": "d4d880d20ea5afa9b0ab666b83697a33c4b4856d",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-util-symbol": {
+        "url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz",
+        "sha1": "e5da494e8eb2b071a0d08fb34f6cefec6c0a19b8",
+        "error": null,
+        "virustotal": null
+    },
+    "source-map-js": {
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
+        "sha1": "1ce5650fddd87abc099eda37dcff024c2667ae46",
+        "error": null,
+        "virustotal": null
+    },
+    "module-loader": {
+        "url": "https://registry.npmjs.org/module-loader/-/module-loader-0.0.8.tgz",
+        "sha1": "e0907280eadeb310c9546a529e8ebb5a34fe4a2f",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-logs-otlp-proto": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-logs-otlp-proto/-/exporter-logs-otlp-proto-0.208.0.tgz",
+        "sha1": "d7f7894f349b3b141d325fc9ab0a90bcad228893",
+        "error": null,
+        "virustotal": null
+    },
+    "module-alias": {
+        "url": "https://registry.npmjs.org/module-alias/-/module-alias-2.2.3.tgz",
+        "sha1": "ec2e85c68973bda6ab71ce7c93b763ec96053221",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/core-client": {
+        "url": "https://registry.npmjs.org/@azure/core-client/-/core-client-1.10.1.tgz",
+        "sha1": "83d78f97d647ab22e6811a7a68bb4223e7a1d019",
+        "error": null,
+        "virustotal": null
+    },
+    "url": {
+        "url": "https://registry.npmjs.org/url/-/url-0.11.4.tgz",
+        "sha1": "adca77b3562d56b72746e76b330b7f27b6721f3c",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-trace-web": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-trace-web/-/sdk-trace-web-2.2.0.tgz",
+        "sha1": "9b6a894cf166fc821d329b65e26a3fd008cbfef0",
+        "error": null,
+        "virustotal": null
+    },
+    "source": {
+        "url": "https://registry.npmjs.org/source/-/source-0.0.3.tgz",
+        "sha1": "040f00a0a3e2638147c01d3f28b7feb126d2eae9",
+        "error": null,
+        "virustotal": null
+    },
+    "jest-mock": {
+        "url": "https://registry.npmjs.org/jest-mock/-/jest-mock-30.2.0.tgz",
+        "sha1": "69f991614eeb4060189459d3584f710845bff45e",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/semantic-conventions": {
+        "url": "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.38.0.tgz",
+        "sha1": "8b5f415395a7ddb7c8e0c7932171deb9278df1a3",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-node-resolve": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-node-resolve/-/plugin-node-resolve-16.0.3.tgz",
+        "sha1": "0988e6f2cbb13316b0f5e7213f757bc9ed44928f",
+        "error": null,
+        "virustotal": null
+    },
+    "insert-module-globals": {
+        "url": "https://registry.npmjs.org/insert-module-globals/-/insert-module-globals-7.2.1.tgz",
+        "sha1": "d5e33185181a4e1f33b15f7bf100ee91890d5cb3",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/api-logs": {
+        "url": "https://registry.npmjs.org/@opentelemetry/api-logs/-/api-logs-0.208.0.tgz",
+        "sha1": "56d3891010a1fa1cf600ba8899ed61b43ace511c",
+        "error": null,
+        "virustotal": null
+    },
+    "perf_hooks": {
+        "url": "https://registry.npmjs.org/perf_hooks/-/perf_hooks-0.0.1.tgz",
+        "sha1": "253e7e18b71fcc0390fd3afb2cd7cf1685df040c",
+        "error": null,
+        "virustotal": null
+    },
+    "git-raw-commits": {
+        "url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-5.0.0.tgz",
+        "sha1": "38af4301e70c17be03fec01a37a6cd90ce0db04e",
+        "error": null,
+        "virustotal": null
+    },
+    "my-module": {
+        "url": "https://registry.npmjs.org/my-module/-/my-module-1.0.0.tgz",
+        "sha1": "b9ead44ac7d45289d0387331ea57cec95ec27d8c",
+        "error": null,
+        "virustotal": null
+    },
+    "typedoc": {
+        "url": "https://registry.npmjs.org/typedoc/-/typedoc-0.28.14.tgz",
+        "sha1": "f48d650efc983b5cb3034b3b0e986b1702074326",
+        "error": null,
+        "virustotal": null
+    },
+    "ioredis": {
+        "url": "https://registry.npmjs.org/ioredis/-/ioredis-5.8.2.tgz",
+        "sha1": "c7a228a26cf36f17a5a8011148836877780e2e14",
+        "error": null,
+        "virustotal": null
+    },
+    "async_hooks": {
+        "url": "https://registry.npmjs.org/async_hooks/-/async_hooks-1.0.0.tgz",
+        "sha1": "815f5e861fe73f64eb29fd942c32e95c8064052f",
+        "error": null,
+        "virustotal": null
+    },
+    "@typescript-eslint/eslint-plugin": {
+        "url": "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.48.0.tgz",
+        "sha1": "cdc9bdbe947713f658eb6109eeeea5d746824cf4",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash": {
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+        "sha1": "679591c564c3bffaae8454cf0b3df370c3d6911c",
+        "error": null,
+        "virustotal": null
+    },
+    "utils": {
+        "url": "https://registry.npmjs.org/utils/-/utils-0.3.1.tgz",
+        "sha1": "04efaeb4290a67037a4cddfd2ff56144cc3a4581",
+        "error": null,
+        "virustotal": null
+    },
+    "@elastic/elasticsearch": {
+        "url": "https://registry.npmjs.org/@elastic/elasticsearch/-/elasticsearch-9.2.0.tgz",
+        "sha1": "33e028d0272838838da686738377c46e3c753ce7",
+        "error": null,
+        "virustotal": null
+    },
+    "compression": {
+        "url": "https://registry.npmjs.org/compression/-/compression-1.8.1.tgz",
+        "sha1": "4a45d909ac16509195a9a28bd91094889c180d79",
+        "error": null,
+        "virustotal": null
+    },
+    "voronoi": {
+        "url": "https://registry.npmjs.org/voronoi/-/voronoi-1.0.0.tgz",
+        "sha1": "c083cafa98c4359a518018bfe88624cb227ac291",
+        "error": null,
+        "virustotal": null
+    },
+    "resolve": {
+        "url": "https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz",
+        "sha1": "aad857ce1ffb8bfa9b0b1ac29f1156383f68c262",
+        "error": null,
+        "virustotal": null
+    },
+    "sharp": {
+        "url": "https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz",
+        "sha1": "b6f148e4b8c61f1797bde11a9d1cfebbae2c57b0",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-connect": {
+        "url": "https://registry.npmjs.org/koa-connect/-/koa-connect-2.1.0.tgz",
+        "sha1": "16bce0a917c4cb24233aaac83fbc5b83804b4a1c",
+        "error": null,
+        "virustotal": null
+    },
+    "@assemblyscript/loader": {
+        "url": "https://registry.npmjs.org/@assemblyscript/loader/-/loader-0.28.9.tgz",
+        "sha1": "7b44ffff1c66d71045eb021bfd301c3ceb8f542f",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-metrics-otlp-proto": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-metrics-otlp-proto/-/exporter-metrics-otlp-proto-0.208.0.tgz",
+        "sha1": "09e923df3c6ab0d0f32ffdc213ec90f6d06f7af8",
+        "error": null,
+        "virustotal": null
+    },
+    "autoprefixer": {
+        "url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.22.tgz",
+        "sha1": "90b27ab55ec0cf0684210d1f056f7d65dac55f16",
+        "error": null,
+        "virustotal": null
+    },
+    "node-gyp-build": {
+        "url": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.4.tgz",
+        "sha1": "8a70ee85464ae52327772a90d66c6077a900cfc8",
+        "error": null,
+        "virustotal": null
+    },
+    "fastify": {
+        "url": "https://registry.npmjs.org/fastify/-/fastify-5.6.2.tgz",
+        "sha1": "e9bd80c869f54440f62f539d646b1c303b56c40f",
+        "error": null,
+        "virustotal": null
+    },
+    "@angular-devkit/schematics-cli": {
+        "url": "https://registry.npmjs.org/@angular-devkit/schematics-cli/-/schematics-cli-21.0.0.tgz",
+        "sha1": "a055c4a7671acef07e19656cd919439433915231",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/otlp-exporter-base": {
+        "url": "https://registry.npmjs.org/@opentelemetry/otlp-exporter-base/-/otlp-exporter-base-0.208.0.tgz",
+        "sha1": "1a932355628087555a317b7207637d4e893c1a5d",
+        "error": null,
+        "virustotal": null
+    },
+    "@faker-js/faker": {
+        "url": "https://registry.npmjs.org/@faker-js/faker/-/faker-10.1.0.tgz",
+        "sha1": "eb72869d01ccbff41a77aa7ac851ce1ac9371129",
+        "error": null,
+        "virustotal": null
+    },
+    "casual": {
+        "url": "https://registry.npmjs.org/casual/-/casual-1.6.2.tgz",
+        "sha1": "f56b87113ae99a6bba45e04bdfa068ca443f9e85",
+        "error": null,
+        "virustotal": null
+    },
+    "winston": {
+        "url": "https://registry.npmjs.org/winston/-/winston-3.18.3.tgz",
+        "sha1": "93ac10808c8e1081d723bc8811cd2f445ddfdcd1",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-typescript": {
+        "url": "https://registry.npmjs.org/rollup-plugin-typescript/-/rollup-plugin-typescript-1.0.1.tgz",
+        "sha1": "86565033b714c3d1f3aba510aad3dc519f7091e9",
+        "error": null,
+        "virustotal": null
+    },
+    "vite": {
+        "url": "https://registry.npmjs.org/vite/-/vite-7.2.4.tgz",
+        "sha1": "a3a09c7e25487612ecc1119c7d412c73da35bd4e",
+        "error": null,
+        "virustotal": null
+    },
+    "undici": {
+        "url": "https://registry.npmjs.org/undici/-/undici-7.16.0.tgz",
+        "sha1": "cb2a1e957726d458b536e3f076bf51f066901c1a",
+        "error": null,
+        "virustotal": null
+    },
+    "core-js": {
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.47.0.tgz",
+        "sha1": "436ef07650e191afeb84c24481b298bd60eb4a17",
+        "error": null,
+        "virustotal": null
+    },
+    "@svgr/core": {
+        "url": "https://registry.npmjs.org/@svgr/core/-/core-8.1.0.tgz",
+        "sha1": "41146f9b40b1a10beaf5cc4f361a16a3c1885e88",
+        "error": null,
+        "virustotal": null
+    },
+    "swagger-ui-express": {
+        "url": "https://registry.npmjs.org/swagger-ui-express/-/swagger-ui-express-5.0.1.tgz",
+        "sha1": "fb8c1b781d2793a6bd2f8a205a3f4bd6fa020dd8",
+        "error": null,
+        "virustotal": null
+    },
+    "remark-gfm": {
+        "url": "https://registry.npmjs.org/remark-gfm/-/remark-gfm-4.0.1.tgz",
+        "sha1": "33227b2a74397670d357bf05c098eaf8513f0d6b",
+        "error": null,
+        "virustotal": null
+    },
+    "@google-cloud/firestore": {
+        "url": "https://registry.npmjs.org/@google-cloud/firestore/-/firestore-8.0.0.tgz",
+        "sha1": "99a096aa4fd43e317ebf43604f8293e57544a324",
+        "error": null,
+        "virustotal": null
+    },
+    "lightningcss": {
+        "url": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.30.2.tgz",
+        "sha1": "4ade295f25d140f487d37256f4cd40dc607696d0",
+        "error": null,
+        "virustotal": null
+    },
+    "supertest": {
+        "url": "https://registry.npmjs.org/supertest/-/supertest-7.1.4.tgz",
+        "sha1": "3175e2539f517ca72fdc7992ffff35b94aca7d34",
+        "error": null,
+        "virustotal": null
+    },
+    "node-machine-id": {
+        "url": "https://registry.npmjs.org/node-machine-id/-/node-machine-id-1.1.12.tgz",
+        "sha1": "37904eee1e59b320bb9c5d6c0a59f3b469cb6267",
+        "error": null,
+        "virustotal": null
+    },
+    "axios": {
+        "url": "https://registry.npmjs.org/axios/-/axios-1.13.2.tgz",
+        "sha1": "9ada120b7b5ab24509553ec3e40123521117f687",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-cloudwatch-logs": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-cloudwatch-logs/-/client-cloudwatch-logs-3.936.0.tgz",
+        "sha1": "ab4ff754f73a15981559d739bf14a2f5e62988d4",
+        "error": null,
+        "virustotal": null
+    },
+    "my-utils": {
+        "url": "https://registry.npmjs.org/my-utils/-/my-utils-0.1.3.tgz",
+        "sha1": "b18ed2e1bce0ff484aa79800f593f74b6fc7bee8",
+        "error": null,
+        "virustotal": null
+    },
+    "xml2js": {
+        "url": "https://registry.npmjs.org/xml2js/-/xml2js-0.6.2.tgz",
+        "sha1": "dd0b630083aa09c161e25a4d0901e2b2a929b499",
+        "error": null,
+        "virustotal": null
+    },
+    "jsonwebtoken": {
+        "url": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz",
+        "sha1": "65ff91f4abef1784697d40952bb1998c504caaf3",
+        "error": null,
+        "virustotal": null
+    },
+    "estraverse": {
+        "url": "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz",
+        "sha1": "2eea5290702f26ab8fe5370370ff86c965d21123",
+        "error": null,
+        "virustotal": null
+    },
+    "vscode-uri": {
+        "url": "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.1.0.tgz",
+        "sha1": "dd09ec5a66a38b5c3fffc774015713496d14e09c",
+        "error": null,
+        "virustotal": null
+    },
+    "kafka-node": {
+        "url": "https://registry.npmjs.org/kafka-node/-/kafka-node-5.0.0.tgz",
+        "sha1": "4b6f65cc1d77ebe565859dfb8f9575ed15d543c0",
+        "error": null,
+        "virustotal": null
+    },
+    "apollo-server": {
+        "url": "https://registry.npmjs.org/apollo-server/-/apollo-server-3.13.0.tgz",
+        "sha1": "38d355756717c0cb519e7ab95bce6dcc8ce35677",
+        "error": null,
+        "virustotal": null
+    },
+    "react-docgen": {
+        "url": "https://registry.npmjs.org/react-docgen/-/react-docgen-8.0.2.tgz",
+        "sha1": "450efcac75813e3d614d7bd15eb4066e2e7bcbf5",
+        "error": null,
+        "virustotal": null
+    },
+    "node:events": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "madge": {
+        "url": "https://registry.npmjs.org/madge/-/madge-8.0.0.tgz",
+        "sha1": "cca4ab66fb388e7b6bf43c1f78dcaab3cad30f50",
+        "error": null,
+        "virustotal": null
+    },
+    "fs-extra": {
+        "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.2.tgz",
+        "sha1": "c838aeddc6f4a8c74dd15f85e11fe5511bfe02a4",
+        "error": null,
+        "virustotal": null
+    },
+    "dependency-tree": {
+        "url": "https://registry.npmjs.org/dependency-tree/-/dependency-tree-11.2.0.tgz",
+        "sha1": "ae764155b2903267181def4b20be49b1fd76da5e",
+        "error": null,
+        "virustotal": null
+    },
+    "ag-grid-vue3": {
+        "url": "https://registry.npmjs.org/ag-grid-vue3/-/ag-grid-vue3-34.3.1.tgz",
+        "sha1": "e3c73710a868d286d4bb01ff866f349aca06e4f1",
+        "error": null,
+        "virustotal": null
+    },
+    "esbuild": {
+        "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.0.tgz",
+        "sha1": "db983bed6f76981361c92f50cf6a04c66f7b3e1d",
+        "error": null,
+        "virustotal": null
+    },
+    "mdast-util-gfm": {
+        "url": "https://registry.npmjs.org/mdast-util-gfm/-/mdast-util-gfm-3.1.0.tgz",
+        "sha1": "2cdf63b92c2a331406b0fb0db4c077c1b0331751",
+        "error": null,
+        "virustotal": null
+    },
+    "dateformat": {
+        "url": "https://registry.npmjs.org/dateformat/-/dateformat-5.0.3.tgz",
+        "sha1": "fe2223eff3cc70ce716931cb3038b59a9280696e",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-lib-hook": {
+        "url": "https://registry.npmjs.org/istanbul-lib-hook/-/istanbul-lib-hook-3.0.0.tgz",
+        "sha1": "8f84c9434888cc6b1d0a9d7092a76d239ebf0cc6",
+        "error": null,
+        "virustotal": null
+    },
+    "unist-util-visit": {
+        "url": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.0.0.tgz",
+        "sha1": "a7de1f31f72ffd3519ea71814cccf5fd6a9217d6",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash.debounce": {
+        "url": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz",
+        "sha1": "82d79bff30a67c4005ffd5e2515300ad9ca4d7af",
+        "error": null,
+        "virustotal": null
+    },
+    "minimist": {
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz",
+        "sha1": "c1a464e7693302e082a075cee0c057741ac4772c",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/template": {
+        "url": "https://registry.npmjs.org/@babel/template/-/template-7.27.2.tgz",
+        "sha1": "fa78ceed3c4e7b63ebf6cb39e5852fca45f6809d",
+        "error": null,
+        "virustotal": null
+    },
+    "ag-grid-angular": {
+        "url": "https://registry.npmjs.org/ag-grid-angular/-/ag-grid-angular-34.3.1.tgz",
+        "sha1": "d0d5b5b13f51fd355eded35b97227f99fbb9c97d",
+        "error": null,
+        "virustotal": null
+    },
+    "react-dom": {
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz",
+        "sha1": "00ed1e959c365e9a9d48f8918377465466ec3af8",
+        "error": null,
+        "virustotal": null
+    },
+    "util": {
+        "url": "https://registry.npmjs.org/util/-/util-0.12.5.tgz",
+        "sha1": "5f17a6059b73db61a875668781a1c2b136bd6fbc",
+        "error": null,
+        "virustotal": null
+    },
+    "helmet": {
+        "url": "https://registry.npmjs.org/helmet/-/helmet-8.1.0.tgz",
+        "sha1": "f96d23fedc89e9476ecb5198181009c804b8b38c",
+        "error": null,
+        "virustotal": null
+    },
+    "bignumber.js": {
+        "url": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.3.1.tgz",
+        "sha1": "759c5aaddf2ffdc4f154f7b493e1c8770f88c4d7",
+        "error": null,
+        "virustotal": null
+    },
+    "some-dependency": {
+        "url": "https://registry.npmjs.org/some-dependency/-/some-dependency-0.0.1-security.tgz",
+        "sha1": "8f539c86071a68a9e9cfadfe1c0267031371aecd",
+        "error": null,
+        "virustotal": null
+    },
+    "tls": {
+        "url": "https://registry.npmjs.org/tls/-/tls-0.0.1.tgz",
+        "sha1": "0ab2bf5968d71df2f8c0e1515d24a2240b98aac8",
+        "error": null,
+        "virustotal": null
+    },
+    "@apollo/server": {
+        "url": "https://registry.npmjs.org/@apollo/server/-/server-5.2.0.tgz",
+        "sha1": "0be9e77e523da58b7ffb4ad21ddf9c5277112d5a",
+        "error": null,
+        "virustotal": null
+    },
+    "hpp": {
+        "url": "https://registry.npmjs.org/hpp/-/hpp-0.2.3.tgz",
+        "sha1": "33bcc5fda713d2a962173c84f79a915a739b57bc",
+        "error": null,
+        "virustotal": null
+    },
+    "astring": {
+        "url": "https://registry.npmjs.org/astring/-/astring-1.9.0.tgz",
+        "sha1": "cc73e6062a7eb03e7d19c22d8b0b3451fd9bfeef",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/rds-signer": {
+        "url": "https://registry.npmjs.org/@aws-sdk/rds-signer/-/rds-signer-3.936.0.tgz",
+        "sha1": "b123d8c5033c73b6d5e4f0e778f2a199f9f44eb1",
+        "error": null,
+        "virustotal": null
+    },
+    "simple-git": {
+        "url": "https://registry.npmjs.org/simple-git/-/simple-git-3.30.0.tgz",
+        "sha1": "260b816f369c298b60a509a319b4f0b9fadbd7e0",
+        "error": null,
+        "virustotal": null
+    },
+    "@iarna/toml": {
+        "url": "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz",
+        "sha1": "b32366c89b43c6f8cefbdefac778b9c828e3ba8c",
+        "error": null,
+        "virustotal": null
+    },
+    "vscode": {
+        "url": "https://registry.npmjs.org/vscode/-/vscode-1.1.37.tgz",
+        "sha1": "c2a770bee4bb3fff765e2b72c7bcc813b8a6bb0a",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql": {
+        "url": "https://registry.npmjs.org/graphql/-/graphql-16.12.0.tgz",
+        "sha1": "28cc2462435b1ac3fdc6976d030cef83a0c13ac7",
+        "error": null,
+        "virustotal": null
+    },
+    "prettier": {
+        "url": "https://registry.npmjs.org/prettier/-/prettier-3.6.2.tgz",
+        "sha1": "ccda02a1003ebbb2bfda6f83a074978f608b9393",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark-factory-destination": {
+        "url": "https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz",
+        "sha1": "8fef8e0f7081f0474fbdd92deb50c990a0264639",
+        "error": null,
+        "virustotal": null
+    },
+    "cookie-parser": {
+        "url": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.7.tgz",
+        "sha1": "e2125635dfd766888ffe90d60c286404fa0e7b26",
+        "error": null,
+        "virustotal": null
+    },
+    "sqlite3": {
+        "url": "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.7.tgz",
+        "sha1": "59ca1053c1ab38647396586edad019b1551041b7",
+        "error": null,
+        "virustotal": null
+    },
+    "csv": {
+        "url": "https://registry.npmjs.org/csv/-/csv-6.4.1.tgz",
+        "sha1": "c9a62130c025f8adb2a85a75d4c2608612995822",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/instrumentation": {
+        "url": "https://registry.npmjs.org/@opentelemetry/instrumentation/-/instrumentation-0.208.0.tgz",
+        "sha1": "d764f8e4329dad50804e2e98f010170c14c4ce8f",
+        "error": null,
+        "virustotal": null
+    },
+    "uuid": {
+        "url": "https://registry.npmjs.org/uuid/-/uuid-13.0.0.tgz",
+        "sha1": "263dc341b19b4d755eb8fe36b78d95a6b65707e8",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-plugin-esbuild": {
+        "url": "https://registry.npmjs.org/rollup-plugin-esbuild/-/rollup-plugin-esbuild-6.2.1.tgz",
+        "sha1": "c556195465bf452965686e0f21adfe306b90c219",
+        "error": null,
+        "virustotal": null
+    },
+    "@prisma/client": {
+        "url": "https://registry.npmjs.org/@prisma/client/-/client-7.0.0.tgz",
+        "sha1": "fe9f1711a5143c7f3e41210982d73f00ddf66c49",
+        "error": null,
+        "virustotal": null
+    },
+    "unified": {
+        "url": "https://registry.npmjs.org/unified/-/unified-11.0.5.tgz",
+        "sha1": "f66677610a5c0a9ee90cab2b8d4d66037026d9e1",
+        "error": null,
+        "virustotal": null
+    },
+    "stream-combiner2": {
+        "url": "https://registry.npmjs.org/stream-combiner2/-/stream-combiner2-1.1.1.tgz",
+        "sha1": "fb4d8a1420ea362764e21ad4780397bebcb41cbe",
+        "error": null,
+        "virustotal": null
+    },
+    "eslint": {
+        "url": "https://registry.npmjs.org/eslint/-/eslint-9.39.1.tgz",
+        "sha1": "be8bf7c6de77dcc4252b5a8dcb31c2efff74a6e5",
+        "error": null,
+        "virustotal": null
+    },
+    "express-graphql": {
+        "url": "https://registry.npmjs.org/express-graphql/-/express-graphql-0.12.0.tgz",
+        "sha1": "58deabc309909ca2c9fe2f83f5fbe94429aa23df",
+        "error": null,
+        "virustotal": null
+    },
+    "opentelemetry": {
+        "url": "https://registry.npmjs.org/opentelemetry/-/opentelemetry-0.1.0.tgz",
+        "sha1": "066bfd5255977cfbec124c26fa0227e87d52b9e5",
+        "error": null,
+        "virustotal": null
+    },
+    "react-table": {
+        "url": "https://registry.npmjs.org/react-table/-/react-table-7.8.0.tgz",
+        "sha1": "07858c01c1718c09f7f1aed7034fcfd7bda907d2",
+        "error": null,
+        "virustotal": null
+    },
+    "tmp": {
+        "url": "https://registry.npmjs.org/tmp/-/tmp-0.2.5.tgz",
+        "sha1": "b06bcd23f0f3c8357b426891726d16015abfd8f8",
+        "error": null,
+        "virustotal": null
+    },
+    "conventional-changelog": {
+        "url": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-7.1.1.tgz",
+        "sha1": "9dbeb2ed54d519f53edd2922eda4145990f1de62",
+        "error": null,
+        "virustotal": null
+    },
+    "watch-glob": {
+        "url": "https://registry.npmjs.org/watch-glob/-/watch-glob-0.1.3.tgz",
+        "sha1": "571bc27c4eed3121e639854329656f0848d6994d",
+        "error": null,
+        "virustotal": null
+    },
+    "asn1.js": {
+        "url": "https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz",
+        "sha1": "11a980b84ebb91781ce35b0fdc2ee294e3783f07",
+        "error": null,
+        "virustotal": null
+    },
+    "libpq": {
+        "url": "https://registry.npmjs.org/libpq/-/libpq-1.8.15.tgz",
+        "sha1": "bf9cea8e59e1a4a911d06df01d408213a09925ad",
+        "error": null,
+        "virustotal": null
+    },
+    "module-name": {
+        "url": "https://registry.npmjs.org/module-name/-/module-name-0.0.1-security.tgz",
+        "sha1": "69e165948f0420f9d388df6c8dc59d47250b45ff",
+        "error": null,
+        "virustotal": null
+    },
+    "busboy": {
+        "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz",
+        "sha1": "966ea36a9502e43cdb9146962523b92f531f6893",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/ms-rest-js": {
+        "url": "https://registry.npmjs.org/@azure/ms-rest-js/-/ms-rest-js-2.7.0.tgz",
+        "sha1": "8639065577ffdf4946951e1d246334ebfd72d537",
+        "error": null,
+        "virustotal": null
+    },
+    "buffer": {
+        "url": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+        "sha1": "2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6",
+        "error": null,
+        "virustotal": null
+    },
+    "stream-chain": {
+        "url": "https://registry.npmjs.org/stream-chain/-/stream-chain-3.4.0.tgz",
+        "sha1": "574b82f493850aaf6920a6043a2c2a3da923898c",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-sso": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.936.0.tgz",
+        "sha1": "065ff289522b0084615cd67f3032d274d29304f1",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/api": {
+        "url": "https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz",
+        "sha1": "d03eba68273dc0f7509e2a3d5cba21eae10379fe",
+        "error": null,
+        "virustotal": null
+    },
+    "csv-writer": {
+        "url": "https://registry.npmjs.org/csv-writer/-/csv-writer-1.6.0.tgz",
+        "sha1": "d0cea44b6b4d7d3baa2ecc6f3f7209233514bcf9",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/s3-request-presigner": {
+        "url": "https://registry.npmjs.org/@aws-sdk/s3-request-presigner/-/s3-request-presigner-3.937.0.tgz",
+        "sha1": "e4b2ea003d1e4c21ede1cb49fe6d54d758fb5eb8",
+        "error": null,
+        "virustotal": null
+    },
+    "yargs": {
+        "url": "https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz",
+        "sha1": "6c84259806273a746b09f579087b68a3c2d25bd1",
+        "error": null,
+        "virustotal": null
+    },
+    "path": {
+        "url": "https://registry.npmjs.org/path/-/path-0.12.7.tgz",
+        "sha1": "d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f",
+        "error": null,
+        "virustotal": null
+    },
+    "@octokit/auth-app": {
+        "url": "https://registry.npmjs.org/@octokit/auth-app/-/auth-app-8.1.2.tgz",
+        "sha1": "68f2ce201c525dc678965c50b377963b3bce135f",
+        "error": null,
+        "virustotal": null
+    },
+    "@ampproject/remapping": {
+        "url": "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz",
+        "sha1": "ed441b6fa600072520ce18b43d2c8cc8caecc7f4",
+        "error": null,
+        "virustotal": null
+    },
+    "foo": {
+        "url": "https://registry.npmjs.org/foo/-/foo-0.0.7.tgz",
+        "sha1": "7a27337c6c629fe9bed36961c697db15a689cab3",
+        "error": null,
+        "virustotal": null
+    },
+    "module-deps": {
+        "url": "https://registry.npmjs.org/module-deps/-/module-deps-6.2.3.tgz",
+        "sha1": "15490bc02af4b56cf62299c7c17cba32d71a96ee",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-trace-base": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-2.2.0.tgz",
+        "sha1": "ddef9a0afd01a623d8625a3529f2137b05e67d0b",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-router": {
+        "url": "https://registry.npmjs.org/koa-router/-/koa-router-14.0.0.tgz",
+        "sha1": "67b15730971e574c86333ca2ea1fa9ed1b0d4505",
+        "error": null,
+        "virustotal": null
+    },
+    "pug": {
+        "url": "https://registry.npmjs.org/pug/-/pug-3.0.3.tgz",
+        "sha1": "e18324a314cd022883b1e0372b8af3a1a99f7597",
+        "error": null,
+        "virustotal": null
+    },
+    "underscore": {
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.7.tgz",
+        "sha1": "970e33963af9a7dda228f17ebe8399e5fbe63a10",
+        "error": null,
+        "virustotal": null
+    },
+    "tmp-promise": {
+        "url": "https://registry.npmjs.org/tmp-promise/-/tmp-promise-3.0.3.tgz",
+        "sha1": "60a1a1cc98c988674fcbfd23b6e3367bdeac4ce7",
+        "error": null,
+        "virustotal": null
+    },
+    "@apollo/react-hooks": {
+        "url": "https://registry.npmjs.org/@apollo/react-hooks/-/react-hooks-4.0.0.tgz",
+        "sha1": "7bf7b320c90d276f637d9a84b503e17b840dd4e6",
+        "error": null,
+        "virustotal": null
+    },
+    "global-directory": {
+        "url": "https://registry.npmjs.org/global-directory/-/global-directory-4.0.1.tgz",
+        "sha1": "4d7ac7cfd2cb73f304c53b8810891748df5e361e",
+        "error": null,
+        "virustotal": null
+    },
+    "JSONStream": {
+        "url": "https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.5.tgz",
+        "sha1": "3208c1f08d3a4d99261ab64f92302bc15e111ca0",
+        "error": null,
+        "virustotal": null
+    },
+    "cross-fetch": {
+        "url": "https://registry.npmjs.org/cross-fetch/-/cross-fetch-4.1.0.tgz",
+        "sha1": "8f69355007ee182e47fa692ecbaa37a52e43c3d2",
+        "error": null,
+        "virustotal": null
+    },
+    "vm": {
+        "url": "https://registry.npmjs.org/vm/-/vm-0.1.0.tgz",
+        "sha1": "0060d485e8b89858946c40b01a6ba07945db70a8",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/identity": {
+        "url": "https://registry.npmjs.org/@azure/identity/-/identity-4.13.0.tgz",
+        "sha1": "b2be63646964ab59e0dc0eadca8e4f562fc31f96",
+        "error": null,
+        "virustotal": null
+    },
+    "fastify-plugin": {
+        "url": "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-5.1.0.tgz",
+        "sha1": "7083e039d6418415f9a669f8c25e72fc5bf2d3e7",
+        "error": null,
+        "virustotal": null
+    },
+    "events": {
+        "url": "https://registry.npmjs.org/events/-/events-3.3.0.tgz",
+        "sha1": "31a95ad0a924e2d2c419a813aeb2c4e878ea7400",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-json": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-6.1.0.tgz",
+        "sha1": "fbe784e29682e9bb6dee28ea75a1a83702e7b805",
+        "error": null,
+        "virustotal": null
+    },
+    "regenerator-runtime": {
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz",
+        "sha1": "356ade10263f685dda125100cd862c1db895327f",
+        "error": null,
+        "virustotal": null
+    },
+    "node:zlib": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "@svgr/plugin-prettier": {
+        "url": "https://registry.npmjs.org/@svgr/plugin-prettier/-/plugin-prettier-8.1.0.tgz",
+        "sha1": "71bf0d0b0ae4c2234a2deb0e5bad21c2cfe31364",
+        "error": null,
+        "virustotal": null
+    },
+    "socket.io-client": {
+        "url": "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.8.1.tgz",
+        "sha1": "1941eca135a5490b94281d0323fe2a35f6f291cb",
+        "error": null,
+        "virustotal": null
+    },
+    "@angular-devkit/schematics": {
+        "url": "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-21.0.0.tgz",
+        "sha1": "763186266f1ad15ef6fc6d6ae7c98fffb463c755",
+        "error": null,
+        "virustotal": null
+    },
+    "node:test": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "regjsparser": {
+        "url": "https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.0.tgz",
+        "sha1": "01f8351335cf7898d43686bc74d2dd71c847ecc0",
+        "error": null,
+        "virustotal": null
+    },
+    "regjsgen": {
+        "url": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.8.0.tgz",
+        "sha1": "df23ff26e0c5b300a6470cad160a9d090c3a37ab",
+        "error": null,
+        "virustotal": null
+    },
+    "http": {
+        "url": "https://registry.npmjs.org/http/-/http-0.0.1-security.tgz",
+        "sha1": "3aac09129d12dc2747bbce4157afde20ad1f7995",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/preset-typescript": {
+        "url": "https://registry.npmjs.org/@babel/preset-typescript/-/preset-typescript-7.28.5.tgz",
+        "sha1": "540359efa3028236958466342967522fd8f2a60c",
+        "error": null,
+        "virustotal": null
+    },
+    "webpack": {
+        "url": "https://registry.npmjs.org/webpack/-/webpack-5.103.0.tgz",
+        "sha1": "17a7c5a5020d5a3a37c118d002eade5ee2c6f3da",
+        "error": null,
+        "virustotal": null
+    },
+    "intl-messageformat": {
+        "url": "https://registry.npmjs.org/intl-messageformat/-/intl-messageformat-10.7.18.tgz",
+        "sha1": "51a6f387afbca9b0f881b2ec081566db8c540b0d",
+        "error": null,
+        "virustotal": null
+    },
+    "modulename": {
+        "url": "https://registry.npmjs.org/modulename/-/modulename-0.0.4.tgz",
+        "sha1": "0fa34efd7e3516e09f89323ad43e7231d8752bed",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-sts": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.936.0.tgz",
+        "sha1": "ef82e4407043aaef1c34815508f3fff75056d06e",
+        "error": null,
+        "virustotal": null
+    },
+    "spectacular": {
+        "url": "https://registry.npmjs.org/spectacular/-/spectacular-1.6.0.tgz",
+        "sha1": "aa161f22450c2a78eb7fd9631e309b43856eb65e",
+        "error": null,
+        "virustotal": null
+    },
+    "lit": {
+        "url": "https://registry.npmjs.org/lit/-/lit-3.3.1.tgz",
+        "sha1": "9dc79be626bc9a3b824de98b107dd662cabdeda6",
+        "error": null,
+        "virustotal": null
+    },
+    "amqplib": {
+        "url": "https://registry.npmjs.org/amqplib/-/amqplib-0.10.9.tgz",
+        "sha1": "5b744c21d624f9307d0399e4d339b7354675831c",
+        "error": null,
+        "virustotal": null
+    },
+    "js-yaml": {
+        "url": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz",
+        "sha1": "854c292467705b699476e1a2decc0c8a3458806b",
+        "error": null,
+        "virustotal": null
+    },
+    "express-rate-limit": {
+        "url": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-8.2.1.tgz",
+        "sha1": "ec75fdfe280ecddd762b8da8784c61bae47d7f7f",
+        "error": null,
+        "virustotal": null
+    },
+    "protobufjs": {
+        "url": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.5.4.tgz",
+        "sha1": "885d31fe9c4b37f25d1bb600da30b1c5b37d286a",
+        "error": null,
+        "virustotal": null
+    },
+    "ts-morph": {
+        "url": "https://registry.npmjs.org/ts-morph/-/ts-morph-27.0.2.tgz",
+        "sha1": "7b2fcce6822eeca3942fa6c601f159d5920b1422",
+        "error": null,
+        "virustotal": null
+    },
+    "node:module": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "ast-util": {
+        "url": "https://registry.npmjs.org/ast-util/-/ast-util-0.6.0.tgz",
+        "sha1": "0d913d04f0e9831e53f9991dc99009e2da774810",
+        "error": null,
+        "virustotal": null
+    },
+    "@swc/core": {
+        "url": "https://registry.npmjs.org/@swc/core/-/core-1.15.3.tgz",
+        "sha1": "2d0a5c4ac4c180c3dbf2f6d5d958b9fcbaa9755f",
+        "error": null,
+        "virustotal": null
+    },
+    "@octokit/rest": {
+        "url": "https://registry.npmjs.org/@octokit/rest/-/rest-22.0.1.tgz",
+        "sha1": "4d866c32b76b711d3f736f91992e2b534163b416",
+        "error": null,
+        "virustotal": null
+    },
+    "got": {
+        "url": "https://registry.npmjs.org/got/-/got-14.6.5.tgz",
+        "sha1": "9a8d2b46abf29c9f3bf5179bda94fd8509f97220",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-request": {
+        "url": "https://registry.npmjs.org/graphql-request/-/graphql-request-7.3.4.tgz",
+        "sha1": "742733cef8311dfa10b90291c1b524bdc7b38d1d",
+        "error": null,
+        "virustotal": null
+    },
+    "conventional-changelog-core": {
+        "url": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-9.0.0.tgz",
+        "sha1": "542a1d3817ac9af785e8809875936a76c48b3c9e",
+        "error": null,
+        "virustotal": null
+    },
+    "ref-napi": {
+        "url": "https://registry.npmjs.org/ref-napi/-/ref-napi-3.0.3.tgz",
+        "sha1": "e259bfc2bbafb3e169e8cd9ba49037dd00396b22",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-lib-report": {
+        "url": "https://registry.npmjs.org/istanbul-lib-report/-/istanbul-lib-report-3.0.1.tgz",
+        "sha1": "908305bac9a5bd175ac6a74489eafd0fc2445a7d",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-time-format": {
+        "url": "https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz",
+        "sha1": "7ab5257a5041d11ecb4fe70a5c7d16a195bb408a",
+        "error": null,
+        "virustotal": null
+    },
+    "pg": {
+        "url": "https://registry.npmjs.org/pg/-/pg-8.16.3.tgz",
+        "sha1": "160741d0b44fdf64680e45374b06d632e86c99fd",
+        "error": null,
+        "virustotal": null
+    },
+    "urql": {
+        "url": "https://registry.npmjs.org/urql/-/urql-5.0.1.tgz",
+        "sha1": "3283557aad869e4109ed30254f79a7a430f3fd68",
+        "error": null,
+        "virustotal": null
+    },
+    "express": {
+        "url": "https://registry.npmjs.org/express/-/express-5.1.0.tgz",
+        "sha1": "d31beaf715a0016f0d53f47d3b4d7acf28c75cc9",
+        "error": null,
+        "virustotal": null
+    },
+    "my-library": {
+        "url": "https://registry.npmjs.org/my-library/-/my-library-1.0.0.tgz",
+        "sha1": "84d31c974e9b44f7113c705adc40e66d29f40635",
+        "error": null,
+        "virustotal": null
+    },
+    "date-fns": {
+        "url": "https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz",
+        "sha1": "64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14",
+        "error": null,
+        "virustotal": null
+    },
+    "axios-mock-adapter": {
+        "url": "https://registry.npmjs.org/axios-mock-adapter/-/axios-mock-adapter-2.1.0.tgz",
+        "sha1": "25ab2d7558f915e391744a40bbeb7374ad5985a4",
+        "error": null,
+        "virustotal": null
+    },
+    "jsonpath-plus": {
+        "url": "https://registry.npmjs.org/jsonpath-plus/-/jsonpath-plus-10.3.0.tgz",
+        "sha1": "59e22e4fa2298c68dfcd70659bb47f0cad525238",
+        "error": null,
+        "virustotal": null
+    },
+    "crypto": {
+        "url": "https://registry.npmjs.org/crypto/-/crypto-1.0.1.tgz",
+        "sha1": "2af1b7cad8175d24c8a1b0778255794a21803037",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/crypto-sha256-js": {
+        "url": "https://registry.npmjs.org/@aws-sdk/crypto-sha256-js/-/crypto-sha256-js-0.1.0-preview.1.tgz",
+        "sha1": "6c6dfb7ef4bbff701a4c7ce24e8791a9d9fb0adc",
+        "error": null,
+        "virustotal": null
+    },
+    "node:fs": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "@azure/msal-browser": {
+        "url": "https://registry.npmjs.org/@azure/msal-browser/-/msal-browser-4.26.2.tgz",
+        "sha1": "1d416b7ab6a4094fa098e4da5058dd3d21231783",
+        "error": null,
+        "virustotal": null
+    },
+    "exifr": {
+        "url": "https://registry.npmjs.org/exifr/-/exifr-7.1.3.tgz",
+        "sha1": "f6218012c36dbb7d843222011b27f065fddbab6f",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-ejs": {
+        "url": "https://registry.npmjs.org/koa-ejs/-/koa-ejs-4.3.0.tgz",
+        "sha1": "06d8459b1d52f4c41b413d8778f71e1ab2ec5009",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/util-middleware": {
+        "url": "https://registry.npmjs.org/@aws-sdk/util-middleware/-/util-middleware-3.374.0.tgz",
+        "sha1": "b40d39a1f80f311ac3f5546746dd299b5bc308b7",
+        "error": null,
+        "virustotal": null
+    },
+    "randombytes": {
+        "url": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+        "sha1": "df6f84372f0270dc65cdf6291349ab7a473d4f2a",
+        "error": null,
+        "virustotal": null
+    },
+    "json-schema-to-typescript": {
+        "url": "https://registry.npmjs.org/json-schema-to-typescript/-/json-schema-to-typescript-15.0.4.tgz",
+        "sha1": "a530c7f17312503b262ae12233749732171840f3",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-crypto/sha256-browser": {
+        "url": "https://registry.npmjs.org/@aws-crypto/sha256-browser/-/sha256-browser-5.2.0.tgz",
+        "sha1": "153895ef1dba6f9fce38af550e0ef58988eb649e",
+        "error": null,
+        "virustotal": null
+    },
+    "es-module-lexer": {
+        "url": "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-1.7.0.tgz",
+        "sha1": "9159601561880a85f2734560a9099b2c31e5372a",
+        "error": null,
+        "virustotal": null
+    },
+    "my-components": {
+        "url": "https://registry.npmjs.org/my-components/-/my-components-1.0.6.tgz",
+        "sha1": "93f78c9667f6537996520259883110d9ef85abd1",
+        "error": null,
+        "virustotal": null
+    },
+    "@salesforce/command": {
+        "url": "https://registry.npmjs.org/@salesforce/command/-/command-5.3.9.tgz",
+        "sha1": "0e4da5a278237f95d892e0672d67938c61dd3269",
+        "error": null,
+        "virustotal": null
+    },
+    "execa": {
+        "url": "https://registry.npmjs.org/execa/-/execa-9.6.0.tgz",
+        "sha1": "38665530e54e2e018384108322f37f35ae74f3bc",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-sqs": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sqs/-/client-sqs-3.936.0.tgz",
+        "sha1": "6ecd9f02a33d9a182facbb08ca9870761f13c866",
+        "error": null,
+        "virustotal": null
+    },
+    "prop-types": {
+        "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",
+        "sha1": "67d87bf1a694f48435cf332c24af10214a3140b5",
+        "error": null,
+        "virustotal": null
+    },
+    "some-utils": {
+        "url": "https://registry.npmjs.org/some-utils/-/some-utils-1.0.0.tgz",
+        "sha1": "50fc6b7e396dc15d8c24ab5b223f28a0b69b7a8a",
+        "error": null,
+        "virustotal": null
+    },
+    "ethers": {
+        "url": "https://registry.npmjs.org/ethers/-/ethers-6.15.0.tgz",
+        "sha1": "2980f2a3baf0509749b7e21f8692fa8a8349c0e3",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-logs-otlp-http": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-logs-otlp-http/-/exporter-logs-otlp-http-0.208.0.tgz",
+        "sha1": "198d6e735e961a79352a3d032a28da295db802dc",
+        "error": null,
+        "virustotal": null
+    },
+    "glob": {
+        "url": "https://registry.npmjs.org/glob/-/glob-13.0.0.tgz",
+        "sha1": "9d9233a4a274fc28ef7adce5508b7ef6237a1be3",
+        "error": null,
+        "virustotal": null
+    },
+    "mysql2": {
+        "url": "https://registry.npmjs.org/mysql2/-/mysql2-3.15.3.tgz",
+        "sha1": "f0348d9c7401bb98cb1f45ffc5a773b109f70808",
+        "error": null,
+        "virustotal": null
+    },
+    "@salesforce/core": {
+        "url": "https://registry.npmjs.org/@salesforce/core/-/core-8.23.4.tgz",
+        "sha1": "f1fa18eace08f685e72975a09d96e7f6958ca3b4",
+        "error": null,
+        "virustotal": null
+    },
+    "googleapis": {
+        "url": "https://registry.npmjs.org/googleapis/-/googleapis-166.0.0.tgz",
+        "sha1": "fb4579de960fbee86c5fd8dc9b992113fb3e2334",
+        "error": null,
+        "virustotal": null
+    },
+    "module": {
+        "url": "https://registry.npmjs.org/module/-/module-2.0.0.tgz",
+        "sha1": "0f65d65160c00e04ac1b11cb92afa3160898f66c",
+        "error": null,
+        "virustotal": null
+    },
+    "mdast-util-to-markdown": {
+        "url": "https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz",
+        "sha1": "f910ffe60897f04bb4b7e7ee434486f76288361b",
+        "error": null,
+        "virustotal": null
+    },
+    "fork-ts-checker-webpack-plugin": {
+        "url": "https://registry.npmjs.org/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-9.1.0.tgz",
+        "sha1": "433481c1c228c56af111172fcad7df79318c915a",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-trace-otlp-proto": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-trace-otlp-proto/-/exporter-trace-otlp-proto-0.208.0.tgz",
+        "sha1": "e64d00d333b483299b89936102b1a5d075c48175",
+        "error": null,
+        "virustotal": null
+    },
+    "mdast-util-from-markdown": {
+        "url": "https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.2.tgz",
+        "sha1": "4850390ca7cf17413a9b9a0fbefcd1bc0eb4160a",
+        "error": null,
+        "virustotal": null
+    },
+    "winston-transport": {
+        "url": "https://registry.npmjs.org/winston-transport/-/winston-transport-4.9.0.tgz",
+        "sha1": "3bba345de10297654ea6f33519424560003b3bf9",
+        "error": null,
+        "virustotal": null
+    },
+    "backbone": {
+        "url": "https://registry.npmjs.org/backbone/-/backbone-1.6.1.tgz",
+        "sha1": "6e067777767f54b9e150d3de825f7d66e7ed77d0",
+        "error": null,
+        "virustotal": null
+    },
+    "react-native": {
+        "url": "https://registry.npmjs.org/react-native/-/react-native-0.82.1.tgz",
+        "sha1": "8f850bf2d5f04d49246c2d604836218daca19af7",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/sdk-logs": {
+        "url": "https://registry.npmjs.org/@opentelemetry/sdk-logs/-/sdk-logs-0.208.0.tgz",
+        "sha1": "013494e23412c1594a694a358211cd150144c525",
+        "error": null,
+        "virustotal": null
+    },
+    "node:string_decoder": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "node:stream": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "node:assert": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "ajv": {
+        "url": "https://registry.npmjs.org/ajv/-/ajv-8.17.1.tgz",
+        "sha1": "37d9a5c776af6bc92d7f4f9510eba4c0a60d11a6",
+        "error": null,
+        "virustotal": null
+    },
+    "cheerio": {
+        "url": "https://registry.npmjs.org/cheerio/-/cheerio-1.1.2.tgz",
+        "sha1": "26af77e89336c81c63ea83197f868b4cbd351369",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-crypto/sha256-js": {
+        "url": "https://registry.npmjs.org/@aws-crypto/sha256-js/-/sha256-js-5.2.0.tgz",
+        "sha1": "c4fdb773fdbed9a664fc1a95724e206cf3860042",
+        "error": null,
+        "virustotal": null
+    },
+    "xmlhttprequest": {
+        "url": "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz",
+        "sha1": "67fe075c5c24fef39f9d65f5f7b7fe75171968fc",
+        "error": null,
+        "virustotal": null
+    },
+    "joi": {
+        "url": "https://registry.npmjs.org/joi/-/joi-18.0.2.tgz",
+        "sha1": "30ced6aed00a7848cc11f92859515258301dc3a4",
+        "error": null,
+        "virustotal": null
+    },
+    "rollup-pluginutils": {
+        "url": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz",
+        "sha1": "72f2af0748b592364dbd3389e600e5a9444a351e",
+        "error": null,
+        "virustotal": null
+    },
+    "invariant": {
+        "url": "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz",
+        "sha1": "610f3c92c9359ce1db616e538008d23ff35158e6",
+        "error": null,
+        "virustotal": null
+    },
+    "mongodb": {
+        "url": "https://registry.npmjs.org/mongodb/-/mongodb-7.0.0.tgz",
+        "sha1": "33b381dc9fdca208a38ea03340d57244c776573f",
+        "error": null,
+        "virustotal": null
+    },
+    "lucide-react": {
+        "url": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.554.0.tgz",
+        "sha1": "85ee9855d43cfa83f6077125fe9dbe2521bdf37d",
+        "error": null,
+        "virustotal": null
+    },
+    "stream": {
+        "url": "https://registry.npmjs.org/stream/-/stream-0.0.3.tgz",
+        "sha1": "3f3934a900a561ce3e2b9ffbd2819cead32699d9",
+        "error": null,
+        "virustotal": null
+    },
+    "vfile": {
+        "url": "https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz",
+        "sha1": "3652ab1c496531852bf55a6bac57af981ebc38ab",
+        "error": null,
+        "virustotal": null
+    },
+    "@graphql-tools/utils": {
+        "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-10.10.3.tgz",
+        "sha1": "1c6ad8d824ad3fd05571cd2bfdce863c497136d4",
+        "error": null,
+        "virustotal": null
+    },
+    "redis": {
+        "url": "https://registry.npmjs.org/redis/-/redis-5.10.0.tgz",
+        "sha1": "c1b26ba2acd9c5fcc0d1724a3c7f0984ca43f48b",
+        "error": null,
+        "virustotal": null
+    },
+    "fs": {
+        "url": "https://registry.npmjs.org/fs/-/fs-0.0.1-security.tgz",
+        "sha1": "8a7bd37186b6dddf3813f23858b57ecaaf5e41d4",
+        "error": null,
+        "virustotal": null
+    },
+    "vscode-languageserver-textdocument": {
+        "url": "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.12.tgz",
+        "sha1": "457ee04271ab38998a093c68c2342f53f6e4a631",
+        "error": null,
+        "virustotal": null
+    },
+    "oauth-sign": {
+        "url": "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz",
+        "sha1": "47a7b016baa68b5fa0ecf3dee08a85c679ac6455",
+        "error": null,
+        "virustotal": null
+    },
+    "ajv-errors": {
+        "url": "https://registry.npmjs.org/ajv-errors/-/ajv-errors-3.0.0.tgz",
+        "sha1": "e54f299f3a3d30fe144161e5f0d8d51196c527bc",
+        "error": null,
+        "virustotal": null
+    },
+    "react-docgen-typescript": {
+        "url": "https://registry.npmjs.org/react-docgen-typescript/-/react-docgen-typescript-2.4.0.tgz",
+        "sha1": "033428b4a6a639d050ac8baf2a5195c596521713",
+        "error": null,
+        "virustotal": null
+    },
+    "@jridgewell/remapping": {
+        "url": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+        "sha1": "375c476d1972947851ba1e15ae8f123047445aa1",
+        "error": null,
+        "virustotal": null
+    },
+    "pino-http": {
+        "url": "https://registry.npmjs.org/pino-http/-/pino-http-11.0.0.tgz",
+        "sha1": "ebadef4694fc59aadab9be7e5939aea625b4615f",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/core-auth": {
+        "url": "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.10.1.tgz",
+        "sha1": "68a17fa861ebd14f6fd314055798355ef6bedf1b",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-iam": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-iam/-/client-iam-3.936.0.tgz",
+        "sha1": "2675be4223413572c6234416b82108fd663c86d1",
+        "error": null,
+        "virustotal": null
+    },
+    "jquery": {
+        "url": "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz",
+        "sha1": "083ef98927c9a6a74d05a6af02806566d16274de",
+        "error": null,
+        "virustotal": null
+    },
+    "handlebars": {
+        "url": "https://registry.npmjs.org/handlebars/-/handlebars-4.7.8.tgz",
+        "sha1": "41c42c18b1be2365439188c77c6afae71c0cd9e9",
+        "error": null,
+        "virustotal": null
+    },
+    "jsforce": {
+        "url": "https://registry.npmjs.org/jsforce/-/jsforce-3.10.8.tgz",
+        "sha1": "32a8bf9d104990f382c686e4cb1707382e21dc36",
+        "error": null,
+        "virustotal": null
+    },
+    "octokit": {
+        "url": "https://registry.npmjs.org/octokit/-/octokit-5.0.5.tgz",
+        "sha1": "8122c8db5c818381839ccc1980295abd9909548f",
+        "error": null,
+        "virustotal": null
+    },
+    "cjs-module-lexer": {
+        "url": "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-2.1.1.tgz",
+        "sha1": "bff23b0609cc9afa428bd35f1918f7d03b448562",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-color": {
+        "url": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz",
+        "sha1": "395b2833dfac71507f12ac2f7af23bf819de24e2",
+        "error": null,
+        "virustotal": null
+    },
+    "commander": {
+        "url": "https://registry.npmjs.org/commander/-/commander-14.0.2.tgz",
+        "sha1": "b71fd37fe4069e4c3c7c13925252ada4eba14e8e",
+        "error": null,
+        "virustotal": null
+    },
+    "rehype-meta": {
+        "url": "https://registry.npmjs.org/rehype-meta/-/rehype-meta-4.0.1.tgz",
+        "sha1": "bf9776a3bb883116185ee4442724d5bd69a3bb91",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-babel": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-6.1.0.tgz",
+        "sha1": "5766913722057f28a56365bb6c1ca61306c7e527",
+        "error": null,
+        "virustotal": null
+    },
+    "fb-utils": {
+        "url": "https://registry.npmjs.org/fb-utils/-/fb-utils-1.0.6.tgz",
+        "sha1": "02c9ba97b3021b0aec80bb8cfe9a61899fe89823",
+        "error": null,
+        "virustotal": null
+    },
+    "micromark": {
+        "url": "https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz",
+        "sha1": "91395a3e1884a198e62116e33c9c568e39936fdb",
+        "error": null,
+        "virustotal": null
+    },
+    "conventional-changelog-writer": {
+        "url": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-8.2.0.tgz",
+        "sha1": "1b77ef8e45ccc4559e02a23a34d50c15d2051e5a",
+        "error": null,
+        "virustotal": null
+    },
+    "minipass": {
+        "url": "https://registry.npmjs.org/minipass/-/minipass-7.1.2.tgz",
+        "sha1": "93a9626ce5e5e66bd4db86849e7515e92340a707",
+        "error": null,
+        "virustotal": null
+    },
+    "@opentelemetry/exporter-metrics-otlp-http": {
+        "url": "https://registry.npmjs.org/@opentelemetry/exporter-metrics-otlp-http/-/exporter-metrics-otlp-http-0.208.0.tgz",
+        "sha1": "95bebb720f25b700d6464919634bb3665eae7b34",
+        "error": null,
+        "virustotal": null
+    },
+    "validator": {
+        "url": "https://registry.npmjs.org/validator/-/validator-13.15.23.tgz",
+        "sha1": "59a874f84e4594588e3409ab1edbe64e96d0c62d",
+        "error": null,
+        "virustotal": null
+    },
+    "node:crypto": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "redis-om": {
+        "url": "https://registry.npmjs.org/redis-om/-/redis-om-0.4.7.tgz",
+        "sha1": "78aa3e8efd9a368fd4067505e86e747c4a73498a",
+        "error": null,
+        "virustotal": null
+    },
+    "inspector": {
+        "url": "https://registry.npmjs.org/inspector/-/inspector-0.5.0.tgz",
+        "sha1": "a26465dcb58858352cf42977e691efacea88f501",
+        "error": null,
+        "virustotal": null
+    },
+    "node:dns": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "moment": {
+        "url": "https://registry.npmjs.org/moment/-/moment-2.30.1.tgz",
+        "sha1": "f8c91c07b7a786e30c59926df530b4eac96974ae",
+        "error": null,
+        "virustotal": null
+    },
+    "react-router-dom": {
+        "url": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.9.6.tgz",
+        "sha1": "f2a0d12961d67bd87ab48e5ef42fa1f45beae357",
+        "error": null,
+        "virustotal": null
+    },
+    "json5": {
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+        "sha1": "78cd6f1a19bdc12b73db5ad0c61efd66c1e29283",
+        "error": null,
+        "virustotal": null
+    },
+    "reflect-metadata": {
+        "url": "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.2.2.tgz",
+        "sha1": "400c845b6cba87a21f2c65c4aeb158f4fa4d9c5b",
+        "error": null,
+        "virustotal": null
+    },
+    "ag-grid-community": {
+        "url": "https://registry.npmjs.org/ag-grid-community/-/ag-grid-community-34.3.1.tgz",
+        "sha1": "29c7a914812224e8c03f5177e9888dbf789af2cf",
+        "error": null,
+        "virustotal": null
+    },
+    "graphql-http": {
+        "url": "https://registry.npmjs.org/graphql-http/-/graphql-http-1.22.4.tgz",
+        "sha1": "47b52ef0ab1f412943aca33ecfcdf22de525d59b",
+        "error": null,
+        "virustotal": null
+    },
+    "hast-util-select": {
+        "url": "https://registry.npmjs.org/hast-util-select/-/hast-util-select-6.0.4.tgz",
+        "sha1": "1d8f69657a57441d0ce0ade35887874d3e65a303",
+        "error": null,
+        "virustotal": null
+    },
+    "csso": {
+        "url": "https://registry.npmjs.org/csso/-/csso-5.0.5.tgz",
+        "sha1": "f9b7fe6cc6ac0b7d90781bb16d5e9874303e2ca6",
+        "error": null,
+        "virustotal": null
+    },
+    "my-lib": {
+        "url": "https://registry.npmjs.org/my-lib/-/my-lib-2.1.0.tgz",
+        "sha1": "10bebf4a6fba1b514d03fe0539fb2fb25bd27472",
+        "error": null,
+        "virustotal": null
+    },
+    "workerpool": {
+        "url": "https://registry.npmjs.org/workerpool/-/workerpool-10.0.1.tgz",
+        "sha1": "9e74de7df694f8f5ad0eec2b6d42553c664f5123",
+        "error": null,
+        "virustotal": null
+    },
+    "webpack-sources": {
+        "url": "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.3.3.tgz",
+        "sha1": "d4bf7f9909675d7a070ff14d0ef2a4f3c982c723",
+        "error": null,
+        "virustotal": null
+    },
+    "source-map": {
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.7.6.tgz",
+        "sha1": "a3658ab87e5b6429c8a1f3ba0083d4c61ca3ef02",
+        "error": null,
+        "virustotal": null
+    },
+    "@pkgr/core": {
+        "url": "https://registry.npmjs.org/@pkgr/core/-/core-0.3.5.tgz",
+        "sha1": "0389d39a857a93c1884069b7b77ccf71dc5f846a",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/traverse": {
+        "url": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.28.5.tgz",
+        "sha1": "450cab9135d21a7a2ca9d2d35aa05c20e68c360b",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/util-utf8-node": {
+        "url": "https://registry.npmjs.org/@aws-sdk/util-utf8-node/-/util-utf8-node-3.259.0.tgz",
+        "sha1": "8a4024e735f948f5e045a79e486a98dee2689860",
+        "error": null,
+        "virustotal": null
+    },
+    "crypto-hash": {
+        "url": "https://registry.npmjs.org/crypto-hash/-/crypto-hash-4.0.0.tgz",
+        "sha1": "c58a8737560980714fa086113de3b8f577b72178",
+        "error": null,
+        "virustotal": null
+    },
+    "conventional-commits-parser": {
+        "url": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-6.2.1.tgz",
+        "sha1": "855e53c4792b1feaf93649eff5d75e0dbc2c63ad",
+        "error": null,
+        "virustotal": null
+    },
+    "node:url": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "ip-range-check": {
+        "url": "https://registry.npmjs.org/ip-range-check/-/ip-range-check-0.2.0.tgz",
+        "sha1": "e67f126c8fb36c8f11d4c07d7924b7e364365157",
+        "error": null,
+        "virustotal": null
+    },
+    "ssf": {
+        "url": "https://registry.npmjs.org/ssf/-/ssf-0.11.2.tgz",
+        "sha1": "0b99698b237548d088fc43cdf2b70c1a7512c06c",
+        "error": null,
+        "virustotal": null
+    },
+    "node:process": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "graphql-tag": {
+        "url": "https://registry.npmjs.org/graphql-tag/-/graphql-tag-2.12.6.tgz",
+        "sha1": "d441a569c1d2537ef10ca3d1633b48725329b5f1",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-s3": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-s3/-/client-s3-3.937.0.tgz",
+        "sha1": "e85800e9525e9df64562cbf9eeefaff0ead5bc81",
+        "error": null,
+        "virustotal": null
+    },
+    "htmlparser": {
+        "url": "https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz",
+        "sha1": "19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/middleware-location-constraint": {
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-location-constraint/-/middleware-location-constraint-3.936.0.tgz",
+        "sha1": "1f79ba7d2506f12b806689f22d687fb05db3614e",
+        "error": null,
+        "virustotal": null
+    },
+    "apollo-server-express": {
+        "url": "https://registry.npmjs.org/apollo-server-express/-/apollo-server-express-3.13.0.tgz",
+        "sha1": "0d8d9bbba3b8b8264912d215f63fd44e74d5f42a",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/credential-provider-ini": {
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.936.0.tgz",
+        "sha1": "b9582752379527fc61df1802e3e4fc4f23c2dd44",
+        "error": null,
+        "virustotal": null
+    },
+    "A": {
+        "url": "https://registry.npmjs.org/A/-/A-0.0.1.tgz",
+        "sha1": "4528c21b00a87ac0aac55a8360f4f78aae3f135b",
+        "error": null,
+        "virustotal": null
+    },
+    "@azure/core-rest-pipeline": {
+        "url": "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.22.2.tgz",
+        "sha1": "7e14f21d25ab627cd07676adb5d9aacd8e2e95cc",
+        "error": null,
+        "virustotal": null
+    },
+    "npm": {
+        "url": "https://registry.npmjs.org/npm/-/npm-11.6.3.tgz",
+        "sha1": "3f581bca37cbdadf2be04346c0e5b0be96cdd54b",
+        "error": null,
+        "virustotal": null
+    },
+    "istanbul-lib-instrument": {
+        "url": "https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-6.0.3.tgz",
+        "sha1": "fa15401df6c15874bcb2105f773325d78c666765",
+        "error": null,
+        "virustotal": null
+    },
+    "vue": {
+        "url": "https://registry.npmjs.org/vue/-/vue-3.5.25.tgz",
+        "sha1": "b68b5092b617c57a0a36e8e640fd2c09aa2a374d",
+        "error": null,
+        "virustotal": null
+    },
+    "livereload": {
+        "url": "https://registry.npmjs.org/livereload/-/livereload-0.10.3.tgz",
+        "sha1": "a174abf91eafc0ab692af83caaceff82e987716f",
+        "error": null,
+        "virustotal": null
+    },
+    "@apollo/client": {
+        "url": "https://registry.npmjs.org/@apollo/client/-/client-4.0.9.tgz",
+        "sha1": "fdc0388f73a1640f3da30a8791e448b96ad0b49a",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-typescript": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-typescript/-/plugin-typescript-12.3.0.tgz",
+        "sha1": "cc51b830973bc14c9456fe6532f322f2a40f5f12",
+        "error": null,
+        "virustotal": null
+    },
+    "lodash.map": {
+        "url": "https://registry.npmjs.org/lodash.map/-/lodash.map-4.6.0.tgz",
+        "sha1": "771ec7839e3473d9c4cde28b19394c3562f4f6d3",
+        "error": null,
+        "virustotal": null
+    },
+    "another-module": {
+        "url": "https://registry.npmjs.org/another-module/-/another-module-0.0.1.tgz",
+        "sha1": "5e8f1c3c2d5073c43d70a736f8fb15a79a21489d",
+        "error": null,
+        "virustotal": null
+    },
+    "git": {
+        "url": "https://registry.npmjs.org/git/-/git-0.1.5.tgz",
+        "sha1": "9ef62df93f851c27542143bf52d1c68b1017ca15",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/signature-v4": {
+        "url": "https://registry.npmjs.org/@aws-sdk/signature-v4/-/signature-v4-3.374.0.tgz",
+        "sha1": "bd727f4c392acb81bc667aa4cfceeba608250771",
+        "error": null,
+        "virustotal": null
+    },
+    "nodemailer": {
+        "url": "https://registry.npmjs.org/nodemailer/-/nodemailer-7.0.10.tgz",
+        "sha1": "540062dbbe574220b42e79d2d949956d3eac5a46",
+        "error": null,
+        "virustotal": null
+    },
+    "regexp-tree": {
+        "url": "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.27.tgz",
+        "sha1": "2198f0ef54518ffa743fe74d983b56ffd631b6cd",
+        "error": null,
+        "virustotal": null
+    },
+    "idb-keyval": {
+        "url": "https://registry.npmjs.org/idb-keyval/-/idb-keyval-6.2.2.tgz",
+        "sha1": "b0171b5f73944854a3291a5cdba8e12768c4854a",
+        "error": null,
+        "virustotal": null
+    },
+    "express-mongo-sanitize": {
+        "url": "https://registry.npmjs.org/express-mongo-sanitize/-/express-mongo-sanitize-2.2.0.tgz",
+        "sha1": "c8c2d45e137f213950f70bf586704e0db5cfe356",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/client-lambda": {
+        "url": "https://registry.npmjs.org/@aws-sdk/client-lambda/-/client-lambda-3.938.0.tgz",
+        "sha1": "3fd0235e4913d34ec8229b0330f139809c8131eb",
+        "error": null,
+        "virustotal": null
+    },
+    "react": {
+        "url": "https://registry.npmjs.org/react/-/react-19.2.0.tgz",
+        "sha1": "d33dd1721698f4376ae57a54098cb47fc75d93a5",
+        "error": null,
+        "virustotal": null
+    },
+    "circular-b": {
+        "url": "https://registry.npmjs.org/circular-b/-/circular-b-1.0.4.tgz",
+        "sha1": "3e646ef1da0fc8b99e37c52a55b5d7bb8bb14233",
+        "error": null,
+        "virustotal": null
+    },
+    "node:buffer": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "bops": {
+        "url": "https://registry.npmjs.org/bops/-/bops-1.0.1.tgz",
+        "sha1": "502aaf00ee119db1dbae088e3df4bea2e241dbcc",
+        "error": null,
+        "virustotal": null
+    },
+    "github-auth": {
+        "url": "https://registry.npmjs.org/github-auth/-/github-auth-3.0.2.tgz",
+        "sha1": "6bfb5e20c3842402c973862602ac93c0f19731e4",
+        "error": null,
+        "virustotal": null
+    },
+    "@rollup/plugin-alias": {
+        "url": "https://registry.npmjs.org/@rollup/plugin-alias/-/plugin-alias-6.0.0.tgz",
+        "sha1": "f7fa8c806db9c073baa6b00e4b1c396edef9beb2",
+        "error": null,
+        "virustotal": null
+    },
+    "eslint-utils": {
+        "url": "https://registry.npmjs.org/eslint-utils/-/eslint-utils-3.0.0.tgz",
+        "sha1": "8aebaface7345bb33559db0a1f13a1d2d48c3672",
+        "error": null,
+        "virustotal": null
+    },
+    "node:path": {
+        "url": null,
+        "sha1": null,
+        "error": "node.js",
+        "virustotal": null
+    },
+    "algoliasearch": {
+        "url": "https://registry.npmjs.org/algoliasearch/-/algoliasearch-5.45.0.tgz",
+        "sha1": "90abba15b26d6722360a97c1e1931bc920f9c555",
+        "error": null,
+        "virustotal": null
+    },
+    "node-addon-api": {
+        "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.5.0.tgz",
+        "sha1": "c91b2d7682fa457d2e1c388150f0dff9aafb8f3f",
+        "error": null,
+        "virustotal": null
+    },
+    "@redis/search": {
+        "url": "https://registry.npmjs.org/@redis/search/-/search-5.10.0.tgz",
+        "sha1": "587851479c6abb9b40b31ab9b31c234db7a04919",
+        "error": null,
+        "virustotal": null
+    },
+    "papaparse": {
+        "url": "https://registry.npmjs.org/papaparse/-/papaparse-5.5.3.tgz",
+        "sha1": "07f8994dec516c6dab266e952bed68e1de59fa9a",
+        "error": null,
+        "virustotal": null
+    },
+    "@eslint-community/eslint-utils": {
+        "url": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz",
+        "sha1": "7308df158e064f0dd8b8fdb58aa14fa2a7f913b3",
+        "error": null,
+        "virustotal": null
+    },
+    "core-js-pure": {
+        "url": "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.47.0.tgz",
+        "sha1": "1104df8a3b6eb9189fcc559b5a65b90f66e7e887",
+        "error": null,
+        "virustotal": null
+    },
+    "@babel/runtime": {
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz",
+        "sha1": "a70226016fabe25c5783b2f22d3e1c9bc5ca3326",
+        "error": null,
+        "virustotal": null
+    },
+    "@graphql-tools/mock": {
+        "url": "https://registry.npmjs.org/@graphql-tools/mock/-/mock-9.1.3.tgz",
+        "sha1": "ee86c83e630140b3857afe2c576b29499034fb41",
+        "error": null,
+        "virustotal": null
+    },
+    "espree": {
+        "url": "https://registry.npmjs.org/espree/-/espree-11.0.0.tgz",
+        "sha1": "2fa56e7b9d3091a618526307f8cab8f5624debbf",
+        "error": null,
+        "virustotal": null
+    },
+    "web3": {
+        "url": "https://registry.npmjs.org/web3/-/web3-4.16.0.tgz",
+        "sha1": "1da10d8405bf27a76de6cbbce3de9fa93f7c0449",
+        "error": null,
+        "virustotal": null
+    },
+    "d3-format": {
+        "url": "https://registry.npmjs.org/d3-format/-/d3-format-3.1.0.tgz",
+        "sha1": "9260e23a28ea5cb109e93b21a06e24e2ebd55641",
+        "error": null,
+        "virustotal": null
+    },
+    "koa-convert": {
+        "url": "https://registry.npmjs.org/koa-convert/-/koa-convert-2.0.0.tgz",
+        "sha1": "86a0c44d81d40551bae22fee6709904573eea4f5",
+        "error": null,
+        "virustotal": null
+    },
+    "eslint-plugin-import": {
+        "url": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz",
+        "sha1": "602b55faa6e4caeaa5e970c198b5c00a37708980",
+        "error": null,
+        "virustotal": null
+    },
+    "react-native-device-info": {
+        "url": "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-15.0.1.tgz",
+        "sha1": "8a2716861bb8e491e0627f326bcc007c77d2e8f6",
+        "error": null,
+        "virustotal": null
+    },
+    "@typescript-eslint/utils": {
+        "url": "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.48.0.tgz",
+        "sha1": "c1196befb664f50be10692c781c7fc7624c1a5f9",
+        "error": null,
+        "virustotal": null
+    },
+    "d3": {
+        "url": "https://registry.npmjs.org/d3/-/d3-7.9.0.tgz",
+        "sha1": "579e7acb3d749caf8860bd1741ae8d371070cd5d",
+        "error": null,
+        "virustotal": null
+    },
+    "@aws-sdk/middleware-expect-continue": {
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-expect-continue/-/middleware-expect-continue-3.936.0.tgz",
+        "sha1": "da1ce8a8b9af61192131a1c0a54bcab2a8a0e02f",
+        "error": null,
+        "virustotal": null
+    },
+    "ejs": {
+        "url": "https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz",
+        "sha1": "69ab8358b14e896f80cc39e62087b88500c3ac3b",
+        "error": null,
+        "virustotal": null
+    },
+    "@mui/material": {
+        "url": "https://registry.npmjs.org/@mui/material/-/material-7.3.5.tgz",
+        "sha1": "2a30e9ed33c58cfa90d8a5d74c12cfa1064f52ef",
+        "error": null,
+        "virustotal": null
+    },
+    "my-hook-library": {
+        "url": "https://registry.npmjs.org/my-hook-library/-/my-hook-library-1.0.0.tgz",
+        "sha1": "aab48b7568119982bfc091677d37f5515a7e2194",
+        "error": null,
+        "virustotal": null
+    },
+    "os": {
+        "url": "https://registry.npmjs.org/os/-/os-0.1.2.tgz",
+        "sha1": "f29a50c62908516ba42652de42f7038600cadbc2",
+        "error": null,
+        "virustotal": null
+    },
+    "google": {
+        "url": "https://registry.npmjs.org/google/-/google-2.1.0.tgz",
+        "sha1": "11d97c9b542fa2ac4c3a50cbcd9c14c82f6a8101",
+        "error": null,
+        "virustotal": null
+    },
+    "pg-native": {
+        "url": "https://registry.npmjs.org/pg-native/-/pg-native-3.5.2.tgz",
+        "sha1": "b0f4c144e2297a302218eda39374cf354ff48166",
+        "error": null,
+        "virustotal": null
+    }
+}
