@@ -3,8 +3,9 @@
 # virustotal uses the sha256 or sha1 of the file uploaded as its identifier
 
 # before running run 'export VIRUSTOTAL_API_KEY=<My-API-Key>'
-# you will probably need to change the RESULTS_FILE location or do 'mkdir local'
+# you will probably need to change the DOWNLOADS_FOLDER location or do 'mkdir local'
 # you will probably need to run 'pip install vt-py' for virustotal
+# stores all results in JSurls.json
 
 # IF YOU DO_PACKAGE_LOOKUP after DO_VIRUS_SCAN, IT MAY OVERWRITE SCAN RESULTS
 
@@ -181,7 +182,7 @@ def get_vt_report(hash : str):
     retval["size"] = vtdict.get("size", None)
     retval["name"] = vtdict.get("meaningful_name", None)
     retval["error"] = vtdict.get("bundle_info", {}).get("error", None)
-    retval["last_analysis_statsst"] = vtdict.get("last_analysis_stats")
+    retval["last_analysis_stats"] = vtdict.get("last_analysis_stats")
     return retval
 
 
@@ -281,6 +282,7 @@ def main():
     # client.close()
     # exit()
     
+    
     # run scan for everything in results
     try:
         for key, entry in results.items():
@@ -329,23 +331,6 @@ def main():
             json.dump(results, f, indent=4)
         pass
 
-    # experiments with virustotal
-    # azure_hash = "f56d22acaba0ce74b821fd3d012d18854f9d0b3662d5a3a9240b1bd587c96b23"
-    # file = client.get_object(f"/files/{azure_hash}")
-    # print(type(file))
-    # print(file)
-    # print(file.get("size"))
-    # print(file.get("sha1"))
-    # print(file.get("type_tag"))
-    # print(file.get("last_analysis_stats"))
-
-    # url = f"https://www.virustotal.com/api/v3/files/{azure_hash}"
-    # headers = {"accept": "application/json", "x-apikey": apikey}
-    # response = requests.get(url, headers=headers)
-    # print(response.text)
-
-    # print(models)
-    # print(all_packages)
 
 if __name__ == "__main__":
     main()
