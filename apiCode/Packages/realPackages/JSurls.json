@@ -11596,62 +11596,214 @@
         "sha1": "5e8f1c3c2d5073c43d70a736f8fb15a79a21489d",
         "error": null,
         "virustotal": {
-            "error": "QuotaExceededError"
+            "last_submission_date": 1764055198,
+            "last_modification_date": 1764062419,
+            "size": 5647,
+            "name": "another-module-0.0.1.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
         }
     },
     "git": {
         "url": "https://registry.npmjs.org/git/-/git-0.1.5.tgz",
         "sha1": "9ef62df93f851c27542143bf52d1c68b1017ca15",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1692604277,
+            "last_modification_date": 1692638402,
+            "size": 68763,
+            "name": "git-0.1.5.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 54,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 16
+            }
+        }
     },
     "@aws-sdk/signature-v4": {
         "url": "https://registry.npmjs.org/@aws-sdk/signature-v4/-/signature-v4-3.374.0.tgz",
         "sha1": "bd727f4c392acb81bc667aa4cfceeba608250771",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1694121595,
+            "last_modification_date": 1694128896,
+            "size": 5142,
+            "name": "signature-v4-3.374.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 58,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 1,
+                "type-unsupported": 16
+            }
+        }
     },
     "nodemailer": {
         "url": "https://registry.npmjs.org/nodemailer/-/nodemailer-7.0.10.tgz",
         "sha1": "540062dbbe574220b42e79d2d949956d3eac5a46",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 120324,
+            "name": "nodemailer-7.0.10.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 60,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 2,
+                "type-unsupported": 14
+            }
+        }
     },
     "regexp-tree": {
         "url": "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.27.tgz",
         "sha1": "2198f0ef54518ffa743fe74d983b56ffd631b6cd",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1695774519,
+            "last_modification_date": 1746616834,
+            "size": 68410,
+            "name": "regexp-tree-0.1.27.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 59,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 16
+            }
+        }
     },
     "idb-keyval": {
         "url": "https://registry.npmjs.org/idb-keyval/-/idb-keyval-6.2.2.tgz",
         "sha1": "b0171b5f73944854a3291a5cdba8e12768c4854a",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1761438181,
+            "last_modification_date": 1761445446,
+            "size": 204820,
+            "name": "vtscanthis_72cf7bc3c06a0ed615394dee4757620b742eee7019a6781ed54e7167d2294385",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "express-mongo-sanitize": {
         "url": "https://registry.npmjs.org/express-mongo-sanitize/-/express-mongo-sanitize-2.2.0.tgz",
         "sha1": "c8c2d45e137f213950f70bf586704e0db5cfe356",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1697042013,
+            "last_modification_date": 1712150440,
+            "size": 4390,
+            "name": "express-mongo-sanitize-2.2.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 60,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 16
+            }
+        }
     },
     "@aws-sdk/client-lambda": {
         "url": "https://registry.npmjs.org/@aws-sdk/client-lambda/-/client-lambda-3.938.0.tgz",
         "sha1": "3fd0235e4913d34ec8229b0330f139809c8131eb",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 181087,
+            "name": "client-lambda-3.938.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "react": {
         "url": "https://registry.npmjs.org/react/-/react-19.2.0.tgz",
         "sha1": "d33dd1721698f4376ae57a54098cb47fc75d93a5",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1763645180,
+            "last_modification_date": 1763655774,
+            "size": 24804,
+            "name": "d683a5b7d6d40b781e5c74804e89c2432514762b35ec57bb922bd88d7cb590e5b2197f1b8f107a7b33cc221f21e79f40c3d62ef0dd99a29f416d92bc2809",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "circular-b": {
         "url": "https://registry.npmjs.org/circular-b/-/circular-b-1.0.4.tgz",
         "sha1": "3e646ef1da0fc8b99e37c52a55b5d7bb8bb14233",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 341,
+            "name": "circular-b-1.0.4.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "node:buffer": {
         "url": null,
@@ -11663,25 +11815,83 @@
         "url": "https://registry.npmjs.org/bops/-/bops-1.0.1.tgz",
         "sha1": "502aaf00ee119db1dbae088e3df4bea2e241dbcc",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 9813,
+            "name": "bops-1.0.1.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "github-auth": {
         "url": "https://registry.npmjs.org/github-auth/-/github-auth-3.0.2.tgz",
         "sha1": "6bfb5e20c3842402c973862602ac93c0f19731e4",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 8021,
+            "name": "github-auth-3.0.2.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@rollup/plugin-alias": {
         "url": "https://registry.npmjs.org/@rollup/plugin-alias/-/plugin-alias-6.0.0.tgz",
         "sha1": "f7fa8c806db9c073baa6b00e4b1c396edef9beb2",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 5274,
+            "name": "plugin-alias-6.0.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "eslint-utils": {
         "url": "https://registry.npmjs.org/eslint-utils/-/eslint-utils-3.0.0.tgz",
         "sha1": "8aebaface7345bb33559db0a1f13a1d2d48c3672",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1692065385,
+            "last_modification_date": 1756757548,
+            "size": 61349,
+            "name": "02e3720672dc3af29240d5181b412f3f34feeb721e82c1de23dd906d828e3ff05963e1e184ed96126513778aae69554bfa18f756e59d511657a8f38b8b0c",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 58,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 16
+            }
+        }
     },
     "node:path": {
         "url": null,
@@ -11693,138 +11903,482 @@
         "url": "https://registry.npmjs.org/algoliasearch/-/algoliasearch-5.45.0.tgz",
         "sha1": "90abba15b26d6722360a97c1e1931bc920f9c555",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 248721,
+            "name": "algoliasearch-5.45.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 60,
+                "harmless": 0,
+                "timeout": 2,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "node-addon-api": {
         "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.5.0.tgz",
         "sha1": "c91b2d7682fa457d2e1c388150f0dff9aafb8f3f",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 60410,
+            "name": "node-addon-api-8.5.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@redis/search": {
         "url": "https://registry.npmjs.org/@redis/search/-/search-5.10.0.tgz",
         "sha1": "587851479c6abb9b40b31ab9b31c234db7a04919",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 41392,
+            "name": "search-5.10.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "papaparse": {
         "url": "https://registry.npmjs.org/papaparse/-/papaparse-5.5.3.tgz",
         "sha1": "07f8994dec516c6dab266e952bed68e1de59fa9a",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 46635,
+            "name": "papaparse-5.5.3.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@eslint-community/eslint-utils": {
         "url": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz",
         "sha1": "7308df158e064f0dd8b8fdb58aa14fa2a7f913b3",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1758738282,
+            "last_modification_date": 1764030179,
+            "size": 80151,
+            "name": "@eslint-community-eslint-utils-4.9.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "core-js-pure": {
         "url": "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.47.0.tgz",
         "sha1": "1104df8a3b6eb9189fcc559b5a65b90f66e7e887",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 276545,
+            "name": "core-js-pure-3.47.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 1,
+                "type-unsupported": 14
+            }
+        }
     },
     "@babel/runtime": {
         "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz",
         "sha1": "a70226016fabe25c5783b2f22d3e1c9bc5ca3326",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1759939267,
+            "last_modification_date": 1762707354,
+            "size": 55384,
+            "name": "runtime-7.28.4.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@graphql-tools/mock": {
         "url": "https://registry.npmjs.org/@graphql-tools/mock/-/mock-9.1.3.tgz",
         "sha1": "ee86c83e630140b3857afe2c576b29499034fb41",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 20269,
+            "name": "mock-9.1.3.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "espree": {
         "url": "https://registry.npmjs.org/espree/-/espree-11.0.0.tgz",
         "sha1": "2fa56e7b9d3091a618526307f8cab8f5624debbf",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1762830095,
+            "last_modification_date": 1762837385,
+            "size": 16771,
+            "name": "vtscanthis_c05ef549f714484b7f1939b86cc8f08e90074a43fa52978471e6a6c203110699",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "web3": {
         "url": "https://registry.npmjs.org/web3/-/web3-4.16.0.tgz",
         "sha1": "1da10d8405bf27a76de6cbbce3de9fa93f7c0449",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 771875,
+            "name": "web3-4.16.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "d3-format": {
         "url": "https://registry.npmjs.org/d3-format/-/d3-format-3.1.0.tgz",
         "sha1": "9260e23a28ea5cb109e93b21a06e24e2ebd55641",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1762445243,
+            "last_modification_date": 1763050022,
+            "size": 14827,
+            "name": "08e8012e63f5a9b7c2962e0647b0853ce9ab668a4ba83a609fa269add0b60789048f8ef5f601c15cdfc3d7d02069af6442c998637b1f8d4bf2cf3afe98a8",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "koa-convert": {
         "url": "https://registry.npmjs.org/koa-convert/-/koa-convert-2.0.0.tgz",
         "sha1": "86a0c44d81d40551bae22fee6709904573eea4f5",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1721854237,
+            "last_modification_date": 1721861501,
+            "size": 3482,
+            "name": "koa-convert-2.0.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "eslint-plugin-import": {
         "url": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz",
         "sha1": "602b55faa6e4caeaa5e970c198b5c00a37708980",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1758636293,
+            "last_modification_date": 1761233163,
+            "size": 411146,
+            "name": "eslint-plugin-import-2.32.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "react-native-device-info": {
         "url": "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-15.0.1.tgz",
         "sha1": "8a2716861bb8e491e0627f326bcc007c77d2e8f6",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 124659,
+            "name": "react-native-device-info-15.0.1.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@typescript-eslint/utils": {
         "url": "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.48.0.tgz",
         "sha1": "c1196befb664f50be10692c781c7fc7624c1a5f9",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 42712,
+            "name": "utils-8.48.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "d3": {
         "url": "https://registry.npmjs.org/d3/-/d3-7.9.0.tgz",
         "sha1": "579e7acb3d749caf8860bd1741ae8d371070cd5d",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1762445761,
+            "last_modification_date": 1762453023,
+            "size": 233671,
+            "name": "d3-7.9.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "@aws-sdk/middleware-expect-continue": {
         "url": "https://registry.npmjs.org/@aws-sdk/middleware-expect-continue/-/middleware-expect-continue-3.936.0.tgz",
         "sha1": "da1ce8a8b9af61192131a1c0a54bcab2a8a0e02f",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 5864,
+            "name": "middleware-expect-continue-3.936.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 61,
+                "harmless": 0,
+                "timeout": 1,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "ejs": {
         "url": "https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz",
         "sha1": "69ab8358b14e896f80cc39e62087b88500c3ac3b",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1719487207,
+            "last_modification_date": 1758840092,
+            "size": 42688,
+            "name": "ejs-3.1.10.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 63,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 1,
+                "type-unsupported": 14
+            }
+        }
     },
     "@mui/material": {
         "url": "https://registry.npmjs.org/@mui/material/-/material-7.3.5.tgz",
         "sha1": "2a30e9ed33c58cfa90d8a5d74c12cfa1064f52ef",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1762305625,
+            "last_modification_date": 1762909655,
+            "size": 720875,
+            "name": "vtscanthis_8bbe37298b67fbb4bc61bea27f9812394abba5bec97fbcef242d11707e813e22",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "my-hook-library": {
         "url": "https://registry.npmjs.org/my-hook-library/-/my-hook-library-1.0.0.tgz",
         "sha1": "aab48b7568119982bfc091677d37f5515a7e2194",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 1350,
+            "name": "my-hook-library-1.0.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "os": {
         "url": "https://registry.npmjs.org/os/-/os-0.1.2.tgz",
         "sha1": "f29a50c62908516ba42652de42f7038600cadbc2",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1698201125,
+            "last_modification_date": 1753129648,
+            "size": 616,
+            "name": "c992f027963c2f739e8c6ef86d2955a64a4cd5ef5da4e3622cda6034fb42934916a4ab95d7b97a63663800b7d72dce5e75a2385059a91042998ebd759f8d",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 59,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 1,
+                "type-unsupported": 16
+            }
+        }
     },
     "google": {
         "url": "https://registry.npmjs.org/google/-/google-2.1.0.tgz",
         "sha1": "11d97c9b542fa2ac4c3a50cbcd9c14c82f6a8101",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "size": 6002,
+            "name": "google-2.1.0.tgz",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     },
     "pg-native": {
         "url": "https://registry.npmjs.org/pg-native/-/pg-native-3.5.2.tgz",
         "sha1": "b0f4c144e2297a302218eda39374cf354ff48166",
         "error": null,
-        "virustotal": null
+        "virustotal": {
+            "last_submission_date": 1761617198,
+            "last_modification_date": 1761624497,
+            "size": 8265,
+            "name": "vtscanthis_22e8cd660cd0fab3e2079eeb3aa3414fd771e085d4f5e8cbf6b5da976fbc790e",
+            "error": null,
+            "last_analysis_stats": {
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 62,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 14
+            }
+        }
     }
 }
