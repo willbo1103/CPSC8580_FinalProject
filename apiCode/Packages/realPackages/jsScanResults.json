@@ -1,0 +1,16 @@
+{
+    "Different Name": 0,
+    "stdlib": 0,
+    "Too Big": 0,
+    "No File": 0,
+    "Undetected": 586,
+    "Detected": 0,
+    "Suspicous": 0,
+    "Unsure": 0,
+    "Other": 0,
+    "node.js": 18,
+    "File Match": 277,
+    "New File": 309,
+    "Malware": [],
+    "Suspicious": []
+}

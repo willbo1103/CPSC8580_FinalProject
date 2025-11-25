@@ -1,0 +1,18 @@
+{
+    "Different Name": 11,
+    "stdlib": 107,
+    "Too Big": 7,
+    "No File": 9,
+    "Undetected": 618,
+    "Detected": 2,
+    "Suspicous": 0,
+    "Unsure": 0,
+    "Other": 0,
+    "File Match": 243,
+    "New File": 377,
+    "Malware": [
+        "py2exe",
+        "pypdf"
+    ],
+    "Suspicious": []
+}
